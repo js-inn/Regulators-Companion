@@ -7,18 +7,18 @@ DB_NAME = "audit_ledger.db"
 MANIFEST_NAME = "sovereign_audit_master_manifest.json"
 
 def initialize_and_audit():
-    print("[*] Initializing Sovereign Fortress Global, Orbital & Canadian Real Estate Ledger...")
+    print("[*] Initializing Sovereign Fortress Global, Orbital, Canadian Real Estate & Aviation Ledger...")
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
     
-    # 1. Setup Table Schema
+    # 1. Setup Table Schema (including Aviation / Mobile Assets)
     cursor.execute('DROP TABLE IF EXISTS real_estate_nodes')
     cursor.execute('''
         CREATE TABLE real_estate_nodes (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             property_ref TEXT UNIQUE NOT NULL,
             jurisdiction TEXT NOT NULL,
-            asset_class TEXT CHECK(asset_class IN ('Logistics', 'Commercial-Office', 'Multi-Family', 'Data-Center', 'Space-Orbital')),
+            asset_class TEXT CHECK(asset_class IN ('Logistics', 'Commercial-Office', 'Multi-Family', 'Data-Center', 'Space-Orbital', 'Private-Aviation')),
             valuation_usd REAL,
             annual_lease_yield_pct REAL,
             mortgage_principal_usd REAL,
@@ -27,7 +27,7 @@ def initialize_and_audit():
         )
     ''')
     
-    # 2. Insert International, Orbital, and Canadian Sovereign Nodes
+    # 2. Insert International, Orbital, Canadian Real Estate, and Canadian Aviation Nodes
     nodes = [
         ('RE-TYO-01', 'Japan', 'Commercial-Office', 85000000.00, 4.5, 42500000.00, 50.0, 'Jujita-Stairs Holdings / Local Trust'),
         ('RE-SHA-02', 'China (Shanghai)', 'Logistics', 140000000.00, 5.8, 77000000.00, 55.0, '10839477 Canada Inc. APAC Vehicle'),
@@ -48,10 +48,12 @@ def initialize_and_audit():
         # Orbital Space Production Nodes
         ('SP-LEO-01', 'Low Earth Orbit (LEO Sector 1)', 'Space-Orbital', 450000000.00, 12.5, 180000000.00, 40.0, 'Sovereign Orbital Manufacturing Corp'),
         ('SP-LUN-02', 'Lunar South Pole Base Alpha', 'Space-Orbital', 600000000.00, 15.0, 210000000.00, 35.0, 'Sovereign Deep Space Logistics Inc'),
-        # Canadian Domestic Anchor Nodes (Directly Tied to Jujita Stairs / 10839477 Canada Inc.)
+        # Canadian Domestic Anchor Nodes (Jujita Stairs / 10839477 Canada Inc.)
         ('RE-EDM-17', 'Canada (Edmonton AB)', 'Logistics', 75000000.00, 6.5, 37500000.00, 50.0, 'Jujita Stairs / 10839477 Canada Inc.'),
         ('RE-TOR-18', 'Canada (Toronto ON)', 'Commercial-Office', 210000000.00, 5.2, 115500000.00, 55.0, 'Jujita Stairs / 10839477 Canada Inc.'),
-        ('RE-VAN-19', 'Canada (Vancouver BC)', 'Data-Center', 180000000.00, 7.0, 99000000.00, 55.0, 'Jujita Stairs / 10839477 Canada Inc.')
+        ('RE-VAN-19', 'Canada (Vancouver BC)', 'Data-Center', 180000000.00, 7.0, 99000000.00, 55.0, 'Jujita Stairs / 10839477 Canada Inc.'),
+        # Canadian Aviation Node (Bombardier Global 8000 Flagship Asset)
+        ('AV-CAN-01', 'Canada / Global Airspace', 'Private-Aviation', 81000000.00, 8.0, 32400000.00, 40.0, 'Jujita Stairs / 10839477 Canada Inc.')
     ]
     
     cursor.executemany('''
@@ -62,7 +64,7 @@ def initialize_and_audit():
     
     conn.commit()
     
-    # 3. Perform Capital Stack & Leverage Analytics
+    # 3. Perform Capital Stack Analytics
     cursor.execute("SELECT property_ref, jurisdiction, asset_class, valuation_usd, annual_lease_yield_pct, mortgage_principal_usd, ltv_ratio_pct, managing_entity FROM real_estate_nodes")
     rows = cursor.fetchall()
     
@@ -71,7 +73,7 @@ def initialize_and_audit():
     total_income = 0.0
     
     print("\n==================================================================")
-    print("      GLOBAL, ORBITAL & CANADIAN SOVEREIGN CAPITAL STACK          ")
+    print("      GLOBAL, ORBITAL, CANADIAN & AVIATION SOVEREIGN STACK        ")
     print("==================================================================")
     
     portfolio_data = []
@@ -100,7 +102,7 @@ def initialize_and_audit():
         print(f"    - Valuation:       ${valuation:,.2f} USD")
         print(f"    - Debt (LTV):      ${mortgage:,.2f} USD ({ltv}%)")
         print(f"    - Net Equity:      ${equity:,.2f} USD")
-        print(f"    - Gross Yield:     ${gross_income:,.2f} USD/yr ({yield_pct}%)")
+        print(f"    - Yield/Revenue:   ${gross_income:,.2f} USD/yr ({yield_pct}%)")
         print("-" * 66)
         
     total_equity = total_val - total_debt
@@ -109,7 +111,7 @@ def initialize_and_audit():
     print(f"  -> Total Combined Portfolio Value: ${total_val:,.2f} USD")
     print(f"  -> Total Outstanding Debt:         ${total_debt:,.2f} USD ({portfolio_ltv:.1f}% Portfolio LTV)")
     print(f"  -> Total Net Equity Value:         ${total_equity:,.2f} USD")
-    print(f"  -> Total Gross Annual Cash Flow:   ${total_income:,.2f} USD")
+    print(f"  -> Total Gross Annual Revenue:     ${total_income:,.2f} USD")
     print("==================================================================\n")
     
     # 4. Generate Cryptographic Master Manifest
@@ -118,7 +120,7 @@ def initialize_and_audit():
         
     manifest = {
         "GeneratedAt": datetime.now(timezone.utc).isoformat(),
-        "Architecture": "Jujita-Stairs Sovereign Fortress (Terrestrial + Orbital + Canadian)",
+        "Architecture": "Jujita-Stairs Sovereign Fortress (Terrestrial + Orbital + Canadian Real Estate + Aviation)",
         "DatabaseLedger": DB_NAME,
         "DatabaseSHA256": db_hash,
         "PortfolioSummary": {
@@ -135,7 +137,7 @@ def initialize_and_audit():
     with open(MANIFEST_NAME, "w") as mf:
         json.dump(manifest, mf, indent=4)
         
-    print(f"[+] Master Manifest updated with Canadian nodes: {MANIFEST_NAME}")
+    print(f"[+] Master Manifest updated with Bombardier Aviation Node: {MANIFEST_NAME}")
     print(f"[+] SQLite Ledger SHA-256 Checksum: {db_hash}")
     conn.close()
 

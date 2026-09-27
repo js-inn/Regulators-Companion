@@ -1,15 +1,15 @@
 {
-    "GeneratedAt": "2026-09-27T03:51:07.969046+00:00",
-    "Architecture": "Jujita-Stairs Sovereign Fortress (Terrestrial + Orbital + Canadian)",
+    "GeneratedAt": "2026-09-27T04:52:57.600426+00:00",
+    "Architecture": "Jujita-Stairs Sovereign Fortress (Terrestrial + Orbital + Canadian Real Estate + Aviation)",
     "DatabaseLedger": "audit_ledger.db",
-    "DatabaseSHA256": "affceeed5042a38d66600d90d4438cd40a4d273be3bdef409b5762d5eecb9ed1",
+    "DatabaseSHA256": "19dbadd88efdb9964f61085e85a4cce358fe90756f43907c001bf531df512b62",
     "PortfolioSummary": {
-        "TotalPortfolioValueUSD": 4330000000.0,
-        "TotalOutstandingDebtUSD": 2156000000.0,
-        "PortfolioLTVPct": 49.79,
-        "TotalNetEquityUSD": 2174000000.0,
-        "TotalGrossAnnualCashUSD": 338415000.0,
-        "ActiveNodesCount": 21
+        "TotalPortfolioValueUSD": 4411000000.0,
+        "TotalOutstandingDebtUSD": 2188400000.0,
+        "PortfolioLTVPct": 49.61,
+        "TotalNetEquityUSD": 2222600000.0,
+        "TotalGrossAnnualCashUSD": 344895000.0,
+        "ActiveNodesCount": 22
     },
     "Nodes": [
         {
@@ -220,6 +220,16 @@
             "debt_usd": 99000000.0,
             "net_equity_usd": 81000000.0,
             "gross_income_usd": 12600000.000000002,
+            "managing_entity": "Jujita Stairs / 10839477 Canada Inc."
+        },
+        {
+            "property_ref": "AV-CAN-01",
+            "jurisdiction": "Canada / Global Airspace",
+            "asset_class": "Private-Aviation",
+            "valuation_usd": 81000000.0,
+            "debt_usd": 32400000.0,
+            "net_equity_usd": 48600000.0,
+            "gross_income_usd": 6480000.0,
             "managing_entity": "Jujita Stairs / 10839477 Canada Inc."
         }
     ]
