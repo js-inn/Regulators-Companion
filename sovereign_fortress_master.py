@@ -7,18 +7,18 @@ DB_NAME = "audit_ledger.db"
 MANIFEST_NAME = "sovereign_audit_master_manifest.json"
 
 def initialize_and_audit():
-    print("[*] Initializing Sovereign Fortress Global, Orbital, Canadian Real Estate & Aviation Ledger...")
+    print("[*] Initializing Sovereign Fortress Global, Orbital, Canadian Real Estate, Aviation & Defence Ledger...")
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
     
-    # 1. Setup Table Schema (including Aviation / Mobile Assets)
+    # 1. Setup Table Schema (including Defence asset class)
     cursor.execute('DROP TABLE IF EXISTS real_estate_nodes')
     cursor.execute('''
         CREATE TABLE real_estate_nodes (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             property_ref TEXT UNIQUE NOT NULL,
             jurisdiction TEXT NOT NULL,
-            asset_class TEXT CHECK(asset_class IN ('Logistics', 'Commercial-Office', 'Multi-Family', 'Data-Center', 'Space-Orbital', 'Private-Aviation')),
+            asset_class TEXT CHECK(asset_class IN ('Logistics', 'Commercial-Office', 'Multi-Family', 'Data-Center', 'Space-Orbital', 'Private-Aviation', 'Defence-Tech')),
             valuation_usd REAL,
             annual_lease_yield_pct REAL,
             mortgage_principal_usd REAL,
@@ -27,7 +27,7 @@ def initialize_and_audit():
         )
     ''')
     
-    # 2. Insert International, Orbital, Canadian Real Estate, and Canadian Aviation Nodes
+    # 2. Insert International, Orbital, Canadian Real Estate, Aviation, and Defence Nodes
     nodes = [
         ('RE-TYO-01', 'Japan', 'Commercial-Office', 85000000.00, 4.5, 42500000.00, 50.0, 'Jujita-Stairs Holdings / Local Trust'),
         ('RE-SHA-02', 'China (Shanghai)', 'Logistics', 140000000.00, 5.8, 77000000.00, 55.0, '10839477 Canada Inc. APAC Vehicle'),
@@ -53,7 +53,9 @@ def initialize_and_audit():
         ('RE-TOR-18', 'Canada (Toronto ON)', 'Commercial-Office', 210000000.00, 5.2, 115500000.00, 55.0, 'Jujita Stairs / 10839477 Canada Inc.'),
         ('RE-VAN-19', 'Canada (Vancouver BC)', 'Data-Center', 180000000.00, 7.0, 99000000.00, 55.0, 'Jujita Stairs / 10839477 Canada Inc.'),
         # Canadian Aviation Node (Bombardier Global 8000 Flagship Asset)
-        ('AV-CAN-01', 'Canada / Global Airspace', 'Private-Aviation', 81000000.00, 8.0, 32400000.00, 40.0, 'Jujita Stairs / 10839477 Canada Inc.')
+        ('AV-CAN-01', 'Canada / Global Airspace', 'Private-Aviation', 81000000.00, 8.0, 32400000.00, 40.0, 'Jujita Stairs / 10839477 Canada Inc.'),
+        # Canadian Defence Industrial Strategy (DIS) Node
+        ('DEF-CAN-01', 'Canada (Ottawa/Edmonton Defence Sector)', 'Defence-Tech', 120000000.00, 9.5, 36000000.00, 30.0, 'Jujita Stairs / 10839477 Canada Inc.')
     ]
     
     cursor.executemany('''
@@ -73,7 +75,7 @@ def initialize_and_audit():
     total_income = 0.0
     
     print("\n==================================================================")
-    print("      GLOBAL, ORBITAL, CANADIAN & AVIATION SOVEREIGN STACK        ")
+    print("      GLOBAL, ORBITAL, CANADIAN, AVIATION & DEFENCE STACK         ")
     print("==================================================================")
     
     portfolio_data = []
@@ -120,7 +122,7 @@ def initialize_and_audit():
         
     manifest = {
         "GeneratedAt": datetime.now(timezone.utc).isoformat(),
-        "Architecture": "Jujita-Stairs Sovereign Fortress (Terrestrial + Orbital + Canadian Real Estate + Aviation)",
+        "Architecture": "Jujita-Stairs Sovereign Fortress (Terrestrial + Orbital + Canadian Real Estate + Aviation + Defence-Tech)",
         "DatabaseLedger": DB_NAME,
         "DatabaseSHA256": db_hash,
         "PortfolioSummary": {
@@ -137,7 +139,7 @@ def initialize_and_audit():
     with open(MANIFEST_NAME, "w") as mf:
         json.dump(manifest, mf, indent=4)
         
-    print(f"[+] Master Manifest updated with Bombardier Aviation Node: {MANIFEST_NAME}")
+    print(f"[+] Master Manifest updated with Defence-Tech Node: {MANIFEST_NAME}")
     print(f"[+] SQLite Ledger SHA-256 Checksum: {db_hash}")
     conn.close()
 

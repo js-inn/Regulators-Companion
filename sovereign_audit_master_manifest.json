@@ -1,15 +1,15 @@
 {
-    "GeneratedAt": "2026-09-27T04:52:57.600426+00:00",
-    "Architecture": "Jujita-Stairs Sovereign Fortress (Terrestrial + Orbital + Canadian Real Estate + Aviation)",
+    "GeneratedAt": "2026-09-27T04:57:46.701328+00:00",
+    "Architecture": "Jujita-Stairs Sovereign Fortress (Terrestrial + Orbital + Canadian Real Estate + Aviation + Defence-Tech)",
     "DatabaseLedger": "audit_ledger.db",
-    "DatabaseSHA256": "19dbadd88efdb9964f61085e85a4cce358fe90756f43907c001bf531df512b62",
+    "DatabaseSHA256": "ba21ede3f760364166e3323b6ac20cd4b266ea0e914e8c1eb0c425aca8da7a89",
     "PortfolioSummary": {
-        "TotalPortfolioValueUSD": 4411000000.0,
-        "TotalOutstandingDebtUSD": 2188400000.0,
-        "PortfolioLTVPct": 49.61,
-        "TotalNetEquityUSD": 2222600000.0,
-        "TotalGrossAnnualCashUSD": 344895000.0,
-        "ActiveNodesCount": 22
+        "TotalPortfolioValueUSD": 4531000000.0,
+        "TotalOutstandingDebtUSD": 2224400000.0,
+        "PortfolioLTVPct": 49.09,
+        "TotalNetEquityUSD": 2306600000.0,
+        "TotalGrossAnnualCashUSD": 356295000.0,
+        "ActiveNodesCount": 23
     },
     "Nodes": [
         {
@@ -230,6 +230,16 @@
             "debt_usd": 32400000.0,
             "net_equity_usd": 48600000.0,
             "gross_income_usd": 6480000.0,
+            "managing_entity": "Jujita Stairs / 10839477 Canada Inc."
+        },
+        {
+            "property_ref": "DEF-CAN-01",
+            "jurisdiction": "Canada (Ottawa/Edmonton Defence Sector)",
+            "asset_class": "Defence-Tech",
+            "valuation_usd": 120000000.0,
+            "debt_usd": 36000000.0,
+            "net_equity_usd": 84000000.0,
+            "gross_income_usd": 11400000.0,
             "managing_entity": "Jujita Stairs / 10839477 Canada Inc."
         }
     ]
