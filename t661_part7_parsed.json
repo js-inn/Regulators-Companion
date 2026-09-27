@@ -1,0 +1,121 @@
+{
+  "TargetFile": "t661_part7.xsd",
+  "TargetNamespace": "http://www.cra-arc.gc.ca/enov/ol/interfaces/efile/partnership/olT661Parts7/1-0-0",
+  "TotalElements": 18,
+  "Elements": [
+    {
+      "Name": "T661Part7Data",
+      "Type": "olT661Parts7:Part7DataType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Field605",
+      "Type": "sdt:AmountType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Field600",
+      "Type": "sdt:PercentType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Field602",
+      "Type": "sdt:PercentType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Field604",
+      "Type": "sdt:PercentType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Field606",
+      "Type": "sdt:PercentType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Field608",
+      "Type": "sdt:PercentType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Field610",
+      "Type": "sdt:PercentType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Field612",
+      "Type": "sdt:PercentType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Field614",
+      "Type": "sdt:PercentType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Field616",
+      "Type": "sdt:PercentType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Field618",
+      "Type": "sdt:PercentType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Field620",
+      "Type": "ccms:OneCodeType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Field622",
+      "Type": "ccms:OneCodeType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Field632",
+      "Type": "sdt:CountType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Field634",
+      "Type": "sdt:CountType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Field636",
+      "Type": "sdt:CountType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Field638",
+      "Type": "sdt:CountType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    }
+  ],
+  "ComplexTypes": [
+    {
+      "ComplexTypeName": "Part7DataType",
+      "ChildCount": 17
+    }
+  ]
+}

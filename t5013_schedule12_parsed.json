@@ -1,0 +1,111 @@
+{
+  "TargetFile": "t5013_schedule12.xsd",
+  "TargetNamespace": "http://www.cra-arc.gc.ca/enov/ol/interfaces/efile/partnership/ols12/1-0-1",
+  "TotalElements": 15,
+  "Elements": [
+    {
+      "Name": "T5013Schedule12Data",
+      "Type": "ols12:Schedule12DataType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Schedule12LineAmounts",
+      "Type": "ccms:FieldCodeAmountType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Schedule12ForeignResourceExpenses",
+      "Type": "ols12:Schedule12ForeignResourceExpensesType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Schedule12ForeignResourceExpensesLineItems",
+      "Type": "ols12:Schedule12ForeignResourceExpensesLineItemsType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Schedule12ForeignCountryName",
+      "Type": "ccms:Name175CharacterType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Schedule12CurrentYearExpensesAmount",
+      "Type": "sdt:AmountType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Schedule12TransferAdditionsAmount",
+      "Type": "sdt:AmountType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Schedule12OtherAdditionsAmount",
+      "Type": "sdt:AmountType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Schedule12TransferDeductionsAmount",
+      "Type": "sdt:AmountType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Schedule12OtherDeductionsAmount",
+      "Type": "sdt:AmountType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Schedule12ExpensesLineTotalAmount",
+      "Type": "sdt:AmountType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Schedule12InterestAndFinancingExpensesAmount",
+      "Type": "sdt:AmountType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Schedule12ForeignResourceIncomeAmount",
+      "Type": "sdt:AmountType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Schedule12ForeignResourceExpensesTotalAmount",
+      "Type": "sdt:AmountType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    },
+    {
+      "Name": "Schedule12InterestAndFinancingExpensesTotalAmount",
+      "Type": "sdt:AmountType",
+      "MinOccurs": "1",
+      "MaxOccurs": "1"
+    }
+  ],
+  "ComplexTypes": [
+    {
+      "ComplexTypeName": "Schedule12DataType",
+      "ChildCount": 2
+    },
+    {
+      "ComplexTypeName": "Schedule12ForeignResourceExpensesType",
+      "ChildCount": 3
+    },
+    {
+      "ComplexTypeName": "Schedule12ForeignResourceExpensesLineItemsType",
+      "ChildCount": 9
+    }
+  ]
+}
