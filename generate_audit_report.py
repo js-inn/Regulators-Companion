@@ -10,7 +10,16 @@ def generate_global_report():
     print("      GLOBAL MULTI-JURISDICTIONAL SOVEREIGN AUDIT REPORT          ")
     print("==================================================================")
     
-    # 1. Japan Pipeline
+    # 1. USPTO IP Assets & Assignments
+    print("\n[+] USPTO INTELLECTUAL PROPERTY & ASSIGNMENT PIPELINE:")
+    cursor.execute("SELECT application_number, patent_title, filing_date, status_text FROM uspto_patent_assets")
+    for row in cursor.fetchall():
+        print(f"  * App No: {row[0]} | Title: {row[1]} | Filed: {row[2]} | Status: {row[3]}")
+    cursor.execute("SELECT application_number, reel_number, recorded_date, assignee, conveyance_text FROM uspto_assignments")
+    for row in cursor.fetchall():
+        print(f"  * Assignment: App {row[0]} | Reel {row[1]} | Recorded: {row[2]} | Assignee: {row[3]} ({row[4]})")
+
+    # 2. Japan Pipeline
     print("\n[+] JAPAN REGULATORY & SETTLEMENT PIPELINE:")
     cursor.execute("SELECT asset_identifier, characterization_type, compliance_status FROM ip_monetization_rules")
     for row in cursor.fetchall():
@@ -22,7 +31,7 @@ def generate_global_report():
         print(f"  * Zengin Node: {row[0]} | Dest: {row[1]} | ¥{row[2]:,.2f}")
     print(f"  -> Total Cleared JPY Volume: ¥{total_jpy:,.2f}")
 
-    # 2. China Pipeline
+    # 3. China Pipeline
     print("\n[+] CHINA REGULATORY & SETTLEMENT PIPELINE:")
     cursor.execute("SELECT asset_identifier, transaction_nature, compliance_status FROM china_ip_tax_rules")
     for row in cursor.fetchall():
@@ -34,7 +43,7 @@ def generate_global_report():
         print(f"  * China Node: {row[0]} | Rail: {row[1]} | CNAPS: {row[2]} | ¥{row[3]:,.2f} CNY")
     print(f"  -> Total Cleared CNY Volume: ¥{total_cny:,.2f} CNY")
 
-    # 3. Eurozone Pipeline
+    # 4. Eurozone Pipeline
     print("\n[+] EUROZONE REGULATORY & SETTLEMENT PIPELINE:")
     cursor.execute("SELECT asset_identifier, transaction_nature, compliance_status FROM euro_ip_tax_rules")
     for row in cursor.fetchall():
