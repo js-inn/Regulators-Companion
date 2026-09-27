@@ -1,15 +1,15 @@
 {
-    "GeneratedAt": "2026-09-27T03:37:57.102026+00:00",
-    "Architecture": "Jujita-Stairs Sovereign Fortress (Terrestrial + Orbital)",
+    "GeneratedAt": "2026-09-27T03:51:07.969046+00:00",
+    "Architecture": "Jujita-Stairs Sovereign Fortress (Terrestrial + Orbital + Canadian)",
     "DatabaseLedger": "audit_ledger.db",
-    "DatabaseSHA256": "9706b182703dfe6fed421561ee237ad731d96a6050e013ff347d5709bd4135bc",
+    "DatabaseSHA256": "affceeed5042a38d66600d90d4438cd40a4d273be3bdef409b5762d5eecb9ed1",
     "PortfolioSummary": {
-        "TotalPortfolioValueUSD": 3865000000.0,
-        "TotalOutstandingDebtUSD": 1904000000.0,
-        "PortfolioLTVPct": 49.26,
-        "TotalNetEquityUSD": 1961000000.0,
-        "TotalGrossAnnualCashUSD": 310020000.0,
-        "ActiveNodesCount": 18
+        "TotalPortfolioValueUSD": 4330000000.0,
+        "TotalOutstandingDebtUSD": 2156000000.0,
+        "PortfolioLTVPct": 49.79,
+        "TotalNetEquityUSD": 2174000000.0,
+        "TotalGrossAnnualCashUSD": 338415000.0,
+        "ActiveNodesCount": 21
     },
     "Nodes": [
         {
@@ -19,7 +19,8 @@
             "valuation_usd": 85000000.0,
             "debt_usd": 42500000.0,
             "net_equity_usd": 42500000.0,
-            "gross_income_usd": 3825000.0
+            "gross_income_usd": 3825000.0,
+            "managing_entity": "Jujita-Stairs Holdings / Local Trust"
         },
         {
             "property_ref": "RE-SHA-02",
@@ -28,7 +29,8 @@
             "valuation_usd": 140000000.0,
             "debt_usd": 77000000.0,
             "net_equity_usd": 63000000.0,
-            "gross_income_usd": 8119999.999999999
+            "gross_income_usd": 8119999.999999999,
+            "managing_entity": "10839477 Canada Inc. APAC Vehicle"
         },
         {
             "property_ref": "RE-HKG-03",
@@ -37,7 +39,8 @@
             "valuation_usd": 310000000.0,
             "debt_usd": 155000000.0,
             "net_equity_usd": 155000000.0,
-            "gross_income_usd": 13020000.0
+            "gross_income_usd": 13020000.0,
+            "managing_entity": "Sovereign Infrastructure Asia Ltd"
         },
         {
             "property_ref": "RE-SIN-04",
@@ -46,7 +49,8 @@
             "valuation_usd": 280000000.0,
             "debt_usd": 140000000.0,
             "net_equity_usd": 140000000.0,
-            "gross_income_usd": 19040000.0
+            "gross_income_usd": 19040000.0,
+            "managing_entity": "Sovereign Infrastructure Asia Ltd"
         },
         {
             "property_ref": "RE-MAC-05",
@@ -55,7 +59,8 @@
             "valuation_usd": 125000000.0,
             "debt_usd": 68750000.0,
             "net_equity_usd": 56250000.0,
-            "gross_income_usd": 6875000.0
+            "gross_income_usd": 6875000.0,
+            "managing_entity": "Sovereign Infrastructure Asia Ltd"
         },
         {
             "property_ref": "RE-MYS-06",
@@ -64,7 +69,8 @@
             "valuation_usd": 95000000.0,
             "debt_usd": 52250000.0,
             "net_equity_usd": 42750000.0,
-            "gross_income_usd": 6175000.0
+            "gross_income_usd": 6175000.0,
+            "managing_entity": "Sovereign Infrastructure SEA Ltd"
         },
         {
             "property_ref": "RE-LON-07",
@@ -73,7 +79,8 @@
             "valuation_usd": 240000000.0,
             "debt_usd": 132000000.0,
             "net_equity_usd": 108000000.0,
-            "gross_income_usd": 12000000.0
+            "gross_income_usd": 12000000.0,
+            "managing_entity": "Sovereign Infrastructure UK Ltd"
         },
         {
             "property_ref": "RE-FRA-08",
@@ -82,7 +89,8 @@
             "valuation_usd": 210000000.0,
             "debt_usd": 126000000.0,
             "net_equity_usd": 84000000.0,
-            "gross_income_usd": 15120000.000000002
+            "gross_income_usd": 15120000.000000002,
+            "managing_entity": "Sovereign Infrastructure EU S.\u00e0 r.l."
         },
         {
             "property_ref": "RE-PAR-09",
@@ -91,7 +99,8 @@
             "valuation_usd": 165000000.0,
             "debt_usd": 90750000.0,
             "net_equity_usd": 74250000.0,
-            "gross_income_usd": 8580000.0
+            "gross_income_usd": 8580000.0,
+            "managing_entity": "Sovereign Infrastructure EU S.\u00e0 r.l."
         },
         {
             "property_ref": "RE-AMS-10",
@@ -100,7 +109,8 @@
             "valuation_usd": 110000000.0,
             "debt_usd": 60500000.0,
             "net_equity_usd": 49500000.0,
-            "gross_income_usd": 7150000.0
+            "gross_income_usd": 7150000.0,
+            "managing_entity": "Sovereign Infrastructure EU S.\u00e0 r.l."
         },
         {
             "property_ref": "RE-ZUR-11",
@@ -109,7 +119,8 @@
             "valuation_usd": 220000000.0,
             "debt_usd": 110000000.0,
             "net_equity_usd": 110000000.0,
-            "gross_income_usd": 8800000.0
+            "gross_income_usd": 8800000.0,
+            "managing_entity": "Sovereign Infrastructure Alpine AG"
         },
         {
             "property_ref": "RE-CPH-12",
@@ -118,7 +129,8 @@
             "valuation_usd": 130000000.0,
             "debt_usd": 71500000.0,
             "net_equity_usd": 58500000.0,
-            "gross_income_usd": 8060000.0
+            "gross_income_usd": 8060000.0,
+            "managing_entity": "Sovereign Infrastructure Nordic ApS"
         },
         {
             "property_ref": "RE-STO-13",
@@ -127,7 +139,8 @@
             "valuation_usd": 145000000.0,
             "debt_usd": 79750000.0,
             "net_equity_usd": 65250000.0,
-            "gross_income_usd": 8555000.0
+            "gross_income_usd": 8555000.0,
+            "managing_entity": "Sovereign Infrastructure Nordic AB"
         },
         {
             "property_ref": "RE-DXB-14",
@@ -136,7 +149,8 @@
             "valuation_usd": 260000000.0,
             "debt_usd": 143000000.0,
             "net_equity_usd": 117000000.0,
-            "gross_income_usd": 16900000.0
+            "gross_income_usd": 16900000.0,
+            "managing_entity": "Sovereign Infrastructure ME FZ-LLC"
         },
         {
             "property_ref": "RE-AUH-15",
@@ -145,7 +159,8 @@
             "valuation_usd": 190000000.0,
             "debt_usd": 104500000.0,
             "net_equity_usd": 85500000.0,
-            "gross_income_usd": 13300000.000000002
+            "gross_income_usd": 13300000.000000002,
+            "managing_entity": "Sovereign Infrastructure ME FZ-LLC"
         },
         {
             "property_ref": "RE-BAH-16",
@@ -154,7 +169,8 @@
             "valuation_usd": 110000000.0,
             "debt_usd": 60500000.0,
             "net_equity_usd": 49500000.0,
-            "gross_income_usd": 8250000.0
+            "gross_income_usd": 8250000.0,
+            "managing_entity": "Sovereign Infrastructure GCC W.L.L."
         },
         {
             "property_ref": "SP-LEO-01",
@@ -163,7 +179,8 @@
             "valuation_usd": 450000000.0,
             "debt_usd": 180000000.0,
             "net_equity_usd": 270000000.0,
-            "gross_income_usd": 56250000.0
+            "gross_income_usd": 56250000.0,
+            "managing_entity": "Sovereign Orbital Manufacturing Corp"
         },
         {
             "property_ref": "SP-LUN-02",
@@ -172,7 +189,38 @@
             "valuation_usd": 600000000.0,
             "debt_usd": 210000000.0,
             "net_equity_usd": 390000000.0,
-            "gross_income_usd": 90000000.0
+            "gross_income_usd": 90000000.0,
+            "managing_entity": "Sovereign Deep Space Logistics Inc"
+        },
+        {
+            "property_ref": "RE-EDM-17",
+            "jurisdiction": "Canada (Edmonton AB)",
+            "asset_class": "Logistics",
+            "valuation_usd": 75000000.0,
+            "debt_usd": 37500000.0,
+            "net_equity_usd": 37500000.0,
+            "gross_income_usd": 4875000.0,
+            "managing_entity": "Jujita Stairs / 10839477 Canada Inc."
+        },
+        {
+            "property_ref": "RE-TOR-18",
+            "jurisdiction": "Canada (Toronto ON)",
+            "asset_class": "Commercial-Office",
+            "valuation_usd": 210000000.0,
+            "debt_usd": 115500000.0,
+            "net_equity_usd": 94500000.0,
+            "gross_income_usd": 10920000.000000002,
+            "managing_entity": "Jujita Stairs / 10839477 Canada Inc."
+        },
+        {
+            "property_ref": "RE-VAN-19",
+            "jurisdiction": "Canada (Vancouver BC)",
+            "asset_class": "Data-Center",
+            "valuation_usd": 180000000.0,
+            "debt_usd": 99000000.0,
+            "net_equity_usd": 81000000.0,
+            "gross_income_usd": 12600000.000000002,
+            "managing_entity": "Jujita Stairs / 10839477 Canada Inc."
         }
     ]
 }
