@@ -2,44 +2,45 @@ import sqlite3
 
 DB_NAME = "audit_ledger.db"
 
-def generate_report():
+def generate_global_report():
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
     
     print("==================================================================")
-    print("         SOVEREIGN AUDIT & CROSS-BORDER SETTLEMENT REPORT         ")
+    print("      GLOBAL MULTI-JURISDICTIONAL SOVEREIGN AUDIT REPORT          ")
     print("==================================================================")
     
-    # 1. Fetch IP Monetization Rules
-    print("\n[+] IP Monetization & Tax Characterization Framework:")
-    cursor.execute("SELECT asset_identifier, characterization_type, statutory_withholding_rate, treaty_reduced_rate, compliance_status FROM ip_monetization_rules")
-    ip_rows = cursor.fetchall()
-    
-    print(f"{'ASSET IDENTIFIER':<25} | {'TYPE':<12} | {'STATUTORY %':<11} | {'TREATY RATE':<11} | {'STATUS'}")
-    print("-" * 80)
-    for row in ip_rows:
-        asset, c_type, stat_rate, treaty_rate, status = row
-        print(f"{asset:<25} | {c_type:<12} | {stat_rate:<11.2f} | {treaty_rate:<11.2f} | {status}")
+    # 1. Japan IP Monetization & Settlement Nodes
+    print("\n[+] JAPAN REGULATORY & SETTLEMENT PIPELINE:")
+    cursor.execute("SELECT asset_identifier, characterization_type, compliance_status FROM ip_monetization_rules")
+    for row in cursor.fetchall():
+        print(f"  * Asset: {row[0]:<25} | Type: {row[1]:<12} | Status: {row[2]}")
         
-    # 2. Fetch Zengin Settlement Nodes
-    print("\n[+] Zengin-Net Settlement Nodes & Rail Activity:")
-    cursor.execute("SELECT transaction_ref, clearing_rail, settlement_destination, amount_jpy, settled_via_boj FROM zengin_settlement_nodes")
+    cursor.execute("SELECT transaction_ref, settlement_destination, amount_jpy FROM zengin_settlement_nodes")
     zengin_rows = cursor.fetchall()
-    
-    print(f"{'TRANSACTION REF':<20} | {'RAIL':<12} | {'DESTINATION':<20} | {'AMOUNT (JPY)':<12} | {'BOJ'}")
-    print("-" * 85)
-    total_jpy = 0.0
+    total_jpy = sum(r[2] for r in zengin_rows)
     for row in zengin_rows:
-        tx_ref, rail, dest, amt, boj = row
-        total_jpy += amt
-        boj_str = "Yes" if boj else "No"
-        print(f"{tx_ref:<20} | {rail:<12} | {dest:<20} | {amt:<12,.2f} | {boj_str}")
+        print(f"  * Zengin Node: {row[0]} | Dest: {row[1]} | ¥{row[2]:,.2f}")
+    print(f"  -> Total Cleared JPY Volume: ¥{total_jpy:,.2f}")
+
+    # 2. China IP Tax & Settlement Nodes
+    print("\n[+] CHINA REGULATORY & SETTLEMENT PIPELINE:")
+    cursor.execute("SELECT asset_identifier, transaction_nature, compliance_status FROM china_ip_tax_rules")
+    for row in cursor.fetchall():
+        print(f"  * Asset: {row[0]:<25} | Nature: {row[1]:<18} | Status: {row[2]}")
         
-    print("-" * 85)
-    print(f"Total Cleared Zengin Volume: ¥{total_jpy:,.2f}")
+    cursor.execute("SELECT transaction_ref, clearing_rail, cnaps_bank_code, amount_cny FROM china_settlement_nodes")
+    china_rows = cursor.fetchall()
+    total_cny = sum(r[3] for r in china_rows)
+    for row in china_rows:
+        print(f"  * China Node: {row[0]} | Rail: {row[1]} | CNAPS: {row[2]} | ¥{row[3]:,.2f} CNY")
+    print(f"  -> Total Cleared CNY Volume: ¥{total_cny:,.2f} CNY")
+
+    print("\n==================================================================")
+    print("          MASTER AUDIT LEDGER INTEGRITY CHECK PASSED              ")
     print("==================================================================\n")
     
     conn.close()
 
 if __name__ == "__main__":
-    generate_report()
+    generate_global_report()

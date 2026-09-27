@@ -1,7 +1,7 @@
 {
   "Entity": "10839477 Canada Inc.",
   "Jurisdiction": "Canada",
-  "GeneratedAt": "2026-09-27T02:45:10.014660Z",
+  "GeneratedAt": "2026-09-27T02:47:16.693457Z",
   "TotalNodes": 692,
   "Nodes": [
     {
@@ -1309,8 +1309,8 @@
     {
       "FileName": "sovereign_audit_master_manifest.json",
       "RelativePath": "./sovereign_audit_master_manifest.json",
-      "SizeBytes": 169422,
-      "SHA256": "d5f32e9d2a8a8ad887fb66ebc2620290c63d4ba2d51b75acf30ae4af88cc57b5"
+      "SizeBytes": 169834,
+      "SHA256": "1d4749972752c4a13405c14d6d14c3e96a212e82ad63d855de1a86abef8af166"
     },
     {
       "FileName": "ingest_china.py",
@@ -1345,8 +1345,8 @@
     {
       "FileName": "generate_audit_report.py",
       "RelativePath": "./generate_audit_report.py",
-      "SizeBytes": 1913,
-      "SHA256": "b8f8bd9920e4508733eddf43ad2e6449ba0ac5d51e4f10ecb39f0f03f4b5e9d3"
+      "SizeBytes": 2155,
+      "SHA256": "e2f62f984b399a0ac1dec4219ec08ef4470fff20475f701afaa23c25700c0aba"
     },
     {
       "FileName": "annotationProcessors.json",
