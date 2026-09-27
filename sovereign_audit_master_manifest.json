@@ -1,8 +1,8 @@
 {
   "Entity": "10839477 Canada Inc.",
   "Jurisdiction": "Canada",
-  "GeneratedAt": "2026-09-27T02:47:16.693457Z",
-  "TotalNodes": 692,
+  "GeneratedAt": "2026-09-27T02:50:39.036422Z",
+  "TotalNodes": 694,
   "Nodes": [
     {
       "FileName": "sibling_audit_report.json",
@@ -889,8 +889,8 @@
     {
       "FileName": "audit_ledger.db",
       "RelativePath": "./audit_ledger.db",
-      "SizeBytes": 45056,
-      "SHA256": "25c65d3a34fdcea43084bcb47b45a5eaa451e0ef9435556e3ba00409e6534746"
+      "SizeBytes": 65536,
+      "SHA256": "bb2f49a297a020bbe7ed8742b32e9f2bfb65d67ab02ad37fa647d70c43cb2b60"
     },
     {
       "FileName": "parse_iso20022.py",
@@ -921,6 +921,12 @@
       "RelativePath": "./init_china_ledger.py",
       "SizeBytes": 2111,
       "SHA256": "f65f06d026a4f47a9f4f505ecb8f252a6c9ce1ecfbf2f3a4b0d7edd6a0b5006d"
+    },
+    {
+      "FileName": "init_euro_ledger.py",
+      "RelativePath": "./init_euro_ledger.py",
+      "SizeBytes": 2035,
+      "SHA256": "4c632e7716418eb21a3c0729d7ca81e24a9efead788cebea65226479e1dcbe01"
     },
     {
       "FileName": "search_ledger.py",
@@ -1310,7 +1316,7 @@
       "FileName": "sovereign_audit_master_manifest.json",
       "RelativePath": "./sovereign_audit_master_manifest.json",
       "SizeBytes": 169834,
-      "SHA256": "1d4749972752c4a13405c14d6d14c3e96a212e82ad63d855de1a86abef8af166"
+      "SHA256": "cd10e658e4018e4789d0ea13aa9e1f96efa5b163943e927458e68e88aede217f"
     },
     {
       "FileName": "ingest_china.py",
@@ -1345,8 +1351,14 @@
     {
       "FileName": "generate_audit_report.py",
       "RelativePath": "./generate_audit_report.py",
-      "SizeBytes": 2155,
-      "SHA256": "e2f62f984b399a0ac1dec4219ec08ef4470fff20475f701afaa23c25700c0aba"
+      "SizeBytes": 2783,
+      "SHA256": "a58010e350cbde00f8cd0d5f9d6c3a2041f26b6d50c15128caeb1e3f47e0cc8e"
+    },
+    {
+      "FileName": "ingest_euro.py",
+      "RelativePath": "./ingest_euro.py",
+      "SizeBytes": 1756,
+      "SHA256": "bd96c6678a3d871bed32a48c9328a6fb9c567712bfc016138dfa03d0be27ad46"
     },
     {
       "FileName": "annotationProcessors.json",
