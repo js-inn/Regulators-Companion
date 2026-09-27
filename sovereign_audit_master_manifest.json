@@ -1,70 +1,4124 @@
 {
-  "AuditTarget": "Canadian Financial, Regulatory & Disclosure Apparatus",
-  "AuditorEntity": "10839477 Canada Inc.",
-  "ExportTimestamp": "2026-09-27T01:25:13.080643+00:00",
-  "MasterLedgerSHA256": "851ffbba0b6e6d99708b4f4d1e7462d9293536429bc8773da18359baf2311b99",
+  "Entity": "10839477 Canada Inc.",
+  "Jurisdiction": "Canada",
+  "GeneratedAt": "2026-09-27T01:54:49.815281Z",
+  "TotalNodes": 686,
   "Nodes": [
     {
-      "ContractReference": "ISO-20022-WIRE",
-      "CreatorUUID": "e4f1b2a7-6d3c-4902-8a5e-9f7b6c5d4e1a",
-      "MessageID": "PACS-002-REJECT-01",
-      "NodeID": 1,
-      "NodeSHA256": "placeholder_node_1",
-      "Payload": {
-        "GatekeepingMechanism": "Systemic rejection protocols and legacy SWIFT field constraints enforcing institutional exclusion.",
-        "Layer": "Financial Messaging",
-        "Standard": "ISO 20022 (pacs.002)"
-      },
-      "Status": "MAPPED",
-      "Timestamp": "2026-09-27T01:25:13.080602+00:00"
+      "FileName": "sibling_audit_report.json",
+      "RelativePath": "./sibling_audit_report.json",
+      "SizeBytes": 36757,
+      "SHA256": "5f8f818fe633e42e071b0b85b72733a6c2bda0b40b5f4a42bb1d81ec004ab851"
     },
     {
-      "ContractReference": "REG-GATE-01",
-      "CreatorUUID": "e4f1b2a7-6d3c-4902-8a5e-9f7b6c5d4e1a",
-      "MessageID": "CIRO-REG-002",
-      "NodeID": 2,
-      "NodeSHA256": "placeholder_node_2",
-      "Payload": {
-        "Architecture": "Consolidated self-regulatory monopoly governing dealers and mutual funds.",
-        "TargetSystem": "Canadian Investment Regulatory Organization (CIRO)"
-      },
-      "Status": "MAPPED",
-      "Timestamp": "2026-09-27T01:25:13.080626+00:00"
+      "FileName": "bloodline_scan_report.json",
+      "RelativePath": "./bloodline_scan_report.json",
+      "SizeBytes": 2080,
+      "SHA256": "604f940a08ebf6712cbe08813e382eb5dc3750060f11fdbb6e231b0e9445f0b0"
     },
     {
-      "ContractReference": "REG-GATE-02",
-      "CreatorUUID": "e4f1b2a7-6d3c-4902-8a5e-9f7b6c5d4e1a",
-      "MessageID": "BIGBANK-WEB-003",
-      "NodeID": 3,
-      "NodeSHA256": "placeholder_node_3",
-      "Payload": {
-        "OligopolyWeb": "Big Five Banks (BMO, RBC, CIBC, Scotiabank, National Bank)",
-        "Role": "Captive-dealer members defining regulatory enforcement parameters."
-      },
-      "Status": "MAPPED",
-      "Timestamp": "2026-09-27T01:25:13.080632+00:00"
+      "FileName": "CIPO_SUBMISSION_MEMO.json",
+      "RelativePath": "./CIPO_SUBMISSION_MEMO.json",
+      "SizeBytes": 1998,
+      "SHA256": "f46c584d28500ba46b2a22c40ef619ecf2dedd493c57ddbaeaa4ba1244811e49"
     },
     {
-      "ContractReference": "REG-GATE-03",
-      "CreatorUUID": "e4f1b2a7-6d3c-4902-8a5e-9f7b6c5d4e1a",
-      "MessageID": "MODEL-SEDAR-003",
-      "NodeID": 4,
-      "NodeSHA256": "c5933d4ed5b588315b07953f4580f21d373df743a6277372ef6a00ae62ae2f2d",
-      "Payload": {
-        "Administrators": "Canadian Securities Administrators (CSA)",
-        "SovereignAuditNode": {
-          "EntityReference": "10839477 Canada Inc.",
-          "Status": "Mapped and bypassed via local SQLite ledger anchoring."
-        },
-        "StructuralBarriers": {
-          "AccessibilityIllusion": "Technically public documents structured to impede automated, programmatic parsing.",
-          "FilingFriction": "Mandatory system fees and stringent issuer formatting requirements."
-        },
-        "TargetSystem": "SEDAR+ (System for Electronic Document Analysis and Retrieval)"
-      },
-      "Status": "MAPPED",
-      "Timestamp": "2026-09-27T01:25:13.080637+00:00"
+      "FileName": "LAC_ATTRIBUTION_REQUEST.json",
+      "RelativePath": "./LAC_ATTRIBUTION_REQUEST.json",
+      "SizeBytes": 497,
+      "SHA256": "d4d4d1881b5dabb44af9ab0bebf82c9d7a956132893a533a6d6479662736932f"
+    },
+    {
+      "FileName": "MANIFEST.json",
+      "RelativePath": "./MANIFEST.json",
+      "SizeBytes": 578,
+      "SHA256": "8cf7917b38d7c798f902d7a15a21d06185ca55114a65d4e87bbc507b791b5a10"
+    },
+    {
+      "FileName": "active_virtual_cards.json",
+      "RelativePath": "./active_virtual_cards.json",
+      "SizeBytes": 1829,
+      "SHA256": "bb85df160f4cd19c08102243758d1359852b9cc7eb2db02f68b1f32581f67612"
+    },
+    {
+      "FileName": "aggregate_ledger.py",
+      "RelativePath": "./aggregate_ledger.py",
+      "SizeBytes": 1139,
+      "SHA256": "4b5d19d68ea782398e27c68dd059e62352ae69f0783c9dd861f6ee9611d6c675"
+    },
+    {
+      "FileName": "arctic_powertrain_sim.py",
+      "RelativePath": "./arctic_powertrain_sim.py",
+      "SizeBytes": 3926,
+      "SHA256": "efa9efcfaca8e4616ef230f866bd8c510a67a7e81723fa5e235bcaa0861387b5"
+    },
+    {
+      "FileName": "audit.py",
+      "RelativePath": "./audit.py",
+      "SizeBytes": 1658,
+      "SHA256": "e24f62d3c6bd263a0e2b60f4eda23d43cf78ab062599e51d337e4e0fc477325b"
+    },
+    {
+      "FileName": "audit_export_20260915_193424.json",
+      "RelativePath": "./audit_export_20260915_193424.json",
+      "SizeBytes": 919,
+      "SHA256": "c06cc287be85b0942b3130047fb84acd84dfcfbe9ae729152cf1aee3140f448b"
+    },
+    {
+      "FileName": "audit_export_20260915_202237.json",
+      "RelativePath": "./audit_export_20260915_202237.json",
+      "SizeBytes": 573,
+      "SHA256": "7b29bfa80ac1df4740f170f48e28cb6519d7d827ef55c71f858f696fef845961"
+    },
+    {
+      "FileName": "audit_export_20260915_212150.json",
+      "RelativePath": "./audit_export_20260915_212150.json",
+      "SizeBytes": 521,
+      "SHA256": "a20889d2a5b87fa9219ec41a9bd3578e28e71ccdb29a5ae4c8a10bb363cd0143"
+    },
+    {
+      "FileName": "audit_export_20260915_213148.json",
+      "RelativePath": "./audit_export_20260915_213148.json",
+      "SizeBytes": 521,
+      "SHA256": "1c97e391171ac35c1fd868fd85cdf7828271e964e32e9d3dcf64ea166c9ace3b"
+    },
+    {
+      "FileName": "audit_logger.py",
+      "RelativePath": "./audit_logger.py",
+      "SizeBytes": 3055,
+      "SHA256": "819693596347537532ba2c8bb90a4d8301ef4dbfcac83055e1578441faed75a2"
+    },
+    {
+      "FileName": "audit_report.py",
+      "RelativePath": "./audit_report.py",
+      "SizeBytes": 2089,
+      "SHA256": "5dbb77d8a434e388b2aa85f39585559294da0ab2977aa6532cfcaf195cde15e3"
+    },
+    {
+      "FileName": "batch_ingest.py",
+      "RelativePath": "./batch_ingest.py",
+      "SizeBytes": 1363,
+      "SHA256": "1209468653f57ce2db4b28946d9906b0aab3ff58697843de8f7bfb488a1554c6"
+    },
+    {
+      "FileName": "bridge_activity.json",
+      "RelativePath": "./bridge_activity.json",
+      "SizeBytes": 244,
+      "SHA256": "6b2a1bf5d8f419d48b58edbb0cfd336fd082c0e828fbb908106e9317aef9c183"
+    },
+    {
+      "FileName": "btc_audit.py",
+      "RelativePath": "./btc_audit.py",
+      "SizeBytes": 961,
+      "SHA256": "024f386ea40fcd7388330490dea57fb6e7e84fd450f652025f5e1d99d2c77d1c"
+    },
+    {
+      "FileName": "calculate_volume.py",
+      "RelativePath": "./calculate_volume.py",
+      "SizeBytes": 2147,
+      "SHA256": "2cbc027bfa5b486cda9089b0f71f13a2b13a5cf7e757c324c1422f5f55f84682"
+    },
+    {
+      "FileName": "camt053_statements.json",
+      "RelativePath": "./camt053_statements.json",
+      "SizeBytes": 1325,
+      "SHA256": "0a8656ae6ec2f7adf476a71a271a04abb4e5d3e9a76e464e3addddbbe0b3dab2"
+    },
+    {
+      "FileName": "check_corp.py",
+      "RelativePath": "./check_corp.py",
+      "SizeBytes": 1027,
+      "SHA256": "bbaf55bd1e4f01b7d23c4f279a75d683f19b38f0c4bc3cbe4cc25db2d02ab414"
+    },
+    {
+      "FileName": "commit_trace_block.py",
+      "RelativePath": "./commit_trace_block.py",
+      "SizeBytes": 1859,
+      "SHA256": "c07e7a455a6e272c739e23e8ece8cd1fcdf855292ba5dba4453f077b85e856e8"
+    },
+    {
+      "FileName": "compliance_audit_report.json",
+      "RelativePath": "./compliance_audit_report.json",
+      "SizeBytes": 9626,
+      "SHA256": "5618f0c7e54d6b467cb80b68c406a936385582851df69c901c531d23b366b158"
+    },
+    {
+      "FileName": "corporate_ledger.db",
+      "RelativePath": "./corporate_ledger.db",
+      "SizeBytes": 32768,
+      "SHA256": "63464dcbeab7ad48bc3790345acbc16bff52d80bce9faa06a4ca174d66113f93"
+    },
+    {
+      "FileName": "create_money_order_block.py",
+      "RelativePath": "./create_money_order_block.py",
+      "SizeBytes": 1903,
+      "SHA256": "5390f5c50d250cbcedca7149ee5ed11a20a57a1fc76191b7635b11606fdd58bc"
+    },
+    {
+      "FileName": "create_virtual_card.py",
+      "RelativePath": "./create_virtual_card.py",
+      "SizeBytes": 2735,
+      "SHA256": "aa5482d5019a7d2de252a0662f257e162b7b4dfac54d76c5bac65b08998f1fb2"
+    },
+    {
+      "FileName": "cross_reference_registry.py",
+      "RelativePath": "./cross_reference_registry.py",
+      "SizeBytes": 1541,
+      "SHA256": "418b8eae88913187ded971bfd9f4dc2d071ad32ff71295c91157d16c681e7bde"
+    },
+    {
+      "FileName": "cross_reference_sedar.py",
+      "RelativePath": "./cross_reference_sedar.py",
+      "SizeBytes": 1591,
+      "SHA256": "0c1e6c3a1ca1bb9bf1b40cef203d52018efc230935cf77e197403dacf59488a2"
+    },
+    {
+      "FileName": "dashboard_server.py",
+      "RelativePath": "./dashboard_server.py",
+      "SizeBytes": 7104,
+      "SHA256": "fdf316681609468f35d505860f0febfea5f254af9fefcd8d42271f2226e57dd8"
+    },
+    {
+      "FileName": "document_boundary_layer.py",
+      "RelativePath": "./document_boundary_layer.py",
+      "SizeBytes": 2076,
+      "SHA256": "af6e85c97bd000e81a9bf81e4ce0ffa908d7ffa08ee00866f726a8bc349cbd30"
+    },
+    {
+      "FileName": "drive_sync.py",
+      "RelativePath": "./drive_sync.py",
+      "SizeBytes": 1314,
+      "SHA256": "e56f0af68603cbaca7bd9af64e29b559b3393fe258bad5e3664ce190bc92f027"
+    },
+    {
+      "FileName": "edge_agent_node.py",
+      "RelativePath": "./edge_agent_node.py",
+      "SizeBytes": 1533,
+      "SHA256": "3b51fb52117c08eafdc071854a78a469b0d3a35673dfea21481ea0f563ee111d"
+    },
+    {
+      "FileName": "export_audit_bundle.py",
+      "RelativePath": "./export_audit_bundle.py",
+      "SizeBytes": 2754,
+      "SHA256": "e9c34be6879e46d09f87eb48630a2162d9095d723fff25804f2e7c52351c2fd9"
+    },
+    {
+      "FileName": "export_audit_package.py",
+      "RelativePath": "./export_audit_package.py",
+      "SizeBytes": 2552,
+      "SHA256": "eea93edae60f62c7ca6172d7be43cbf39722416f159400a3f14da6b8064fded8"
+    },
+    {
+      "FileName": "export_csv.py",
+      "RelativePath": "./export_csv.py",
+      "SizeBytes": 1107,
+      "SHA256": "1c3fe97d80ef89a3d18270e0123873c316add9fc4518c65b8276fee487503272"
+    },
+    {
+      "FileName": "export_payout_manifest.py",
+      "RelativePath": "./export_payout_manifest.py",
+      "SizeBytes": 2476,
+      "SHA256": "151450e8f912109196c4251449335577c1a4bdb08f791f4dade40e8f26bd00e3"
+    },
+    {
+      "FileName": "filter_ledger.py",
+      "RelativePath": "./filter_ledger.py",
+      "SizeBytes": 1656,
+      "SHA256": "7bd9cf9a7a4e14d1ba10bbe0f2ee6b7d3cdd125691b5c765f50a3b79485ca8a2"
+    },
+    {
+      "FileName": "fix_limits.py",
+      "RelativePath": "./fix_limits.py",
+      "SizeBytes": 1243,
+      "SHA256": "8134b12151138586a46926211f69eaca4163af17c1b0187e0202115d1ccddaa4"
+    },
+    {
+      "FileName": "fraud_mitigation.py",
+      "RelativePath": "./fraud_mitigation.py",
+      "SizeBytes": 3496,
+      "SHA256": "6b48b5780dc8736d8512fa054c8a941e11a54c61522d9285f9bcdd7a43648e2b"
+    },
+    {
+      "FileName": "fund_and_cashout.py",
+      "RelativePath": "./fund_and_cashout.py",
+      "SizeBytes": 3636,
+      "SHA256": "cf9753ece026fa238bbdce20a045efc6c9a26ebd2bdae1f0c6154af0ef38353b"
+    },
+    {
+      "FileName": "generate_and_deploy.py",
+      "RelativePath": "./generate_and_deploy.py",
+      "SizeBytes": 1815,
+      "SHA256": "f096fa51a90212c7b512b7f293060566fd30a91d45ca15486706754fe3b7f64d"
+    },
+    {
+      "FileName": "generate_audit_hash.py",
+      "RelativePath": "./generate_audit_hash.py",
+      "SizeBytes": 785,
+      "SHA256": "389650603ca15affe1db979b69e46fe2a31cbcf0c51804a09dc1540093ee68a9"
+    },
+    {
+      "FileName": "generate_compliance_report.py",
+      "RelativePath": "./generate_compliance_report.py",
+      "SizeBytes": 1396,
+      "SHA256": "d61980fbfcc20dd29e06d8f0b7b667e409e935ca65021723198282cfc19689c8"
+    },
+    {
+      "FileName": "generate_legal_package.py",
+      "RelativePath": "./generate_legal_package.py",
+      "SizeBytes": 3399,
+      "SHA256": "b97cc6bd8568a4d3b3967cc2cfdf0d76e243da4b4f06b25d11b81359e2640c73"
+    },
+    {
+      "FileName": "generate_pdf_certificate.py",
+      "RelativePath": "./generate_pdf_certificate.py",
+      "SizeBytes": 7378,
+      "SHA256": "a521229779feb7b4d99be32648f29b7167b4ba0659bbb75e00d6de78c5ebe66f"
+    },
+    {
+      "FileName": "google-services (1).json",
+      "RelativePath": "./google-services (1).json",
+      "SizeBytes": 1013,
+      "SHA256": "1944afc8525e6e420af7fdf4c5c9ab199ef21d72e5ab4f47ea3b95fa2afb6d66"
+    },
+    {
+      "FileName": "gvt_verified_audit_bundle.json",
+      "RelativePath": "./gvt_verified_audit_bundle.json",
+      "SizeBytes": 3138,
+      "SHA256": "346a08a563a922c13526c9e288400d021bac920f9e0c3e275a1c7ab9dcbda9d5"
+    },
+    {
+      "FileName": "hmac_signer.py",
+      "RelativePath": "./hmac_signer.py",
+      "SizeBytes": 3555,
+      "SHA256": "2579b9b4bc4a76e6b2d4723a523263a9a01bd99bf3a1827bb6cb4b75c5a83bf0"
+    },
+    {
+      "FileName": "import_transactions.py",
+      "RelativePath": "./import_transactions.py",
+      "SizeBytes": 3953,
+      "SHA256": "85d11674ca282ff4b2296864e1a435e111f2d1488c0d058c96d6ad2e7691a59b"
+    },
+    {
+      "FileName": "ledger_audit.py",
+      "RelativePath": "./ledger_audit.py",
+      "SizeBytes": 2092,
+      "SHA256": "e7ec90d44b53a22fe295b94a4fb87587377d712e20780f9500c4753c85fdf8cb"
+    },
+    {
+      "FileName": "ledger_sync.py",
+      "RelativePath": "./ledger_sync.py",
+      "SizeBytes": 2224,
+      "SHA256": "eb0d2df42b29ae0800e10c6f1c1c4238c095a85d5306552379e880517d25dbad"
+    },
+    {
+      "FileName": "log_payload_hash.py",
+      "RelativePath": "./log_payload_hash.py",
+      "SizeBytes": 1800,
+      "SHA256": "68b66b9637fa77bde873b65e09168c700251ba22c120c9d9d74de29dd483ecfc"
+    },
+    {
+      "FileName": "main_wire_manager_v4.py",
+      "RelativePath": "./main_wire_manager_v4.py",
+      "SizeBytes": 4242,
+      "SHA256": "5994ba6a3052a849062e51849836a9fed4cb32dc93a19db358763f1682d600db"
+    },
+    {
+      "FileName": "migrate_to_sqlite.py",
+      "RelativePath": "./migrate_to_sqlite.py",
+      "SizeBytes": 2495,
+      "SHA256": "136c6659106f81fbea8ba10112e53094a038b9d22a4923a27027e1a07f84ed5e"
+    },
+    {
+      "FileName": "octopus_ledger.json",
+      "RelativePath": "./octopus_ledger.json",
+      "SizeBytes": 512,
+      "SHA256": "a3cff314a6994edd58c84b3a037764fde9c1fea591d839f9c56d247d905a4115"
+    },
+    {
+      "FileName": "p2p_transfer.py",
+      "RelativePath": "./p2p_transfer.py",
+      "SizeBytes": 3554,
+      "SHA256": "9ae8f1349d1b180c82b5660eb30b880b5fd9980267707ce75143bcc07b4ad939"
+    },
+    {
+      "FileName": "parse_camt053.py",
+      "RelativePath": "./parse_camt053.py",
+      "SizeBytes": 2292,
+      "SHA256": "e7f1c6f87d56d93daa878f81c3998942916cbcd0aeb3c8e4add77dfaa8a28a84"
+    },
+    {
+      "FileName": "parse_investments.py",
+      "RelativePath": "./parse_investments.py",
+      "SizeBytes": 4122,
+      "SHA256": "ed251700c10a12718fd5cae73901fc10382ef4ede6f4f234840b033d62f9f317"
+    },
+    {
+      "FileName": "parse_ledger.py",
+      "RelativePath": "./parse_ledger.py",
+      "SizeBytes": 2013,
+      "SHA256": "a2720c2d839983a8a2ca1e586c9f4092217cf0a24697d20b1da0986387c57c97"
+    },
+    {
+      "FileName": "parse_nr4.py",
+      "RelativePath": "./parse_nr4.py",
+      "SizeBytes": 1913,
+      "SHA256": "da3e2c66e79f540d0d6be750b4ed5cceccbdb4702375b7a4a39d6287450d1d33"
+    },
+    {
+      "FileName": "parse_payout_ledger.py",
+      "RelativePath": "./parse_payout_ledger.py",
+      "SizeBytes": 2830,
+      "SHA256": "d1d4aa36264684f7e5a55136b555fcd184483feba0c540d304b22cb8549a67f1"
+    },
+    {
+      "FileName": "parse_schedule12.py",
+      "RelativePath": "./parse_schedule12.py",
+      "SizeBytes": 1539,
+      "SHA256": "891306d5203c5de5096145890e999cf6e7ff44a584d84d36fb9733dd640317fe"
+    },
+    {
+      "FileName": "parse_schema.py",
+      "RelativePath": "./parse_schema.py",
+      "SizeBytes": 2453,
+      "SHA256": "cef1eda25136b4b4c7678440abee9c1783546cc6ac4de3bc4311a68d82d6c29b"
+    },
+    {
+      "FileName": "parse_t3_schema.py",
+      "RelativePath": "./parse_t3_schema.py",
+      "SizeBytes": 3385,
+      "SHA256": "3f430012ada9e54c233de4b170a536734f4ebd706e14b5d446e838393b277ff2"
+    },
+    {
+      "FileName": "parse_t661.py",
+      "RelativePath": "./parse_t661.py",
+      "SizeBytes": 424,
+      "SHA256": "9dbae6dd0e483d9e5ecf0c21faf2c63ecf619efddac23ddd4800af288c6ad0d5"
+    },
+    {
+      "FileName": "parse_td_disclosure.py",
+      "RelativePath": "./parse_td_disclosure.py",
+      "SizeBytes": 1968,
+      "SHA256": "4d6ff3a2d8b30dd5e83a5de9a11d43f63fcc1debc7eb700298bf612bc7a4ae39"
+    },
+    {
+      "FileName": "populate_audit.py",
+      "RelativePath": "./populate_audit.py",
+      "SizeBytes": 3777,
+      "SHA256": "216c8aae3d3663fe0cfbbe2975c60162e97e83b969d53594e5d006712d6167c4"
+    },
+    {
+      "FileName": "postal_cashout.py",
+      "RelativePath": "./postal_cashout.py",
+      "SizeBytes": 4149,
+      "SHA256": "0667ea20b0ae544d7be4271fa6afc26a84823dfbb66b7e1d2d168729b5098073"
+    },
+    {
+      "FileName": "postal_payout_manifest.json",
+      "RelativePath": "./postal_payout_manifest.json",
+      "SizeBytes": 191,
+      "SHA256": "9adef8ea9911e117c12337aff02f155329e61e1e440e94505feffe04ef87f788"
+    },
+    {
+      "FileName": "postal_redemption.py",
+      "RelativePath": "./postal_redemption.py",
+      "SizeBytes": 3721,
+      "SHA256": "d85a21385d692b677de739aa5483d732143dacb38e5111e348c9c99d6f7561f2"
+    },
+    {
+      "FileName": "process_wire_update.py",
+      "RelativePath": "./process_wire_update.py",
+      "SizeBytes": 1026,
+      "SHA256": "5d761d8f202ee39b3617a4cb8e30619306321b7926e34d3192c39862a43ca1e5"
+    },
+    {
+      "FileName": "published_audit_manifest.json",
+      "RelativePath": "./published_audit_manifest.json",
+      "SizeBytes": 7799,
+      "SHA256": "fbfeddf3aa58d2eb49b77e66c3147ff0bb0e90fb7279193805f07216aeefca66"
+    },
+    {
+      "FileName": "query_audit.py",
+      "RelativePath": "./query_audit.py",
+      "SizeBytes": 1515,
+      "SHA256": "0c75398104dccbb9b08712d8cb151d5168e362612a4b9786e0fdd3ce76f83f33"
+    },
+    {
+      "FileName": "query_bmo.py",
+      "RelativePath": "./query_bmo.py",
+      "SizeBytes": 1526,
+      "SHA256": "308723a8ab9967556ddbcfbfd02eced740b7dd66d89c90a35d344c85770e7233"
+    },
+    {
+      "FileName": "query_td_bank.py",
+      "RelativePath": "./query_td_bank.py",
+      "SizeBytes": 1561,
+      "SHA256": "9375d147d3d6b7c6c5682c241508302467e37c51b16f7d638e83973238095ec4"
+    },
+    {
+      "FileName": "reconcile_block_18.py",
+      "RelativePath": "./reconcile_block_18.py",
+      "SizeBytes": 1960,
+      "SHA256": "90f08c19730aef48968d9a0c03c90e0d0831f5bccfcc4bb95610252f47eb6af6"
+    },
+    {
+      "FileName": "reconcile_ghost_vcard.py",
+      "RelativePath": "./reconcile_ghost_vcard.py",
+      "SizeBytes": 1951,
+      "SHA256": "81a912f7e86af3e97c8c900dd8701fbb926a0e34af5ada4d8f7db59985f3c7a2"
+    },
+    {
+      "FileName": "reconcile_ledger.py",
+      "RelativePath": "./reconcile_ledger.py",
+      "SizeBytes": 1964,
+      "SHA256": "9dcbbf84454ea1ed9e1cd36eff50a26b99f124fdf34ce35f027c33a8b2a1ab47"
+    },
+    {
+      "FileName": "settlement_simulator.py",
+      "RelativePath": "./settlement_simulator.py",
+      "SizeBytes": 3242,
+      "SHA256": "756c31a528ea39871660e529f62a8030cf70fae3ecda2b46bfc88dd6cad9bcad"
+    },
+    {
+      "FileName": "shoppers_settlement.py",
+      "RelativePath": "./shoppers_settlement.py",
+      "SizeBytes": 3333,
+      "SHA256": "650bab25d861fd724758172c98515a8e8a2a57f62c2209755bc397da5b40b0f2"
+    },
+    {
+      "FileName": "simulate_sqlite_chain.py",
+      "RelativePath": "./simulate_sqlite_chain.py",
+      "SizeBytes": 2747,
+      "SHA256": "91d33c4bb7114e348be82bec7a1651dad587f6948020607081f2ce335ff6b195"
+    },
+    {
+      "FileName": "summarize_volume.py",
+      "RelativePath": "./summarize_volume.py",
+      "SizeBytes": 1291,
+      "SHA256": "bb215bb009994c1b94364542648026f38aa4fda52b2fbf94c08064c91803fe6c"
+    },
+    {
+      "FileName": "t661_part7.xsd",
+      "RelativePath": "./t661_part7.xsd",
+      "SizeBytes": 3017,
+      "SHA256": "6d958b6d81a17d4db201b543466d3566ac414c5c9c1242cd58614408ea5c78a5"
+    },
+    {
+      "FileName": "treasury_deposit.py",
+      "RelativePath": "./treasury_deposit.py",
+      "SizeBytes": 2903,
+      "SHA256": "60dfe50513baf705679d66a5d8eef0c786b7246d38fa62dacf2efad6a6075f58"
+    },
+    {
+      "FileName": "update_corporate_hierarchy.py",
+      "RelativePath": "./update_corporate_hierarchy.py",
+      "SizeBytes": 1478,
+      "SHA256": "5b8efd79d9163db071a3e8b744abc7d8743acd2d6320204316d2c71a80be5732"
+    },
+    {
+      "FileName": "update_package_amounts.py",
+      "RelativePath": "./update_package_amounts.py",
+      "SizeBytes": 2332,
+      "SHA256": "bcae32ef97d1f87cbb3873f375982a6fdcdb22ce0abc60ff33f7af4231cc0e9a"
+    },
+    {
+      "FileName": "validate_agr1.py",
+      "RelativePath": "./validate_agr1.py",
+      "SizeBytes": 1993,
+      "SHA256": "0b6182a9bc2ff371dcfd98948f24199d9ba0a5b97d4f4c4b36e5b9dc762acab0"
+    },
+    {
+      "FileName": "validate_common_layout.py",
+      "RelativePath": "./validate_common_layout.py",
+      "SizeBytes": 3720,
+      "SHA256": "e7c56f378a656f1fa3b590f0b1d26456a15bf301d4b1becc2b22cab6dd59dca9"
+    },
+    {
+      "FileName": "validate_octopus.py",
+      "RelativePath": "./validate_octopus.py",
+      "SizeBytes": 2123,
+      "SHA256": "bf085c46c4dadbb8d7d03a6b730bad5a8242e20ef03916d5356e3367e4b0513c"
+    },
+    {
+      "FileName": "validate_schedule12.py",
+      "RelativePath": "./validate_schedule12.py",
+      "SizeBytes": 2011,
+      "SHA256": "0360d7af2f7f4486c63908c38e8bf8ce0dcc862a3319523ec71801866ed5d6f1"
+    },
+    {
+      "FileName": "validate_schema.py",
+      "RelativePath": "./validate_schema.py",
+      "SizeBytes": 5920,
+      "SHA256": "1ee1349012230b22519803da9c2ccffbe2408fc63bbcd48dc14e82428f8bc396"
+    },
+    {
+      "FileName": "validate_t4a_oas.py",
+      "RelativePath": "./validate_t4a_oas.py",
+      "SizeBytes": 3679,
+      "SHA256": "6e4c41b27f3f2485016e3e70051a6076eba8251c3798581509209a87d482084a"
+    },
+    {
+      "FileName": "validate_t661.py",
+      "RelativePath": "./validate_t661.py",
+      "SizeBytes": 1948,
+      "SHA256": "b92f38a75fe8d751509eec262deb9b154172a7270b99e6833f966a645036ec47"
+    },
+    {
+      "FileName": "validate_t661_part7.py",
+      "RelativePath": "./validate_t661_part7.py",
+      "SizeBytes": 3083,
+      "SHA256": "d2da4b724140e890ad285e5563e0692237e797c01278e07f553f6c2dd34ebd3a"
+    },
+    {
+      "FileName": "vcard_exporter.py",
+      "RelativePath": "./vcard_exporter.py",
+      "SizeBytes": 2328,
+      "SHA256": "30150e7627bf338bd8b3d937f1094dcb7285dfca7d01866bcf45062a65cae4de"
+    },
+    {
+      "FileName": "verify_cra_discrepancy.py",
+      "RelativePath": "./verify_cra_discrepancy.py",
+      "SizeBytes": 1633,
+      "SHA256": "e49bd0d4be2e0df14ee1b1ffb74c5965f8fa7c5e3aa525c7dc0164c43991c914"
+    },
+    {
+      "FileName": "virtual_postal_voucher.py",
+      "RelativePath": "./virtual_postal_voucher.py",
+      "SizeBytes": 4003,
+      "SHA256": "c9d736b1ba4df1d7073a855570048c3960b72324fe752942ce8d02602a3a76ae"
+    },
+    {
+      "FileName": "wire_status.json",
+      "RelativePath": "./wire_status.json",
+      "SizeBytes": 89,
+      "SHA256": "9da33c0622a15abaaee49f6ec99ec8a06557a03faeb4139aa59240d7174f895c"
+    },
+    {
+      "FileName": "read_report.py",
+      "RelativePath": "./read_report.py",
+      "SizeBytes": 298,
+      "SHA256": "d9f4998aea29cf10c3c9300522a9e82e8923c9ec6f3d77726752c947e7aeb8b4"
+    },
+    {
+      "FileName": "wipo_sibling_extension.py",
+      "RelativePath": "./wipo_sibling_extension.py",
+      "SizeBytes": 1159,
+      "SHA256": "54555e0ddf0d8627bcd7f2004d3e067abaed3a9f56c3de7a786ff38f7c8ebafc"
+    },
+    {
+      "FileName": "update_wipo_report.py",
+      "RelativePath": "./update_wipo_report.py",
+      "SizeBytes": 1246,
+      "SHA256": "60cec9defe31c9d43080ee17d5a02fccfd37424166939c72821b57561699a9ef"
+    },
+    {
+      "FileName": "simulate_transaction.py",
+      "RelativePath": "./simulate_transaction.py",
+      "SizeBytes": 1164,
+      "SHA256": "afdc0b361bdf5b39408cfdb0815aacfcff86779ddb6c112524c67421048aceaa"
+    },
+    {
+      "FileName": "ingest_tdbank_payment.py",
+      "RelativePath": "./ingest_tdbank_payment.py",
+      "SizeBytes": 1493,
+      "SHA256": "92e8745cd6ba019dd1cafab141bc1474c9a0eb048927891c33e590d37f2c930c"
+    },
+    {
+      "FileName": "ingest_tdb_claims.py",
+      "RelativePath": "./ingest_tdb_claims.py",
+      "SizeBytes": 2452,
+      "SHA256": "a9fa08abb459803df5f6f727d97844f2e15925748198ffceaceac84cea9ee68d"
+    },
+    {
+      "FileName": "tdb_income_claim_manifest.json",
+      "RelativePath": "./tdb_income_claim_manifest.json",
+      "SizeBytes": 1890,
+      "SHA256": "a139709636bc084b6f89d55ce26138c13c159f79407cce1ad335df18b0b8ef40"
+    },
+    {
+      "FileName": "ingest_questrade_claims.py",
+      "RelativePath": "./ingest_questrade_claims.py",
+      "SizeBytes": 2300,
+      "SHA256": "56d856eab55fbf2680279d9f639b8be349f8455ab8e98be66544dbff32693e17"
+    },
+    {
+      "FileName": "questrade_income_claim_manifest.json",
+      "RelativePath": "./questrade_income_claim_manifest.json",
+      "SizeBytes": 1297,
+      "SHA256": "ad942dff52e3c43dbf6e2edce022395f25aa963e39da9b8cdb13e0372e286ce7"
+    },
+    {
+      "FileName": "generate_atb_reports.py",
+      "RelativePath": "./generate_atb_reports.py",
+      "SizeBytes": 1263,
+      "SHA256": "648df314a8285aff563ff8d520017da30d441ff8ae6bb338afc28a6c4a1256f6"
+    },
+    {
+      "FileName": "financial_pipeline.db",
+      "RelativePath": "./financial_pipeline.db",
+      "SizeBytes": 188416,
+      "SHA256": "8f22e16dbe579508ccd969cdce580413ed5260b1ef6a4fabc0d2b2ea888774ac"
+    },
+    {
+      "FileName": "financial_bridge.py",
+      "RelativePath": "./financial_bridge.py",
+      "SizeBytes": 3494,
+      "SHA256": "ce706f7e592ec25a7f48c0a0e43d563ccc1e54d708fbe2c084d3e81a998f2aca"
+    },
+    {
+      "FileName": "japan_sibling_scanner.py",
+      "RelativePath": "./japan_sibling_scanner.py",
+      "SizeBytes": 3309,
+      "SHA256": "693cb5a17617f9383257c47496959679d8187b7995c997498d1deff29084c095"
+    },
+    {
+      "FileName": "madrid_trademark_scanner.py",
+      "RelativePath": "./madrid_trademark_scanner.py",
+      "SizeBytes": 3282,
+      "SHA256": "a5a9aff0d05c2dc19537013d0b5c3584e140b7b1d53435f4d15ec5ac92020e0f"
+    },
+    {
+      "FileName": "brazil_sibling_scanner.py",
+      "RelativePath": "./brazil_sibling_scanner.py",
+      "SizeBytes": 3345,
+      "SHA256": "73d13e04a74a7bee17d2d04b2a44a9a1d435c70a5acb8b4d08160a093fd515bb"
+    },
+    {
+      "FileName": "china_sibling_scanner.py",
+      "RelativePath": "./china_sibling_scanner.py",
+      "SizeBytes": 3337,
+      "SHA256": "1e46f8500fa755f0315fb4206c0f96d195563221a63e2ed24a4c805286913ca7"
+    },
+    {
+      "FileName": "germany_sibling_scanner.py",
+      "RelativePath": "./germany_sibling_scanner.py",
+      "SizeBytes": 3359,
+      "SHA256": "e055872a46a6d7e7f242c88db038c0baf372f4cf7973e15d7c1ed49b486dc0ef"
+    },
+    {
+      "FileName": "zenodo_export_manifest.py",
+      "RelativePath": "./zenodo_export_manifest.py",
+      "SizeBytes": 4026,
+      "SHA256": "b21a3c988cce614a6923fd96fb74460aa88e102178b7ddaafbfdf18da93effaf"
+    },
+    {
+      "FileName": "switzerland_sibling_scanner.py",
+      "RelativePath": "./switzerland_sibling_scanner.py",
+      "SizeBytes": 3363,
+      "SHA256": "72fb0d69725c1b5b7804a4e4d7013dd982459c70e397cd3b20e6b83e3db56f34"
+    },
+    {
+      "FileName": "mexico_sibling_scanner.py",
+      "RelativePath": "./mexico_sibling_scanner.py",
+      "SizeBytes": 3268,
+      "SHA256": "502e4f534c154435524f89e0f72a1128a66303ddee9e59df9068bba6edbdce84"
+    },
+    {
+      "FileName": "france_inpi_sibling_scanner.py",
+      "RelativePath": "./france_inpi_sibling_scanner.py",
+      "SizeBytes": 3340,
+      "SHA256": "8e88389202d3b52e46ec3c1a9750446c8179fd424d222ca236cffd4fca4349ee"
+    },
+    {
+      "FileName": "canada_cipo_sibling_scanner.py",
+      "RelativePath": "./canada_cipo_sibling_scanner.py",
+      "SizeBytes": 3382,
+      "SHA256": "850ebcb618d2e1edcadd41c7f8a932a6cc81525b8cb800e49c5bf35b4fa3ea16"
+    },
+    {
+      "FileName": "audit_inspector.py",
+      "RelativePath": "./audit_inspector.py",
+      "SizeBytes": 2461,
+      "SHA256": "df12d26cddc4fe50d8dbabc10738ef4b0caedb7c0f5c9359277eb2c1ee38298c"
+    },
+    {
+      "FileName": "td_audit_pipeline.py",
+      "RelativePath": "./td_audit_pipeline.py",
+      "SizeBytes": 3467,
+      "SHA256": "87d1e899ffc4b08b28bd5333d2db424a300b250a36415432409fd80eac62134a"
+    },
+    {
+      "FileName": "hs_audit_pipeline.py",
+      "RelativePath": "./hs_audit_pipeline.py",
+      "SizeBytes": 2226,
+      "SHA256": "c5fa70b244cb308a579d2396063678defcf3947308b57e8653f2004b4a0cad22"
+    },
+    {
+      "FileName": "sg_audit_pipeline.py",
+      "RelativePath": "./sg_audit_pipeline.py",
+      "SizeBytes": 2242,
+      "SHA256": "4e1be43497539c8b83b268845d9f754d5ae3c2a8ff0821c61e048cb1fdf7025b"
+    },
+    {
+      "FileName": "il_audit_pipeline.py",
+      "RelativePath": "./il_audit_pipeline.py",
+      "SizeBytes": 2242,
+      "SHA256": "536660f86c4011da25cf3a3b576fd3f24439d4e0274dfe38c7a0dee7bf768bba"
+    },
+    {
+      "FileName": "dubai_audit_pipeline.py",
+      "RelativePath": "./dubai_audit_pipeline.py",
+      "SizeBytes": 2238,
+      "SHA256": "1c27244ff0274581067102fbc543c554083ed3d1acb4dae21dec1157ce17597e"
+    },
+    {
+      "FileName": "eu_audit_pipeline.py",
+      "RelativePath": "./eu_audit_pipeline.py",
+      "SizeBytes": 2256,
+      "SHA256": "17b0e345ba531502aad5418ccb9b3b7867e1d8bf1b2ace34fb7d12eb6d772d23"
+    },
+    {
+      "FileName": "deutsche_bank_audit.py",
+      "RelativePath": "./deutsche_bank_audit.py",
+      "SizeBytes": 2273,
+      "SHA256": "89ab1092252d93b6e34ea35c73718897aa63b5e73aea42845ed8494b5c8f1ae3"
+    },
+    {
+      "FileName": "finland_audit_pipeline.py",
+      "RelativePath": "./finland_audit_pipeline.py",
+      "SizeBytes": 2254,
+      "SHA256": "7128ce222b5efb8c35c6d7f1e7cbb9ceebba3c827b57fa960dce0c21cc6fbf76"
+    },
+    {
+      "FileName": "ilp_stream_simulator.py",
+      "RelativePath": "./ilp_stream_simulator.py",
+      "SizeBytes": 2305,
+      "SHA256": "70e6486bd35a3eb498860c421a61b0d191351660c82fab44837624a12b60adbe"
+    },
+    {
+      "FileName": "corporate_hierarchy.py",
+      "RelativePath": "./corporate_hierarchy.py",
+      "SizeBytes": 2591,
+      "SHA256": "f0bb593d408809a4fbcf5af7281e25e3675a2c12f009d403e78245b1dca6184a"
+    },
+    {
+      "FileName": "gov_institutions_hierarchy.py",
+      "RelativePath": "./gov_institutions_hierarchy.py",
+      "SizeBytes": 2897,
+      "SHA256": "561eb76cd7e29efa83adf56b804db165a62447e8d008e7f87f3471021378dedb"
+    },
+    {
+      "FileName": "russian_intelligence_hierarchy.py",
+      "RelativePath": "./russian_intelligence_hierarchy.py",
+      "SizeBytes": 2655,
+      "SHA256": "f80e454540aa7f6dc7808d1e4bf748b9bd6f4694d58131d1ee731e5eaf944b97"
+    },
+    {
+      "FileName": "master_audit_report.py",
+      "RelativePath": "./master_audit_report.py",
+      "SizeBytes": 3757,
+      "SHA256": "104f86d52fd35167abf80d2cbc4ba8dcf4a1b92156bae6d9c813d03b51a72115"
+    },
+    {
+      "FileName": "export_ip_manifest.py",
+      "RelativePath": "./export_ip_manifest.py",
+      "SizeBytes": 3765,
+      "SHA256": "c1d9cc48d98c91a3f338d0bcaed539e040063418e49eaca651f1830a8ab3129e"
+    },
+    {
+      "FileName": "ai_ecosystem_hierarchy.py",
+      "RelativePath": "./ai_ecosystem_hierarchy.py",
+      "SizeBytes": 2359,
+      "SHA256": "91e7a2acbfc736cb8818b2045b5a7598019f83b44934fe38a106c96c9b64bf37"
+    },
+    {
+      "FileName": "frontier_registry.py",
+      "RelativePath": "./frontier_registry.py",
+      "SizeBytes": 2318,
+      "SHA256": "6a431358b3105be38e71f4332c3a225408c6ba0eb6fa3a4da779d7a347f7efb7"
+    },
+    {
+      "FileName": "leader_follower_network.py",
+      "RelativePath": "./leader_follower_network.py",
+      "SizeBytes": 2596,
+      "SHA256": "eb5e60450f490e3ef1b09e5d14ca64f343bf247b02e8b2db514c6b0ea791fee2"
+    },
+    {
+      "FileName": "master_audit_manifest.json",
+      "RelativePath": "./master_audit_manifest.json",
+      "SizeBytes": 11632,
+      "SHA256": "6fca30dd11a99a024d711aa28d48d9eef79fc3df2d2153c15845293dd262068f"
+    },
+    {
+      "FileName": "cross_domain_query.py",
+      "RelativePath": "./cross_domain_query.py",
+      "SizeBytes": 2799,
+      "SHA256": "48a83231d6fe2c2c4e1100bbe371c4dfce269e803a282f7a008582387f5f3233"
+    },
+    {
+      "FileName": "generate_and_push.py",
+      "RelativePath": "./generate_and_push.py",
+      "SizeBytes": 1885,
+      "SHA256": "606466f8dc7f789c6b535d84812cefb107eaa0a3e777335b4af1ea38f6b94480"
+    },
+    {
+      "FileName": "corporate_audit_manifest_sealed_1790369990.json",
+      "RelativePath": "./corporate_audit_manifest_sealed_1790369990.json",
+      "SizeBytes": 718,
+      "SHA256": "fc2a5472a3b78a3a2e1bc5a31ed5ce9367bfb18a4fa3a27712027c95526657d0"
+    },
+    {
+      "FileName": "update_identity_manifest.py",
+      "RelativePath": "./update_identity_manifest.py",
+      "SizeBytes": 2254,
+      "SHA256": "b0a659ade4ba87a8ccbe4a2b3dc375f5c4bf6c7dc978514c2d44a76b6c4f8bab"
+    },
+    {
+      "FileName": "corporate_identity_attestation_1790370508.json",
+      "RelativePath": "./corporate_identity_attestation_1790370508.json",
+      "SizeBytes": 1045,
+      "SHA256": "bcb069b9d8c7d93d817600e620080cd638e23cca44eb41382f6a86a5dff147b4"
+    },
+    {
+      "FileName": "institutional_grievance_evidence_1790371429.json",
+      "RelativePath": "./institutional_grievance_evidence_1790371429.json",
+      "SizeBytes": 1878,
+      "SHA256": "10add926d383447b796f7b1fbb71723e5bdd4a50b6c55d4e9825321f11468256"
+    },
+    {
+      "FileName": "generate_public_audit_record.py",
+      "RelativePath": "./generate_public_audit_record.py",
+      "SizeBytes": 3299,
+      "SHA256": "46b3540a622ab2fc156ca487a9a27b52480ac5ebe6d6bedd13d890ec8122608f"
+    },
+    {
+      "FileName": "public_institutional_accountability_record_1790372404.json",
+      "RelativePath": "./public_institutional_accountability_record_1790372404.json",
+      "SizeBytes": 3233,
+      "SHA256": "83195735349e9e81da2415acec2437860b31d1bcf94d0209a9ece12319b4d7c6"
+    },
+    {
+      "FileName": "audit_ledger.db",
+      "RelativePath": "./audit_ledger.db",
+      "SizeBytes": 20480,
+      "SHA256": "c2fd8cea8d8273ba4cf0e70079fee906f0b61d091d548b5e1dc4708cd605ff4b"
+    },
+    {
+      "FileName": "parse_iso20022.py",
+      "RelativePath": "./parse_iso20022.py",
+      "SizeBytes": 1870,
+      "SHA256": "4429ffe4ca2f85682c81868c6a5385fe477475ad2b13abe911736612e2979243"
+    },
+    {
+      "FileName": "t5013_schedule12.xsd",
+      "RelativePath": "./t5013_schedule12.xsd",
+      "SizeBytes": 3842,
+      "SHA256": "e359d9e34e12e7fc68f8741bbfcb9bc92a0be1ea5c652aaf8c179132c5f68c69"
+    },
+    {
+      "FileName": "search_ledger.py",
+      "RelativePath": "./search_ledger.py",
+      "SizeBytes": 1807,
+      "SHA256": "c40e8dd2aa953ebffdc5dd62cf9f360571daaba8fd9e1b142d7d925b2cdf516e"
+    },
+    {
+      "FileName": "simulate_octopus_chain.py",
+      "RelativePath": "./simulate_octopus_chain.py",
+      "SizeBytes": 4002,
+      "SHA256": "a56d06c260b768610883b99161e99da553e54269a3c1739936977f77e44f428f"
+    },
+    {
+      "FileName": "simulate_wire.py",
+      "RelativePath": "./simulate_wire.py",
+      "SizeBytes": 1726,
+      "SHA256": "572b37edaefa49b97a91d53c2b3e3cbd6de4130a4f98430fb6db9bac48b54dd3"
+    },
+    {
+      "FileName": "submit_contract.py",
+      "RelativePath": "./submit_contract.py",
+      "SizeBytes": 920,
+      "SHA256": "35c07800287ad09ec2c84f2ea74d53038460ef7e61c740267f2e435eb9509f51"
+    },
+    {
+      "FileName": "trace_swift_transfer.py",
+      "RelativePath": "./trace_swift_transfer.py",
+      "SizeBytes": 1249,
+      "SHA256": "fce3511a75f7a2b72d1f9eae5e9876135528a691a61657ba946abcf52dd9f3d4"
+    },
+    {
+      "FileName": "track_bridge.py",
+      "RelativePath": "./track_bridge.py",
+      "SizeBytes": 1437,
+      "SHA256": "96ab4d7f6b44ba40ff88e844b73e0117c63544973e89b6fdcf2a3fcaa08f7708"
+    },
+    {
+      "FileName": "update_dashboard_data.py",
+      "RelativePath": "./update_dashboard_data.py",
+      "SizeBytes": 3340,
+      "SHA256": "330770c73fd085698e0c5e252f374ae90a0adf0ad27f2b173cf75a75f6ab0445"
+    },
+    {
+      "FileName": "update_taxonomy.py",
+      "RelativePath": "./update_taxonomy.py",
+      "SizeBytes": 6124,
+      "SHA256": "16bc5462f969bf8c7653f2f27e70e38effe77761a5d76acfd7aa7200a6741726"
+    },
+    {
+      "FileName": "validate_t5013_sched12.py",
+      "RelativePath": "./validate_t5013_sched12.py",
+      "SizeBytes": 3600,
+      "SHA256": "49644b0e43d6417934c8e64f5cd8450f99762af9333e5731431a362e2b076996"
+    },
+    {
+      "FileName": "verify_integrity.py",
+      "RelativePath": "./verify_integrity.py",
+      "SizeBytes": 2188,
+      "SHA256": "6a64bc12b43f89d2b07f6905cb42526c257447d5157b3242acf6bbe20d4e03cc"
+    },
+    {
+      "FileName": "view_amounts.py",
+      "RelativePath": "./view_amounts.py",
+      "SizeBytes": 2525,
+      "SHA256": "7128e2703bfec5a108e12fa9515b0eccc8de63496acd7d3646cfff9457105b55"
+    },
+    {
+      "FileName": "view_wires.py",
+      "RelativePath": "./view_wires.py",
+      "SizeBytes": 1282,
+      "SHA256": "505c40ff7a7743f512fd0b85fe635f0fe858827afed6506e092183cd326ac982"
+    },
+    {
+      "FileName": "wire_ledger.json",
+      "RelativePath": "./wire_ledger.json",
+      "SizeBytes": 1808,
+      "SHA256": "7039bd05004c58b988bc71cc8223fa6d1d8d540c45cdb553987d59385a4ab26f"
+    },
+    {
+      "FileName": "xml_deserializer.py",
+      "RelativePath": "./xml_deserializer.py",
+      "SizeBytes": 2055,
+      "SHA256": "1ccfc632cc8569dff66ca8e196660cf9e8ca9e87ce07596626d8620c5738cfe9"
+    },
+    {
+      "FileName": "xml_parser.py",
+      "RelativePath": "./xml_parser.py",
+      "SizeBytes": 2083,
+      "SHA256": "d6519e0f6ec260f259d92110799129f5ab5c98d111d09b0342c9a74bdb55f4b9"
+    },
+    {
+      "FileName": "xml_serializer.py",
+      "RelativePath": "./xml_serializer.py",
+      "SizeBytes": 3159,
+      "SHA256": "9024aeafde60eac91c39e32105d583cf460bc48522f8836047448b8bf6dda35c"
+    },
+    {
+      "FileName": "sibling_agent.py",
+      "RelativePath": "./sibling_agent.py",
+      "SizeBytes": 1880,
+      "SHA256": "88d7d06833717c024837696ddd9fc67dcaa2c4eb96f8473de5bb1047c1de4f00"
+    },
+    {
+      "FileName": "inspect_memo.py",
+      "RelativePath": "./inspect_memo.py",
+      "SizeBytes": 672,
+      "SHA256": "a39940e43cc4ac92eb658741604c70fb0445f1f922925cc4655e18aa1179785a"
+    },
+    {
+      "FileName": "wipo_lineage_report.json",
+      "RelativePath": "./wipo_lineage_report.json",
+      "SizeBytes": 918,
+      "SHA256": "09e2df9b837a7f56472737a1d925965a7b347654213d7565dbd90ae107e856c6"
+    },
+    {
+      "FileName": "verify_audit_suite.py",
+      "RelativePath": "./verify_audit_suite.py",
+      "SizeBytes": 1681,
+      "SHA256": "7102635276b1f545e078f8b5e4a860302a0e96b2953badec57fe2219e370b9e8"
+    },
+    {
+      "FileName": "financial_pipeline.py",
+      "RelativePath": "./financial_pipeline.py",
+      "SizeBytes": 1816,
+      "SHA256": "459d1c00f28b4d4499d8ee2b4438cf4a7dddf767c69a8285c3f0499c9e1691c3"
+    },
+    {
+      "FileName": "link_sibling_finance.py",
+      "RelativePath": "./link_sibling_finance.py",
+      "SizeBytes": 819,
+      "SHA256": "cad6f65ec3c35c5f4264e0fac0deeace6ce9f504c32eb0d0f27c8c2003c67452"
+    },
+    {
+      "FileName": "sibling_financial_bridge.json",
+      "RelativePath": "./sibling_financial_bridge.json",
+      "SizeBytes": 350,
+      "SHA256": "a7a2b90d7705283d0c1dec49a5cdf874d215eb15570d8de1d01dd755de4ea230"
+    },
+    {
+      "FileName": "tdbank_lineage_bridge.json",
+      "RelativePath": "./tdbank_lineage_bridge.json",
+      "SizeBytes": 327,
+      "SHA256": "10660f69ac5ede78733b083aeddc70b1c454151d36f91a224d8374d445949ae0"
+    },
+    {
+      "FileName": "update_verification_suite.py",
+      "RelativePath": "./update_verification_suite.py",
+      "SizeBytes": 654,
+      "SHA256": "5e5587c9803f32ef204be92a562fbc8516daf6c4966deb2172340d4ad0dfd874"
+    },
+    {
+      "FileName": "update_verification_questrade.py",
+      "RelativePath": "./update_verification_questrade.py",
+      "SizeBytes": 489,
+      "SHA256": "f5ce396f433da1e608fa95e1cdb8b2b7d4588ae8aca6cf4400b0e9e55d2a9895"
+    },
+    {
+      "FileName": "uspto_sibling_scanner.py",
+      "RelativePath": "./uspto_sibling_scanner.py",
+      "SizeBytes": 4745,
+      "SHA256": "4957d4740ed422ec99dd67f80c99f5be0ff59f4a5f145a5b99848c9f13219fd9"
+    },
+    {
+      "FileName": "eu_sibling_scanner.py",
+      "RelativePath": "./eu_sibling_scanner.py",
+      "SizeBytes": 3129,
+      "SHA256": "1d0eb80e0e2bcfa8856f7a926f87b2fa7300c55c86d31e3cad517e6f5fb5d18c"
+    },
+    {
+      "FileName": "australia_sibling_scanner.py",
+      "RelativePath": "./australia_sibling_scanner.py",
+      "SizeBytes": 3370,
+      "SHA256": "f8a57e60fb986bcaf51102bd1f33c2620c37e99ea8db7a2c849fb111419648e3"
+    },
+    {
+      "FileName": "generate_audit_dossier.py",
+      "RelativePath": "./generate_audit_dossier.py",
+      "SizeBytes": 6510,
+      "SHA256": "48160d9364006307324cca1b6ee42e8a9eff8da59a1e41241f096f51b62b0d7e"
+    },
+    {
+      "FileName": "uk_sibling_scanner.py",
+      "RelativePath": "./uk_sibling_scanner.py",
+      "SizeBytes": 3285,
+      "SHA256": "aa164df08b34a020a076c079c4968bbd04a436e00058462a06c855b9d928abd9"
+    },
+    {
+      "FileName": "update_dossier.py",
+      "RelativePath": "./update_dossier.py",
+      "SizeBytes": 129,
+      "SHA256": "bd59b713d428f9c07c5f610ed10eb8cf32b2ee1b1b5756a3f0997934caf35349"
+    },
+    {
+      "FileName": "zenodo_deposit_manifest.json",
+      "RelativePath": "./zenodo_deposit_manifest.json",
+      "SizeBytes": 2517,
+      "SHA256": "dc970e91bdb61d956be87656dac4f33679da347169849e6c53b08f575daa4799"
+    },
+    {
+      "FileName": "korea_sibling_scanner.py",
+      "RelativePath": "./korea_sibling_scanner.py",
+      "SizeBytes": 3344,
+      "SHA256": "ebb596ecde466c3d7bfe81d64cc9c44cb97f41849e600576cdd682a11a192a30"
+    },
+    {
+      "FileName": "russia_sibling_scanner.py",
+      "RelativePath": "./russia_sibling_scanner.py",
+      "SizeBytes": 3395,
+      "SHA256": "d03b17396bb1aee716e20f8715046169a848b791e0a7ff456e628a47e9d35558"
+    },
+    {
+      "FileName": "hk_audit_pipeline.py",
+      "RelativePath": "./hk_audit_pipeline.py",
+      "SizeBytes": 2255,
+      "SHA256": "9a551bd15450c84a99bc8f6d1e093c3bad3a161240b8228623c2eec2da66f5f4"
+    },
+    {
+      "FileName": "my_audit_pipeline.py",
+      "RelativePath": "./my_audit_pipeline.py",
+      "SizeBytes": 2236,
+      "SHA256": "d887e5b4ff24d466c234b2f82773b7486f49ce8c1b72e58e3928e2033a1a787a"
+    },
+    {
+      "FileName": "abu_audit_pipeline.py",
+      "RelativePath": "./abu_audit_pipeline.py",
+      "SizeBytes": 2269,
+      "SHA256": "a577f02f88ba6a6cff1beda4938b4ee322cdcaebb3294d4e27f8fea618a6f075"
+    },
+    {
+      "FileName": "bn_audit_pipeline.py",
+      "RelativePath": "./bn_audit_pipeline.py",
+      "SizeBytes": 2238,
+      "SHA256": "48d3963d29e027b6a061bbf8f204774d4f758d550ad20b769d396ec2cc0a01fb"
+    },
+    {
+      "FileName": "car_audit_pipeline.py",
+      "RelativePath": "./car_audit_pipeline.py",
+      "SizeBytes": 2279,
+      "SHA256": "6a8a076c900a9a319c39118a650706da8eebe75c59c94aa62f32ece1ac6b2501"
+    },
+    {
+      "FileName": "denmark_audit_pipeline.py",
+      "RelativePath": "./denmark_audit_pipeline.py",
+      "SizeBytes": 2254,
+      "SHA256": "591f5818a353128f71483117fa233497a28cea65f2bdd5d03a20127e5e834799"
+    },
+    {
+      "FileName": "master_audit_aggregation.py",
+      "RelativePath": "./master_audit_aggregation.py",
+      "SizeBytes": 2080,
+      "SHA256": "73219a79a1c1a0f7fe615af8d701b969447fa269291a4dc739bebff63d4deb22"
+    },
+    {
+      "FileName": "export_audit_manifest.py",
+      "RelativePath": "./export_audit_manifest.py",
+      "SizeBytes": 2051,
+      "SHA256": "ebbc084cb7004141a3adebe257a0400019f4c56b0ea1b688505863f4144357d0"
+    },
+    {
+      "FileName": "audit_manifest_latest.json",
+      "RelativePath": "./audit_manifest_latest.json",
+      "SizeBytes": 6533,
+      "SHA256": "fbd6cd4881f7fd6646698960091b4be1b2246b5aa7d424c652db9a6b10409e1c"
+    },
+    {
+      "FileName": "us_tier1_audit_pipeline.py",
+      "RelativePath": "./us_tier1_audit_pipeline.py",
+      "SizeBytes": 2462,
+      "SHA256": "db052873364e48879906b4d1d2472bfca6c7d5980c054d6bf3638af5ffd230e4"
+    },
+    {
+      "FileName": "bind_hierarchy_nodes.py",
+      "RelativePath": "./bind_hierarchy_nodes.py",
+      "SizeBytes": 2449,
+      "SHA256": "db4ae35147afbd10f7507496a7465811c63d7c17b541ca62f64a098f28a96089"
+    },
+    {
+      "FileName": "starlink_hierarchy.py",
+      "RelativePath": "./starlink_hierarchy.py",
+      "SizeBytes": 2570,
+      "SHA256": "611ea36e01e879b6c9300f01780e39ae39c602c114fe4c94c9f6d10648171162"
+    },
+    {
+      "FileName": "academic_tracking.py",
+      "RelativePath": "./academic_tracking.py",
+      "SizeBytes": 0,
+      "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "FileName": "ip_disclosure_manifest.json",
+      "RelativePath": "./ip_disclosure_manifest.json",
+      "SizeBytes": 7750,
+      "SHA256": "65e4c7679b8163f84d74df05f9e0e6287c1e5acaea8246796b30070c50cc6ad4"
+    },
+    {
+      "FileName": "verify_manifest.py",
+      "RelativePath": "./verify_manifest.py",
+      "SizeBytes": 1370,
+      "SHA256": "575efc283bb073367a49fcff1c40442b39bf939ce01b76e8b0697de0bd9ff70c"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./package.json",
+      "SizeBytes": 1264,
+      "SHA256": "c4ad09f3ec0ef3f4d714af6cc6724015aa71277075809ccd2b89f9e90dfedc0c"
+    },
+    {
+      "FileName": "package-lock.json",
+      "RelativePath": "./package-lock.json",
+      "SizeBytes": 51333,
+      "SHA256": "0236905bfe9d2e72759db3aa4660e7b7bc69903763b9a7e072ded2d9715854fc"
+    },
+    {
+      "FileName": "generate_grievance_evidence.py",
+      "RelativePath": "./generate_grievance_evidence.py",
+      "SizeBytes": 3045,
+      "SHA256": "3830cb6d51be052df40ea73077e001d7e16ea0b24c084c54c4a054528c9f0557"
+    },
+    {
+      "FileName": "public_audit_regulatory_record_1790371709.json",
+      "RelativePath": "./public_audit_regulatory_record_1790371709.json",
+      "SizeBytes": 2130,
+      "SHA256": "df738d2156f0782e17aa69d5cc0b60934790b4a2dea11b9a948abc0ed33d1693"
+    },
+    {
+      "FileName": "generate_public_accountability_record.py",
+      "RelativePath": "./generate_public_accountability_record.py",
+      "SizeBytes": 3551,
+      "SHA256": "e7476e821fb551fd3541ed88f29c80514e9e5b2acffab43d675a46b5e72043bd"
+    },
+    {
+      "FileName": "public_institutional_accountability_record_1790371821.json",
+      "RelativePath": "./public_institutional_accountability_record_1790371821.json",
+      "SizeBytes": 2361,
+      "SHA256": "7f29c3c859ebe278abd4f9b41b2844b6ed50049b209ddd0429b9ba39552b1b2a"
+    },
+    {
+      "FileName": "update_public_ledger_scotia.py",
+      "RelativePath": "./update_public_ledger_scotia.py",
+      "SizeBytes": 3830,
+      "SHA256": "c48365b3b3d2d2fa0434997fe15775c1e2ac8ce382c2921f3a462788e96a3542"
+    },
+    {
+      "FileName": "public_institutional_accountability_record_1790372106.json",
+      "RelativePath": "./public_institutional_accountability_record_1790372106.json",
+      "SizeBytes": 2590,
+      "SHA256": "de1e99deac780005113d7a5d16c014a7bf0cc9544f20f888eb63bd3c02ff68e3"
+    },
+    {
+      "FileName": "update_public_ledger_triad.py",
+      "RelativePath": "./update_public_ledger_triad.py",
+      "SizeBytes": 4233,
+      "SHA256": "d6b542adac9a4d63e677398b08e7f3d56ee5ae4049a7c992c84240ee94b137f1"
+    },
+    {
+      "FileName": "public_institutional_accountability_record_1790372189.json",
+      "RelativePath": "./public_institutional_accountability_record_1790372189.json",
+      "SizeBytes": 2954,
+      "SHA256": "46ae69ea4cee3882223c279e8e0a6c6974504a8adae3467b0a13455b31484beb"
+    },
+    {
+      "FileName": "update_public_ledger_atb.py",
+      "RelativePath": "./update_public_ledger_atb.py",
+      "SizeBytes": 4539,
+      "SHA256": "fbc8f7935aaca67395c3cad9e6145cc43fb92bdf79f309a3dad455f1f04d046e"
+    },
+    {
+      "FileName": "update_public_ledger_pentad.py",
+      "RelativePath": "./update_public_ledger_pentad.py",
+      "SizeBytes": 4735,
+      "SHA256": "0809a5e76ba687af32c7c9282ca8d97558cf78f59404bc6bc66ba3bcc0741e65"
+    },
+    {
+      "FileName": "public_institutional_accountability_record_1790372590.json",
+      "RelativePath": "./public_institutional_accountability_record_1790372590.json",
+      "SizeBytes": 3313,
+      "SHA256": "4f7df881174a589790c6de5293d0d4bb19e4e056c57ac9132088291b93591109"
+    },
+    {
+      "FileName": "concealment_audit_report.json",
+      "RelativePath": "./concealment_audit_report.json",
+      "SizeBytes": 26876,
+      "SHA256": "7c2bb28f0e5d09ffd6107c422ba9e5035f121b9c79b3e1504a56d42fc81f75b3"
+    },
+    {
+      "FileName": "sovereign_audit_master_manifest.json",
+      "RelativePath": "./sovereign_audit_master_manifest.json",
+      "SizeBytes": 2805,
+      "SHA256": "b7ba3e667fb36086122c333ee98fbef2059218271d1632f60430e7b0412c8045"
+    },
+    {
+      "FileName": "t661_part7_parsed.json",
+      "RelativePath": "./t661_part7_parsed.json",
+      "SizeBytes": 2437,
+      "SHA256": "ab8e898a423b63df67eeb9dfce17c515bd2b5c976b346741266be4df4eb10dd2"
+    },
+    {
+      "FileName": "t5013_schedule12_parsed.json",
+      "RelativePath": "./t5013_schedule12_parsed.json",
+      "SizeBytes": 2761,
+      "SHA256": "5b874f04cf696e429ce593171e355459661b996396e4d9081e242fe21c5921f7"
+    },
+    {
+      "FileName": "ingest_to_sqlite.py",
+      "RelativePath": "./ingest_to_sqlite.py",
+      "SizeBytes": 2570,
+      "SHA256": "e4be785d1bda2a3f7cf63a29a253465e5e6bd964d773bd53fa1c83c7e2de3fac"
+    },
+    {
+      "FileName": "annotationProcessors.json",
+      "RelativePath": "./app/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json",
+      "SizeBytes": 2,
+      "SHA256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "FileName": "output-metadata.json",
+      "RelativePath": "./app/build/intermediates/compatible_screen_manifest/debug/createDebugCompatibleScreenManifests/output-metadata.json",
+      "SizeBytes": 200,
+      "SHA256": "9ca877bd0d0f39969a95a7fa819989850338bd4e3583820c6228143682781815"
+    },
+    {
+      "FileName": "output-metadata.json",
+      "RelativePath": "./app/build/intermediates/merged_manifests/debug/processDebugManifest/output-metadata.json",
+      "SizeBytes": 393,
+      "SHA256": "148417edd542389b41cf8ca36bc707aef3f4f3c1089152adce582dfd1bbedab1"
+    },
+    {
+      "FileName": "mergeDebugResources.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/mergeDebugResources.json",
+      "SizeBytes": 635734,
+      "SHA256": "db85c3b5451f200120d99e65c884fa46043133dddd91bd6d02a1b9dce5955890"
+    },
+    {
+      "FileName": "values-af.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-af.json",
+      "SizeBytes": 6767,
+      "SHA256": "90d4c208ea9bf052167e3bc2d4d7d55f3d0ab423636de25681125aff96b3490b"
+    },
+    {
+      "FileName": "values-am.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-am.json",
+      "SizeBytes": 6742,
+      "SHA256": "6373548fecd69824489790f122aeef04334693e41d7b50cd4dcc4b804442aa08"
+    },
+    {
+      "FileName": "values-ar.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ar.json",
+      "SizeBytes": 6763,
+      "SHA256": "286a1ae2dbb1814033f1a75593a8d06a68aaa8d25c294c0d731feb00395a61ba"
+    },
+    {
+      "FileName": "values-as.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-as.json",
+      "SizeBytes": 6778,
+      "SHA256": "c81a8ab70bbc8b0a44b59e0fa23c9848ec85e0232c04a55787fdfc153fdda6de"
+    },
+    {
+      "FileName": "values-az.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-az.json",
+      "SizeBytes": 6778,
+      "SHA256": "ee2bb302d37f0d3b0ceb4a1b07dd26d9540605c87159b059d058684d16d0ff77"
+    },
+    {
+      "FileName": "values-b+sr+Latn.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-b+sr+Latn.json",
+      "SizeBytes": 6857,
+      "SHA256": "36347756f9032eb8db33fe42d600757ab0b3b089694ae0b4e5c64a0dc892fe58"
+    },
+    {
+      "FileName": "values-be.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-be.json",
+      "SizeBytes": 6775,
+      "SHA256": "bb11bd2c5dc64349f646fc7467b8c979012217aa44601ea8837b9f511f50c237"
+    },
+    {
+      "FileName": "values-bg.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-bg.json",
+      "SizeBytes": 6780,
+      "SHA256": "5ba2c9878db8a962a372a4ec41cb02040310451c45995e2c0534e25ccb5ae3c0"
+    },
+    {
+      "FileName": "values-bn.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-bn.json",
+      "SizeBytes": 6779,
+      "SHA256": "2f670cd773cf23c4a37fdae753ac420cc3111a04dab86f1978d9190651f26a8e"
+    },
+    {
+      "FileName": "values-bs.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-bs.json",
+      "SizeBytes": 6771,
+      "SHA256": "05b9928a6eb7670b28879bb0cc68a1fe8be0c6bcb651a4c1fcda80396047bf67"
+    },
+    {
+      "FileName": "values-ca.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ca.json",
+      "SizeBytes": 6776,
+      "SHA256": "3edb6cc27fc40ebfbe7799bd9d2312f982ca428bc3feb78b7552f83f5dd545c1"
+    },
+    {
+      "FileName": "values-cs.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-cs.json",
+      "SizeBytes": 6773,
+      "SHA256": "3323d84c34a58e1b16aad1017b00cd74e1c9830e9eb5e609ef4e92d459cbbb7a"
+    },
+    {
+      "FileName": "values-da.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-da.json",
+      "SizeBytes": 6762,
+      "SHA256": "dae89de0a1b0d8ccd998088455cdd0a9ee519c075096899d63a1cc75d9891726"
+    },
+    {
+      "FileName": "values-de.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-de.json",
+      "SizeBytes": 6776,
+      "SHA256": "fd0af1e656253a7f7d2417f800c20bb40b600af67c649fbb44cb575bdab8c8fb"
+    },
+    {
+      "FileName": "values-el.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-el.json",
+      "SizeBytes": 6782,
+      "SHA256": "db74f925d72fddb721d07e2edd1a39035ac05bd45105e0916741468c8ec15d2d"
+    },
+    {
+      "FileName": "values-en-rAU.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-en-rAU.json",
+      "SizeBytes": 4642,
+      "SHA256": "43e92318c4ec3dbb26722233c5b8d9088ddd31868811316d3bc0ea888a1e3897"
+    },
+    {
+      "FileName": "values-en-rCA.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-en-rCA.json",
+      "SizeBytes": 4642,
+      "SHA256": "faf08851ee7801305ee401bae29bdd326f227d719c199a95f88d99a919624613"
+    },
+    {
+      "FileName": "values-en-rGB.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-en-rGB.json",
+      "SizeBytes": 6809,
+      "SHA256": "69ba9197429cf8e0b699e4846379c135299df2b0ac63516f47f8a4c9f423e023"
+    },
+    {
+      "FileName": "values-en-rIN.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-en-rIN.json",
+      "SizeBytes": 4642,
+      "SHA256": "36aa8e48dd66162ede9c7aeffbd45bfdbccce2eec6bc98c7782ced4029127646"
+    },
+    {
+      "FileName": "values-en-rXC.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-en-rXC.json",
+      "SizeBytes": 4719,
+      "SHA256": "67a5f13e341b08a8962124e23bccf01ce68c8c5bf67ac88666aad5bcb2cb09d1"
+    },
+    {
+      "FileName": "values-es-rUS.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-es-rUS.json",
+      "SizeBytes": 6820,
+      "SHA256": "9d26636718b158d08c29aba6230d54ebaa8c9806fc08104fa21f50fc20194f24"
+    },
+    {
+      "FileName": "values-es.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-es.json",
+      "SizeBytes": 6774,
+      "SHA256": "8c823564986465105782659510b502e3b4caea4b1bc3f634591dd3b7347b0138"
+    },
+    {
+      "FileName": "values-et.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-et.json",
+      "SizeBytes": 6770,
+      "SHA256": "94036271a0dde49f024a4e3216b8734c14c547f31885ebbf02860d59bdfd3edb"
+    },
+    {
+      "FileName": "values-eu.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-eu.json",
+      "SizeBytes": 6771,
+      "SHA256": "e20588450fe29823012761bc38be65453e7c120609fee9152a136be0a06d63b7"
+    },
+    {
+      "FileName": "values-fa.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-fa.json",
+      "SizeBytes": 6770,
+      "SHA256": "44105028b2bd9ae206952561309517808c1a8269348eb980658a81b6c329a8bb"
+    },
+    {
+      "FileName": "values-fi.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-fi.json",
+      "SizeBytes": 6766,
+      "SHA256": "6e4bdd1008ea360cc916b6469da9c9f4574722bcdafb6fca5b5fa32605c5deea"
+    },
+    {
+      "FileName": "values-fr-rCA.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-fr-rCA.json",
+      "SizeBytes": 6830,
+      "SHA256": "366cde6701712cff43f051fdb563c02f58778ed10c3fbf971bca964575e2a7f7"
+    },
+    {
+      "FileName": "values-fr.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-fr.json",
+      "SizeBytes": 6778,
+      "SHA256": "170497786cd2e73db765809b7e898c22d0c2d5bd86248e857cb03a1f2ac1e929"
+    },
+    {
+      "FileName": "values-gl.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-gl.json",
+      "SizeBytes": 6774,
+      "SHA256": "c41de77cb8598078cb61bcdc8e4f6e588a209aca8ccd362608f9e1117a8b3fa7"
+    },
+    {
+      "FileName": "values-gu.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-gu.json",
+      "SizeBytes": 6768,
+      "SHA256": "5d486ec95a513e2611260cf3775f08f92299cd85382ffaba73104d080da3ad90"
+    },
+    {
+      "FileName": "values-h720dp-v13.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-h720dp-v13.json",
+      "SizeBytes": 712,
+      "SHA256": "c422c9a5e3d6d4ca767b8e041a66c05f966d13e6dd78c5eeb0363d4b9ff2df88"
+    },
+    {
+      "FileName": "values-hdpi-v4.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-hdpi-v4.json",
+      "SizeBytes": 741,
+      "SHA256": "8137f444d1a606fb9e8dd5ee924babde484808a5592e10834f867abdd1a50f82"
+    },
+    {
+      "FileName": "values-hi.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-hi.json",
+      "SizeBytes": 6776,
+      "SHA256": "d89efe72ec984b0e947b46bbd7ffaea29ea960ac42e3ac26ebc5da94794a5d3c"
+    },
+    {
+      "FileName": "values-hr.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-hr.json",
+      "SizeBytes": 6770,
+      "SHA256": "ee2ce03b693fbd905fb009b4ac4948a35cd9c7471615b5f0099f43569a2e9d16"
+    },
+    {
+      "FileName": "values-hu.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-hu.json",
+      "SizeBytes": 6776,
+      "SHA256": "401ed8c920253d69b5960938491e2edc6688c3b3d666256279bab54d80bbd642"
+    },
+    {
+      "FileName": "values-hy.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-hy.json",
+      "SizeBytes": 6770,
+      "SHA256": "9d4be70a1822bc33e9179d0577612068c395321d2e11210b944e6b21dada566a"
+    },
+    {
+      "FileName": "values-in.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-in.json",
+      "SizeBytes": 6770,
+      "SHA256": "e407d9b379383a5e2bc7a4ab0edeed25038a06e099e3eecc4f2bc845dc9b0030"
+    },
+    {
+      "FileName": "values-is.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-is.json",
+      "SizeBytes": 6768,
+      "SHA256": "dda474241d8c875b1b55ba4113300cd134618fce30dca0764db04076bcc5dcb8"
+    },
+    {
+      "FileName": "values-it.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-it.json",
+      "SizeBytes": 6771,
+      "SHA256": "bbe0bbbebcbd616f8ca9c7e8d9f3fb0d94fd04d5141a2190fa62a3769f246f75"
+    },
+    {
+      "FileName": "values-iw.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-iw.json",
+      "SizeBytes": 6760,
+      "SHA256": "9fc020ada903071ca5775e0611326ab7154687307c065da2828fbf5d59753538"
+    },
+    {
+      "FileName": "values-ja.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ja.json",
+      "SizeBytes": 6742,
+      "SHA256": "e0e18eae1285e83b14b686184a74901e67ea5950adb9169b7b428ac987b735c1"
+    },
+    {
+      "FileName": "values-ka.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ka.json",
+      "SizeBytes": 6772,
+      "SHA256": "9289858640c72bf638c31a22c80c966900a3549f564eff3d73d3c5e5c29c74ef"
+    },
+    {
+      "FileName": "values-kk.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-kk.json",
+      "SizeBytes": 6769,
+      "SHA256": "8300a993bcc5dc4825c196a2461b6a88eb93e496eef628f853291ad7b4c54e07"
+    },
+    {
+      "FileName": "values-km.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-km.json",
+      "SizeBytes": 6763,
+      "SHA256": "adb07797fb2fcf3d4bbc23947a9dfe3b07aacfc75c3d4812f703f7cdbb90fad3"
+    },
+    {
+      "FileName": "values-kn.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-kn.json",
+      "SizeBytes": 6776,
+      "SHA256": "9c6014883ecb8937b30d15434de5eebcafede1d1d13b792674627faab1e9b937"
+    },
+    {
+      "FileName": "values-ko.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ko.json",
+      "SizeBytes": 6735,
+      "SHA256": "7938173a7cae5c75368b8d3de37906a05a22e24a8d28afc739678ee6700e81c3"
+    },
+    {
+      "FileName": "values-ky.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ky.json",
+      "SizeBytes": 6776,
+      "SHA256": "d23c0b8c4f626b76104828b335e2aa28ae6455c375889c1dd86e83d6192c6621"
+    },
+    {
+      "FileName": "values-land.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-land.json",
+      "SizeBytes": 718,
+      "SHA256": "75ddc4ba4e3e4f660c4a4149c7c7ec01fdc4e309443aecd6a990c028108e2fea"
+    },
+    {
+      "FileName": "values-large-v4.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-large-v4.json",
+      "SizeBytes": 827,
+      "SHA256": "a33df18db9d59aa0d41b5543fcd53c529e6445ec790844a8fc5a76f8cee6a519"
+    },
+    {
+      "FileName": "values-ldltr-v21.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ldltr-v21.json",
+      "SizeBytes": 709,
+      "SHA256": "4718487c930a695d600e5b0eae1f1e3dd8366922dbd10d5775626a2e589a4528"
+    },
+    {
+      "FileName": "values-lo.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-lo.json",
+      "SizeBytes": 6764,
+      "SHA256": "785bdd7055d2966d956f3fc03502a82220ca9275f528f0ce66ec9997ef1f0aca"
+    },
+    {
+      "FileName": "values-lt.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-lt.json",
+      "SizeBytes": 6782,
+      "SHA256": "1f263e37aebb7a3a4302bde08afe445414802310140c26477e8c6140b35e5a71"
+    },
+    {
+      "FileName": "values-lv.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-lv.json",
+      "SizeBytes": 6794,
+      "SHA256": "65929fec5b66ba35f70ed7f7b7185f682d527a871babeacb8367bcaff74321ca"
+    },
+    {
+      "FileName": "values-mk.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-mk.json",
+      "SizeBytes": 6774,
+      "SHA256": "1b3bdee1cf1b94a05e08046bdc7dc8da7999d8f4ee034992fa5aff03dbecc9fa"
+    },
+    {
+      "FileName": "values-ml.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ml.json",
+      "SizeBytes": 6784,
+      "SHA256": "08a76dd172f5713adc23471f16896fa77ff20aa63ba2759661ec2c9d07e2741a"
+    },
+    {
+      "FileName": "values-mn.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-mn.json",
+      "SizeBytes": 6772,
+      "SHA256": "198c5ac2427eb965cc8926f5f67aca42f724f19937e23ce37e355a34557f86ad"
+    },
+    {
+      "FileName": "values-mr.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-mr.json",
+      "SizeBytes": 6776,
+      "SHA256": "21c35dc4a5414612cb1cc9c4daedc147c01bdd86644e53e7cfa186c27264a92d"
+    },
+    {
+      "FileName": "values-ms.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ms.json",
+      "SizeBytes": 6774,
+      "SHA256": "cfe59f7c4f415dff042a63abf44a3ec68b99215289167b747b94ad37c68968ee"
+    },
+    {
+      "FileName": "values-my.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-my.json",
+      "SizeBytes": 6784,
+      "SHA256": "21bdf24137a5bcd6fed0ee83112dbbd7402d538dc0de212d6022f533c5a253e9"
+    },
+    {
+      "FileName": "values-nb.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-nb.json",
+      "SizeBytes": 6761,
+      "SHA256": "61aa6735fc309a056598abf05844ce83a671bcc853a9a5156f100145fdbd06b4"
+    },
+    {
+      "FileName": "values-ne.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ne.json",
+      "SizeBytes": 6783,
+      "SHA256": "689f3fcc452f753604137dd84f32016a56b60b46566505548566cb990ee2fa14"
+    },
+    {
+      "FileName": "values-night-v8.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-night-v8.json",
+      "SizeBytes": 811,
+      "SHA256": "dfd0b90d4028a507a4f1509c0d8fe616a21058b30b703b47f0ca0316325aa3a9"
+    },
+    {
+      "FileName": "values-nl.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-nl.json",
+      "SizeBytes": 6774,
+      "SHA256": "642925452e216ec757820c1d64a4f8301785b639bff4c6873be0783ec98b9f0a"
+    },
+    {
+      "FileName": "values-or.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-or.json",
+      "SizeBytes": 6784,
+      "SHA256": "ac098431aabd2d0a1be15c36aa447858630b1f0651c2fede3562e3112fb863cb"
+    },
+    {
+      "FileName": "values-pa.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-pa.json",
+      "SizeBytes": 6769,
+      "SHA256": "875edc3b1143e2a2809f84ecac1c62fbe983cfea27334b3dc4a67d20c9c7d90b"
+    },
+    {
+      "FileName": "values-pl.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-pl.json",
+      "SizeBytes": 6765,
+      "SHA256": "272812de128f76bade8d05c37d7a82629ee3d4e7be99afac09dc2b650f86eb4c"
+    },
+    {
+      "FileName": "values-port.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-port.json",
+      "SizeBytes": 688,
+      "SHA256": "612f5cba8f516fd02f0824eb59869dd5c71bd32d61bc0a7dc7adf3c6eeec3f6a"
+    },
+    {
+      "FileName": "values-pt-rBR.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-pt-rBR.json",
+      "SizeBytes": 6822,
+      "SHA256": "4f22968abc3bb9e3bb2d683872eea383c86fafce1416cdb94bc1ad9a287beea6"
+    },
+    {
+      "FileName": "values-pt-rPT.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-pt-rPT.json",
+      "SizeBytes": 6820,
+      "SHA256": "984c2d6c3100cbf139a9614dae032ba7b6155fc204c7597e9e9b9b352582b29a"
+    },
+    {
+      "FileName": "values-pt.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-pt.json",
+      "SizeBytes": 4614,
+      "SHA256": "e93960d61fec40983f263a7aff0cf13758165e443369e3d39598fe8e768c85ff"
+    },
+    {
+      "FileName": "values-ro.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ro.json",
+      "SizeBytes": 6778,
+      "SHA256": "f4ce5916c6c31891cc00e18b5cf8b0e01226aefe6425b1532b34179eb4f2c411"
+    },
+    {
+      "FileName": "values-ru.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ru.json",
+      "SizeBytes": 6773,
+      "SHA256": "6c61a282405ecb7243d6ed6b81d808421deb516a87e16e5dc40f6b82452f8c91"
+    },
+    {
+      "FileName": "values-si.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-si.json",
+      "SizeBytes": 6776,
+      "SHA256": "49c767735efedaa4b9f43ee89d207bb062199f0e25c7d79da426f97463320f93"
+    },
+    {
+      "FileName": "values-sk.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sk.json",
+      "SizeBytes": 6773,
+      "SHA256": "9515ca0ccfdd294791d9caae0f327b0329b5b096f70d657d53c10dc50566559a"
+    },
+    {
+      "FileName": "values-sl.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sl.json",
+      "SizeBytes": 6773,
+      "SHA256": "3bc8c35e5cb2572ffad45b6f54ec1ca85838c8238f4f1f0c0a428499bbc2e6aa"
+    },
+    {
+      "FileName": "values-sq.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sq.json",
+      "SizeBytes": 6772,
+      "SHA256": "1b762855f103b816b6a16ddad760b4b429aa93b7dd23941da6fc7ca31c0cfc03"
+    },
+    {
+      "FileName": "values-sr.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sr.json",
+      "SizeBytes": 6773,
+      "SHA256": "e95448a3d8290789890c5cd12436cd277b452bd33ad8418e431b3e2d124d5af5"
+    },
+    {
+      "FileName": "values-sv.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sv.json",
+      "SizeBytes": 6765,
+      "SHA256": "9ce7d7622acad72cf719f5d5461d84d0d4a0e13b3d5aa84e361ba3830c58a64d"
+    },
+    {
+      "FileName": "values-sw.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sw.json",
+      "SizeBytes": 6771,
+      "SHA256": "94463143a08ea88b58d6877310699e48a135680af4c8ba5048d10a04c3e09e91"
+    },
+    {
+      "FileName": "values-sw600dp-v13.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-sw600dp-v13.json",
+      "SizeBytes": 821,
+      "SHA256": "a7d7e6e5979512e91c4654e0d2512dabb45f6adf71fddba3bdf74c81e4322edd"
+    },
+    {
+      "FileName": "values-ta.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ta.json",
+      "SizeBytes": 6781,
+      "SHA256": "d340922f3e9526a7068fb4861cff03fa21bfa4f50a4902c3e8772d36e7308642"
+    },
+    {
+      "FileName": "values-te.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-te.json",
+      "SizeBytes": 6782,
+      "SHA256": "244c486c06f8b95b9fa329a650a027b36c44063fcd3f69c36a926646cccbb76c"
+    },
+    {
+      "FileName": "values-th.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-th.json",
+      "SizeBytes": 6764,
+      "SHA256": "d237b21e795486cc52b8f5f1d5dc34188e9eb85f07bcaeb27410b66b1766a6b3"
+    },
+    {
+      "FileName": "values-tl.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-tl.json",
+      "SizeBytes": 6778,
+      "SHA256": "f3ab76224d1377bf2d3ae3e28b08f819fbac82bd46c7b74d0257dd0d8bad6a7d"
+    },
+    {
+      "FileName": "values-tr.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-tr.json",
+      "SizeBytes": 6770,
+      "SHA256": "8fe77baaa6c347a279937332c62ab790194e91bff85733e0b73e3a7cd4e6e795"
+    },
+    {
+      "FileName": "values-uk.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-uk.json",
+      "SizeBytes": 6776,
+      "SHA256": "f721e8a9904ef76f018e7912e1bd30cad4d3a527f0cd181cce714f3c31aa0dfc"
+    },
+    {
+      "FileName": "values-ur.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-ur.json",
+      "SizeBytes": 6777,
+      "SHA256": "6b230c29a656bc5d9ae6afd1ecd1943a8370200fb9e1b0b735b7f77fb84e371f"
+    },
+    {
+      "FileName": "values-uz.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-uz.json",
+      "SizeBytes": 6770,
+      "SHA256": "d3cee8223974829f947b768b4b2c1b2b0036b74ce9909dab3ea27f1e36a4dfcd"
+    },
+    {
+      "FileName": "values-v16.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v16.json",
+      "SizeBytes": 725,
+      "SHA256": "27d3e4adebb52bdc2589e890f9ac76fb357c3f5f609c3dfb5b89e8ac09151077"
+    },
+    {
+      "FileName": "values-v17.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v17.json",
+      "SizeBytes": 1049,
+      "SHA256": "1bc90eb09a8abd2537b675f5b29d5e6698787c096bf7cd9fc4bd3bf4d93ed0b1"
+    },
+    {
+      "FileName": "values-v18.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v18.json",
+      "SizeBytes": 683,
+      "SHA256": "c4fc79284e8d1d81e7fda6dc8d0ae2eb7219abbba0f65476296a0fc14e098521"
+    },
+    {
+      "FileName": "values-v21.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v21.json",
+      "SizeBytes": 7269,
+      "SHA256": "7507d3d946c9a1decb99b34e4f62af3ea04280622b4447f5820452121a743a5b"
+    },
+    {
+      "FileName": "values-v22.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v22.json",
+      "SizeBytes": 777,
+      "SHA256": "1c88e664e1f99caf637a8e1855d35c3d8f326fc5c2d217020011c05ce541d808"
+    },
+    {
+      "FileName": "values-v23.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v23.json",
+      "SizeBytes": 991,
+      "SHA256": "763d28a7e7a4ba3eadb37acc0e82886b365d423d771427cb0937fbc13d6a2454"
+    },
+    {
+      "FileName": "values-v24.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v24.json",
+      "SizeBytes": 701,
+      "SHA256": "5cf5edfeee7e14e3fcef4536fd9e6b7f9a8feb61e5a4b798a990fca9d5de0020"
+    },
+    {
+      "FileName": "values-v25.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v25.json",
+      "SizeBytes": 776,
+      "SHA256": "5196f9dc41f9678f5fd21a4ef3f5d12f4135783e2f0f364226c163fcc7c5c4cf"
+    },
+    {
+      "FileName": "values-v26.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v26.json",
+      "SizeBytes": 815,
+      "SHA256": "5cbce555f0a4ee1ee4f71eb07991eba5d53fe34e029641da5696bf7ac8bb97f5"
+    },
+    {
+      "FileName": "values-v28.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-v28.json",
+      "SizeBytes": 777,
+      "SHA256": "2e9ede3ffbb9f892b7eeb9097c9622ded88c66bc6fe5e135348733cb8d8393c2"
+    },
+    {
+      "FileName": "values-vi.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-vi.json",
+      "SizeBytes": 6772,
+      "SHA256": "03c92e52b9bb2dd9a7c64629d7f6a1d22d274bc3bd0de57be0377cb17b7b8f8a"
+    },
+    {
+      "FileName": "values-watch-v20.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-watch-v20.json",
+      "SizeBytes": 2140,
+      "SHA256": "c528e2f306b05b9e569c06be494d9f0ed5d0986d6e1de37e9ddfabde2042c13f"
+    },
+    {
+      "FileName": "values-watch-v21.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-watch-v21.json",
+      "SizeBytes": 785,
+      "SHA256": "ea32f3f2690f40159ffb132ac85da12c8aa421274422e714a4ce46d4cdb79231"
+    },
+    {
+      "FileName": "values-xlarge-v4.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-xlarge-v4.json",
+      "SizeBytes": 783,
+      "SHA256": "831cc07c27100613aef3de9297edb4f0c61b72ec96921e5e057457a4ae2b77da"
+    },
+    {
+      "FileName": "values-zh-rCN.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-zh-rCN.json",
+      "SizeBytes": 6779,
+      "SHA256": "214424c18d6cd9bf33fd89ec5e4224fb89ee4cf5963f51d624af8754b9f49701"
+    },
+    {
+      "FileName": "values-zh-rHK.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-zh-rHK.json",
+      "SizeBytes": 6780,
+      "SHA256": "f4c2241f4b44e139b7ec2cb999d25928bb20a86a59e14246970a2a66036c8c6a"
+    },
+    {
+      "FileName": "values-zh-rTW.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-zh-rTW.json",
+      "SizeBytes": 6777,
+      "SHA256": "567140f1e2e80e505e32dcb245f118e243ce0b4c2a82a0913c01d607c3a39e22"
+    },
+    {
+      "FileName": "values-zu.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values-zu.json",
+      "SizeBytes": 6773,
+      "SHA256": "dccc163963cd4082be1b81ffe2d4b0dd4bac4a18802baf5796cf0576a7f54ed9"
+    },
+    {
+      "FileName": "values.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/multi-v2/values.json",
+      "SizeBytes": 49267,
+      "SHA256": "91c1e871c4a753a1ceb3db6d75781f8004cf78b6ce4f2156f053d0b60d6fab9e"
+    },
+    {
+      "FileName": "mergeDebugResources.json",
+      "RelativePath": "./app/build/intermediates/merged_res_blame_folder/debug/mergeDebugResources/out/single/mergeDebugResources.json",
+      "SizeBytes": 186,
+      "SHA256": "bca88b373604f6cbc1dd1e8a1e9e4329bc2517ef66f964e9289dc42238a93f93"
+    },
+    {
+      "FileName": "navigation.json",
+      "RelativePath": "./app/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json",
+      "SizeBytes": 2,
+      "SHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "FileName": "output-metadata.json",
+      "RelativePath": "./app/build/intermediates/packaged_manifests/debug/processDebugManifestForPackage/output-metadata.json",
+      "SizeBytes": 395,
+      "SHA256": "0cb6ef82de8c2d2a55c6ee2d9ac9dd3c9b0c0f1972939538749b6d08b8deeabb"
+    },
+    {
+      "FileName": "dapp-manifest.json",
+      "RelativePath": "./manifests/dapp-manifest.json",
+      "SizeBytes": 715,
+      "SHA256": "dac41cfd6831da9de7b97daccba547edffae4936a19f37cd84b433b8b77bb3dc"
+    },
+    {
+      "FileName": "portfolio-provenance-manifest.json",
+      "RelativePath": "./manifests/portfolio-provenance-manifest.json",
+      "SizeBytes": 3062,
+      "SHA256": "acb8a6064091e30996a916749c0add11a6c364cbbd16bc509037eb9b8a9ca3c9"
+    },
+    {
+      "FileName": "audit_pipeline.py",
+      "RelativePath": "./scripts/audit_pipeline.py",
+      "SizeBytes": 4390,
+      "SHA256": "61f93ba3120c2319148379c27ddef6442831269bbd43a984b4b54417f570be52"
+    },
+    {
+      "FileName": "check_transfer.py",
+      "RelativePath": "./scripts/check_transfer.py",
+      "SizeBytes": 1727,
+      "SHA256": "2b78975b24de67f754ca5d3f67dc455afd551375ba7d241ac22d9db5f4850ba4"
+    },
+    {
+      "FileName": "export_provenance.py",
+      "RelativePath": "./scripts/export_provenance.py",
+      "SizeBytes": 0,
+      "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "FileName": "ingest_hardware_sync.py",
+      "RelativePath": "./scripts/ingest_hardware_sync.py",
+      "SizeBytes": 2115,
+      "SHA256": "e6d119533b7b04f05b336271d854373666f4eebd77a9496d043e62beb06f044f"
+    },
+    {
+      "FileName": "keystore_bridge.py",
+      "RelativePath": "./scripts/keystore_bridge.py",
+      "SizeBytes": 1524,
+      "SHA256": "8a853974147989979af390ba2d3cea071530116c3629dd4faae34d66f80bea98"
+    },
+    {
+      "FileName": "node_health_audit.py",
+      "RelativePath": "./scripts/node_health_audit.py",
+      "SizeBytes": 3433,
+      "SHA256": "8c6ca26651f6e3ff6409c5e884907a16967c2ebf6ccbbee6c820a75612d8a57b"
+    },
+    {
+      "FileName": "portfolio_summary.py",
+      "RelativePath": "./scripts/portfolio_summary.py",
+      "SizeBytes": 1256,
+      "SHA256": "abbde923663fe52ee69b5c68c6cd3c67923f571e98024f85e6cdfdbd0cdce587"
+    },
+    {
+      "FileName": "rpc_bridge.py",
+      "RelativePath": "./scripts/rpc_bridge.py",
+      "SizeBytes": 1180,
+      "SHA256": "c7f5140312b63b0f0c850a20bddb226697588dea34162e028816a6a8974dbd22"
+    },
+    {
+      "FileName": "view_audit_log.py",
+      "RelativePath": "./scripts/view_audit_log.py",
+      "SizeBytes": 1348,
+      "SHA256": "1521ff308abe5adf97093d6136136a02c74b5b66d15f6cc449a734d7bfdf2cfc"
+    },
+    {
+      "FileName": ".package-lock.json",
+      "RelativePath": "./node_modules/.package-lock.json",
+      "SizeBytes": 34417,
+      "SHA256": "ad7c4ecd15ec01638e8c3dd9e22f34a2035f6920200369d399fb38f9594ac6d2"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@nomicfoundation/solidity-analyzer-darwin-arm64/package.json",
+      "SizeBytes": 314,
+      "SHA256": "bcb52d5920161db960e1af62f5296ad3d9363cd97f85de8dd54fae49162ad7f9"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@nomicfoundation/solidity-analyzer-darwin-x64/package.json",
+      "SizeBytes": 308,
+      "SHA256": "dcb47ff7219da71cee3444ee5bd0639a6fcb61446c68483fc92f175b12d79ef4"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@nomicfoundation/solidity-analyzer-linux-arm64-gnu/package.json",
+      "SizeBytes": 323,
+      "SHA256": "407db5abb96a46d144f2d592a6223ed75f37dc288adc4d6c76743eb3dccb8a05"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@nomicfoundation/solidity-analyzer-linux-x64-gnu/package.json",
+      "SizeBytes": 317,
+      "SHA256": "c39c5624401754690ce6b3d2f75c22090ea5bdfbe875fc5c759f500e67948336"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@nomicfoundation/solidity-analyzer-linux-x64-musl/package.json",
+      "SizeBytes": 320,
+      "SHA256": "1134239b8cdfe43ca2488340d299775c0ece9f7e438800704e183377d6291d09"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@nomicfoundation/solidity-analyzer-linux-arm64-musl/package.json",
+      "SizeBytes": 326,
+      "SHA256": "525022b722cf17fc937d13a0d1ba1ebae5e9604427f89c3050f6f08c131bab91"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@nomicfoundation/solidity-analyzer-win32-x64-msvc/package.json",
+      "SizeBytes": 320,
+      "SHA256": "699aa7fa97569c45a7e3290858b3fcd261f8dcd1bb7ad8cb6be94b7894375e2d"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@nomicfoundation/edr/package.json",
+      "SizeBytes": 3258,
+      "SHA256": "7cefe529b6047ec290e9bc45c3b5b48aca053b2217831ad86e174dd6c12b3cfd"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@nomicfoundation/hardhat-vendored/package.json",
+      "SizeBytes": 2257,
+      "SHA256": "ad8f802f720e108ee227ebfee30da5d5707c6e0c6341a68e653be79085184687"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@nomicfoundation/hardhat-ethers/package.json",
+      "SizeBytes": 2418,
+      "SHA256": "52edcebac327df79935ab4ab948af0a7ee1516913729c69345c1c11887daae2d"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@nomicfoundation/solidity-analyzer/package.json",
+      "SizeBytes": 1806,
+      "SHA256": "35740ddb80bd2745e65f7eb23cad2f4fc2d5c0fa44e4c925efc027051f79d63a"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@nomicfoundation/hardhat-zod-utils/package.json",
+      "SizeBytes": 2371,
+      "SHA256": "f7af2d78063c5a9bab845adc5eb17b26e60e80a07991c1d2de06204c1eef10de"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@nomicfoundation/hardhat-errors/package.json",
+      "SizeBytes": 2185,
+      "SHA256": "af52c59fcc45c40642a7567d5dbb98ce0c39c68aa499c0d70ffc6e6b235f586f"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@nomicfoundation/hardhat-utils/package.json",
+      "SizeBytes": 3464,
+      "SHA256": "303b543d28bc3c82d0309f0de62f0ea2dac80a0ba770f58c0e12c9bc6ca730a4"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@streamparser/json/package.json",
+      "SizeBytes": 1493,
+      "SHA256": "a015b6b23570fa5fe6b88751fa1bb858a1352d19d730c537bb4e6e822d2a0b20"
+    },
+    {
+      "FileName": "tsconfig.json",
+      "RelativePath": "./node_modules/@streamparser/json/tsconfig.json",
+      "SizeBytes": 77,
+      "SHA256": "9c0bb52e80341fe5755c5d057b81654a15aa9064810709fb7a701c4c6c4b2a74"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@streamparser/json/dist/cjs/package.json",
+      "SizeBytes": 24,
+      "SHA256": "73513439b93b2391b8a67720b5e0959f46afc909c1f0fc7dd73b79c5ae36bda7"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@streamparser/json-node/package.json",
+      "SizeBytes": 1615,
+      "SHA256": "a7a5560d55f2aee76b5563e76b89c5101a98a420e3be41688f8aa7fd26d4955d"
+    },
+    {
+      "FileName": "tsconfig.json",
+      "RelativePath": "./node_modules/@streamparser/json-node/tsconfig.json",
+      "SizeBytes": 77,
+      "SHA256": "9c0bb52e80341fe5755c5d057b81654a15aa9064810709fb7a701c4c6c4b2a74"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@streamparser/json-node/dist/cjs/package.json",
+      "SizeBytes": 24,
+      "SHA256": "73513439b93b2391b8a67720b5e0959f46afc909c1f0fc7dd73b79c5ae36bda7"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@noble/ciphers/package.json",
+      "SizeBytes": 4463,
+      "SHA256": "d4fd92770dc4d2af454902aaea3e16f053e6f8b48ad2d95c016c662a5f1be2d4"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@noble/ciphers/esm/package.json",
+      "SizeBytes": 147,
+      "SHA256": "bd389eb8cfe61883bac2f31e1369498979fe1039c19d960088e863ef5d822b4d"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@noble/ciphers/src/package.json",
+      "SizeBytes": 23,
+      "SHA256": "3ca9d4afd21425087cf31893b8f9f63c81b0b8408db5e343ca76e5f8aa26ab9a"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@noble/curves/package.json",
+      "SizeBytes": 7155,
+      "SHA256": "3d2670188c9e042faf02cf3a3b94d0e1fcdd32d8e51aca2d1215708ad4497a9a"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@noble/curves/esm/package.json",
+      "SizeBytes": 47,
+      "SHA256": "6b91de8cd0baca43d2c3a0a29ccf86cb582eaa8a20bdf61e1ead35b0c447a351"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@noble/curves/src/package.json",
+      "SizeBytes": 23,
+      "SHA256": "3ca9d4afd21425087cf31893b8f9f63c81b0b8408db5e343ca76e5f8aa26ab9a"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@noble/hashes/package.json",
+      "SizeBytes": 6734,
+      "SHA256": "7c4657c5e616c22cefa2691cc30670824a639dc71d97bf83925be2d239dc60e3"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@noble/hashes/esm/package.json",
+      "SizeBytes": 147,
+      "SHA256": "bd389eb8cfe61883bac2f31e1369498979fe1039c19d960088e863ef5d822b4d"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@scure/bip39/package.json",
+      "SizeBytes": 2962,
+      "SHA256": "151886550749a81544445ab42710109941fb643a0ba8c674253d99fefa2c1b24"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@scure/bip39/esm/package.json",
+      "SizeBytes": 22,
+      "SHA256": "d2aaf324399446516b42d82624be18adcd6465fddf100b7ba79f57323f63da52"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@scure/base/package.json",
+      "SizeBytes": 1779,
+      "SHA256": "55662e9d984231ed6fb2b4b36e4acb96075b44f8b1478c8bd51c6b03a888c25c"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@scure/base/lib/esm/package.json",
+      "SizeBytes": 43,
+      "SHA256": "2ce1adbdeda823b44d6f39dc05828240810979ba1314dace973096d1df1a799f"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@scure/bip32/package.json",
+      "SizeBytes": 1551,
+      "SHA256": "8820d4ea4671d2a3b08165b343a06a8c073134bfa673650c68543bded6180a35"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@scure/bip32/lib/esm/package.json",
+      "SizeBytes": 46,
+      "SHA256": "275d6cab7dfa8f19cd9dc08c323da4d1946c13f1888bcede8d4f0e34fda59322"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@themartiancompany/solidity-analyzer-android-arm64/package.json",
+      "SizeBytes": 322,
+      "SHA256": "3c8cefd123212c9fe1df29bdd2868e636ce1039655f10ab850152f615d5b65fa"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/package.json",
+      "SizeBytes": 786,
+      "SHA256": "3c1a597cb911ffc2988c038d83ee93e1f8bf0ad17769d6bb0368d08bc350d773"
+    },
+    {
+      "FileName": "AbstractSigner.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/AbstractSigner.json",
+      "SizeBytes": 265,
+      "SHA256": "c8bdf917062d7b5ea3fd1ba016a0b70950ad5de72ad6765bc0ab69108de93be7"
+    },
+    {
+      "FileName": "AccessControl.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/AccessControl.json",
+      "SizeBytes": 4966,
+      "SHA256": "9b2087f319d46965cc81c8285bb5058bd519efe99ba05ea6ab6f7a9f61b63843"
+    },
+    {
+      "FileName": "AccessControlDefaultAdminRules.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/AccessControlDefaultAdminRules.json",
+      "SizeBytes": 9867,
+      "SHA256": "0abce4c4876a8a8df6a96880cebe6ca22a7d6a7164baa1da593e4da031f25d37"
+    },
+    {
+      "FileName": "AccessControlEnumerable.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/AccessControlEnumerable.json",
+      "SizeBytes": 6245,
+      "SHA256": "5462493d158f32cc626cfd11d2a30c7a17226dd2bb52e72b60184d6e83b94f36"
+    },
+    {
+      "FileName": "AccessManaged.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/AccessManaged.json",
+      "SizeBytes": 2083,
+      "SHA256": "d5d6dd4fc0189e5e9f5553f07506ae5fd53f980d380045cbb1e513fd83ae6fe7"
+    },
+    {
+      "FileName": "AccessManager.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/AccessManager.json",
+      "SizeBytes": 67809,
+      "SHA256": "f2188caedf8685eefad06e7441ebd33a32272a0867d5cb20504c6cd9f773ed2b"
+    },
+    {
+      "FileName": "Account.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Account.json",
+      "SizeBytes": 3320,
+      "SHA256": "b9c54d56a6ed29397b3d47ffa5c9e6e0ce5c853c4b048c43555c6d1d3d958524"
+    },
+    {
+      "FileName": "AccountERC7579.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/AccountERC7579.json",
+      "SizeBytes": 10969,
+      "SHA256": "e54b2a9c1dc32ee35742c368af8d37cad6b6e693f3c15628fa0baf1feea9cf45"
+    },
+    {
+      "FileName": "AccountERC7579Hooked.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/AccountERC7579Hooked.json",
+      "SizeBytes": 11438,
+      "SHA256": "147e209b9751e7965d5951bb0739c618bad9825120de2a744aaab53d2658658d"
+    },
+    {
+      "FileName": "Accumulators.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Accumulators.json",
+      "SizeBytes": 688,
+      "SHA256": "ad4a26f8ce9c16737313a22027140c661ad375f4680d4e948e8a20ca3d311b62"
+    },
+    {
+      "FileName": "Address.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Address.json",
+      "SizeBytes": 881,
+      "SHA256": "33b79468cbf08f67251f34297ca43abcb7ba098b127f141b20ee92489672c214"
+    },
+    {
+      "FileName": "Arrays.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Arrays.json",
+      "SizeBytes": 668,
+      "SHA256": "d6cb21850fa5a1baaaa9218deb8f137566fac884327d23fb1c060b0afe095260"
+    },
+    {
+      "FileName": "AuthorityUtils.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/AuthorityUtils.json",
+      "SizeBytes": 693,
+      "SHA256": "5ce5149679188029a276b2d2bb127b00ad983a818814fade19f3cf65771fb29a"
+    },
+    {
+      "FileName": "Base58.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Base58.json",
+      "SizeBytes": 872,
+      "SHA256": "30096335317a0019f6ccc6420fc88495c827c9049c256f237ebd60de9586e99a"
+    },
+    {
+      "FileName": "Base64.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Base64.json",
+      "SizeBytes": 872,
+      "SHA256": "b5697e388bf2405ccdb7f4e092ce7456b475fc00a6a223e47c9cbb965cc59a35"
+    },
+    {
+      "FileName": "BeaconProxy.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/BeaconProxy.json",
+      "SizeBytes": 4994,
+      "SHA256": "cb175fa44a83d0efb9f52ecd5fd55927b99d845d642b468c6d05f4b2b74e2c96"
+    },
+    {
+      "FileName": "BitMaps.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/BitMaps.json",
+      "SizeBytes": 678,
+      "SHA256": "3d5e81929159db108cdfedbbb92ee95a22b6c1220d907fd10020bbb1985b90e4"
+    },
+    {
+      "FileName": "Blockhash.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Blockhash.json",
+      "SizeBytes": 674,
+      "SHA256": "bc5d489af48a284f9ae38268133df4c72b726a8e6bf2a49f36b6290654e22ac9"
+    },
+    {
+      "FileName": "BridgeERC20.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/BridgeERC20.json",
+      "SizeBytes": 5315,
+      "SHA256": "88a9582f6b773d81641eca64df25e9019905e0dc1a5edab6505c067e89f4341e"
+    },
+    {
+      "FileName": "BridgeERC7802.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/BridgeERC7802.json",
+      "SizeBytes": 5105,
+      "SHA256": "0d95399a9cbac009dad3a01984be9d85e3965395fff5663234b99ffeecb8d40d"
+    },
+    {
+      "FileName": "BridgeFungible.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/BridgeFungible.json",
+      "SizeBytes": 4857,
+      "SHA256": "c68608d7f44ce78bc594a806566e507e0b7787b58827828e53e974b3ae6ea2c7"
+    },
+    {
+      "FileName": "Bytes.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Bytes.json",
+      "SizeBytes": 666,
+      "SHA256": "5d5ff4929b561f1f9f3bc8e6d8f46bc8aa3540cbf13a7468e8cfa3812d656739"
+    },
+    {
+      "FileName": "CAIP10.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/CAIP10.json",
+      "SizeBytes": 668,
+      "SHA256": "f139eb44b358cca42d5af62add4084e5622e37f4523ebf8ef97bbc9c884e41c1"
+    },
+    {
+      "FileName": "CAIP2.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/CAIP2.json",
+      "SizeBytes": 666,
+      "SHA256": "427f4ef0ca70cabdd441a36b231b336196d77af9a33f152f531dac2815ed0acb"
+    },
+    {
+      "FileName": "Calldata.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Calldata.json",
+      "SizeBytes": 672,
+      "SHA256": "2d6732e3468b007db44c7547cf85410ec003591aeab38344280263c071e83d34"
+    },
+    {
+      "FileName": "Checkpoints.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Checkpoints.json",
+      "SizeBytes": 789,
+      "SHA256": "5139111cc13e303d462066a06bd1e3a213979c4c6a9c2c68818923c1665c641f"
+    },
+    {
+      "FileName": "CircularBuffer.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/CircularBuffer.json",
+      "SizeBytes": 784,
+      "SHA256": "7128d266fb11925666c1d9303e05dc29046067b853dcc42045d9ca43ee237480"
+    },
+    {
+      "FileName": "Clones.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Clones.json",
+      "SizeBytes": 764,
+      "SHA256": "6cfb68affe4ad1a82203cdd89c9dd72025dec3a736a1682efb608a045cc1f676"
+    },
+    {
+      "FileName": "Comparators.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Comparators.json",
+      "SizeBytes": 678,
+      "SHA256": "249b8e33f1319d1457a25e6944e9f6e01cdc00b57fd99b17f7a098d0c4b3bf48"
+    },
+    {
+      "FileName": "Context.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Context.json",
+      "SizeBytes": 230,
+      "SHA256": "7f0493b521fb290617ff1770ce4332ffd9bd0a217a20a14f5a5d7b884c3c7c17"
+    },
+    {
+      "FileName": "Create2.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Create2.json",
+      "SizeBytes": 765,
+      "SHA256": "6e2c8e63cb017f572a9e3bd4333a0a2bdea67a16317ee6870386f799f245ee99"
+    },
+    {
+      "FileName": "CrosschainLinked.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/CrosschainLinked.json",
+      "SizeBytes": 2961,
+      "SHA256": "8e32a85f54ed43a584587da31d38cc96138d1bd4fc4e89132c64262d103ee72a"
+    },
+    {
+      "FileName": "DoubleEndedQueue.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/DoubleEndedQueue.json",
+      "SizeBytes": 696,
+      "SHA256": "bbfb64e7d3510d89a14054db6757b29e1fc3cbe99acb4a7656053d2cf899ecd6"
+    },
+    {
+      "FileName": "ECDSA.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ECDSA.json",
+      "SizeBytes": 1205,
+      "SHA256": "3169d0d6a2618f7517549367381295d2824e2b6c77ab28546a7700386b2b907f"
+    },
+    {
+      "FileName": "EIP712.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/EIP712.json",
+      "SizeBytes": 1610,
+      "SHA256": "391491558dcee21f9218ba17d30ecb9097aef4e8b86646845c171081127eff86"
+    },
+    {
+      "FileName": "EIP7702Utils.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/EIP7702Utils.json",
+      "SizeBytes": 688,
+      "SHA256": "4ee0281e142aabc5180d92431afc3badf90bd8b8bceecae302b108dc7e4458f2"
+    },
+    {
+      "FileName": "EnumerableMap.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/EnumerableMap.json",
+      "SizeBytes": 1127,
+      "SHA256": "870bdf579e008e67e7d5ddb7d1ddf5f93700ee07234d170054a18ebf2b1309c3"
+    },
+    {
+      "FileName": "EnumerableSet.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/EnumerableSet.json",
+      "SizeBytes": 690,
+      "SHA256": "3ba6c75c987038a38b53b7f85c040197698902ea1c2238874720d8f6a3949cd1"
+    },
+    {
+      "FileName": "ERC1155.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC1155.json",
+      "SizeBytes": 8950,
+      "SHA256": "5acadd398ea98f61e723a14a67db84e3285e8e02d5c0395edaf2e43c021414f9"
+    },
+    {
+      "FileName": "ERC1155Burnable.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC1155Burnable.json",
+      "SizeBytes": 9960,
+      "SHA256": "bfbcf57c40c7c5742fe9146abba93fa107800d3305d9647d97dee4de51f8e885"
+    },
+    {
+      "FileName": "ERC1155Holder.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC1155Holder.json",
+      "SizeBytes": 2263,
+      "SHA256": "03437809460a86566bfe46fd9d1e79902a1f7dee9577bf92cb8ef4139acc3404"
+    },
+    {
+      "FileName": "ERC1155Pausable.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC1155Pausable.json",
+      "SizeBytes": 9903,
+      "SHA256": "bf9282b17162480bad87dcbe8c3a5dddf703cfbf2123b791f53ffda1372b0ec2"
+    },
+    {
+      "FileName": "ERC1155Supply.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC1155Supply.json",
+      "SizeBytes": 9959,
+      "SHA256": "13ce8c33355670c561384330be2a73461bce7e2835ff9c95b280444537a5e0a9"
+    },
+    {
+      "FileName": "ERC1155URIStorage.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC1155URIStorage.json",
+      "SizeBytes": 8988,
+      "SHA256": "c49595a3ea84f88b591c8cac390a3b179febf7a36bb4e29d94cb1c67b1ee119e"
+    },
+    {
+      "FileName": "ERC1155Utils.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC1155Utils.json",
+      "SizeBytes": 694,
+      "SHA256": "a6c661c7a7b19e205697239c986a0df402b599bdf4aa84ae780199bb0062ca1a"
+    },
+    {
+      "FileName": "ERC1363.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC1363.json",
+      "SizeBytes": 11892,
+      "SHA256": "28d9895987df57bf73260a205189489c61d29f303406cc60c8914bcd058fb83a"
+    },
+    {
+      "FileName": "ERC1363Utils.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC1363Utils.json",
+      "SizeBytes": 1126,
+      "SHA256": "f6274ab55a4ad649cca3560f5f35310b0cfdb39f31fa9de4b6bbb0cdb38ce3eb"
+    },
+    {
+      "FileName": "ERC165.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC165.json",
+      "SizeBytes": 622,
+      "SHA256": "7aed0c76df70bc37995699fbc390f02c27c5bb99c72588c426a28612fefee6f9"
+    },
+    {
+      "FileName": "ERC165Checker.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC165Checker.json",
+      "SizeBytes": 696,
+      "SHA256": "4a01a74364b26eda00c2dbaa500fba63b21d9823a88aacb810c8f7085d2b9f51"
+    },
+    {
+      "FileName": "ERC1967Proxy.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC1967Proxy.json",
+      "SizeBytes": 3855,
+      "SHA256": "96af0faaeac691a7bfa56a10394c91f381b86ff0ca71e45b045f772e245591b4"
+    },
+    {
+      "FileName": "ERC1967Utils.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC1967Utils.json",
+      "SizeBytes": 1433,
+      "SHA256": "be8b81db498f40cb8538c47b81c77c2a18b361e8423748479256a8ba659649cc"
+    },
+    {
+      "FileName": "ERC20.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC20.json",
+      "SizeBytes": 6472,
+      "SHA256": "de1485fa66c8dc1dfe4a7eaba72e933d656ad4ccbebdf64b2f795ec136a6069b"
+    },
+    {
+      "FileName": "ERC20Bridgeable.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC20Bridgeable.json",
+      "SizeBytes": 8727,
+      "SHA256": "aca788ffafab938e55213f6c5b8e10595ba43f06b918d2f14bdc4c78ef2b4f8d"
+    },
+    {
+      "FileName": "ERC20Burnable.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC20Burnable.json",
+      "SizeBytes": 7136,
+      "SHA256": "80ba9fd79cb9b40f75939707453073b3379acd78213040aaa201f20af7f59bc0"
+    },
+    {
+      "FileName": "ERC20Capped.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC20Capped.json",
+      "SizeBytes": 7276,
+      "SHA256": "487bfd43f6965c047c247fd5b1b266c5347ad692aa05141cbb469cbc3a3780ae"
+    },
+    {
+      "FileName": "ERC20Crosschain.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC20Crosschain.json",
+      "SizeBytes": 11702,
+      "SHA256": "c0b7eef790261310d54750cb438d01abf9dd493e0021772990f0261afca65b8a"
+    },
+    {
+      "FileName": "ERC20FlashMint.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC20FlashMint.json",
+      "SizeBytes": 8740,
+      "SHA256": "a4825ab1b6279381b0014b1d9c05455760c73be0ff1095296c87b7927ffdda39"
+    },
+    {
+      "FileName": "ERC20Pausable.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC20Pausable.json",
+      "SizeBytes": 7425,
+      "SHA256": "bfbb643ff0eb3e82115e317307af172906cf4f715a1bc822c36ae82ce553ec37"
+    },
+    {
+      "FileName": "ERC20Permit.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC20Permit.json",
+      "SizeBytes": 10820,
+      "SHA256": "9a0a7bc9829fbfffa37d9ce2049156ce85bbe2979f2ec0d2cb294a51b8976947"
+    },
+    {
+      "FileName": "ERC20TemporaryApproval.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC20TemporaryApproval.json",
+      "SizeBytes": 7017,
+      "SHA256": "d194e003d0645ddabc80d7342328a3fd19c38890fe34caaeae3d49e5a6be0918"
+    },
+    {
+      "FileName": "ERC20Votes.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC20Votes.json",
+      "SizeBytes": 16008,
+      "SHA256": "34070312fe61e69c17530d36c5d3bad204dede7793b74d800911e2bf0e41b3a4"
+    },
+    {
+      "FileName": "ERC20Wrapper.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC20Wrapper.json",
+      "SizeBytes": 8165,
+      "SHA256": "947cfff862922908e2a6f662095eb4686e3cea35b5042aa24bf5d397c406c7bb"
+    },
+    {
+      "FileName": "ERC2771Context.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC2771Context.json",
+      "SizeBytes": 886,
+      "SHA256": "d02cffd0bb0693f6793e52f4a9b373442b952e13472622373580ce04a831e5f2"
+    },
+    {
+      "FileName": "ERC2771Forwarder.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC2771Forwarder.json",
+      "SizeBytes": 25969,
+      "SHA256": "3dbc273e997fee6f5849728727080c207fd2f85a3d56d5fe847312d5281399f9"
+    },
+    {
+      "FileName": "ERC2981.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC2981.json",
+      "SizeBytes": 2606,
+      "SHA256": "fb249361cbfd152148a50736b212cd5325b2dd3b138d269a356c82d312490d48"
+    },
+    {
+      "FileName": "ERC4337Utils.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC4337Utils.json",
+      "SizeBytes": 694,
+      "SHA256": "cfdfb9b8bc20b325aa4cc149279b4722c206817509b10acbeb2dcc20ce788131"
+    },
+    {
+      "FileName": "ERC4626.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC4626.json",
+      "SizeBytes": 16417,
+      "SHA256": "55a67f37c6801cc43d9bdf3036e7c7e532f581916117516bf3d0a886f771c173"
+    },
+    {
+      "FileName": "ERC6909.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC6909.json",
+      "SizeBytes": 17050,
+      "SHA256": "26fc1eeeefb7237f61748331c8a474d8405c5d8e63aea71cabb09c19728d27fd"
+    },
+    {
+      "FileName": "ERC6909ContentURI.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC6909ContentURI.json",
+      "SizeBytes": 20333,
+      "SHA256": "dbbfdc173a61eef29b0e771308a8c583312dbaf6ad6d050015ba2a4fd0f16da4"
+    },
+    {
+      "FileName": "ERC6909Metadata.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC6909Metadata.json",
+      "SizeBytes": 21380,
+      "SHA256": "22fbd0f778ea72760aa3d6959ebee50aec13ea1f2382e8c9e72648bc898ff2a6"
+    },
+    {
+      "FileName": "ERC6909TokenSupply.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC6909TokenSupply.json",
+      "SizeBytes": 18262,
+      "SHA256": "45af4e6c4861ea2bd2e136825076125e208959ef325c0a37ad33ecfee3be43b4"
+    },
+    {
+      "FileName": "ERC721.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC721.json",
+      "SizeBytes": 9109,
+      "SHA256": "755dd6b5da22dc3fbc6d4fa931ef458a061f6b55ac3c8544978aac57e83f4400"
+    },
+    {
+      "FileName": "ERC721Burnable.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC721Burnable.json",
+      "SizeBytes": 9397,
+      "SHA256": "8ac6d7bc641e866dcd46eeebc3d232d02245d9aa7f3740f7a5ba001370288f14"
+    },
+    {
+      "FileName": "ERC721Consecutive.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC721Consecutive.json",
+      "SizeBytes": 10471,
+      "SHA256": "faf8fbc72c265587afc5cb2948c9f3172cad48a133e7a41339f8dbaa4737b3bf"
+    },
+    {
+      "FileName": "ERC721Enumerable.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC721Enumerable.json",
+      "SizeBytes": 10699,
+      "SHA256": "6d91209f473a679292199b0f9abbcb28b23a24eda9155b3f12bf75752be53aaa"
+    },
+    {
+      "FileName": "ERC721Holder.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC721Holder.json",
+      "SizeBytes": 953,
+      "SHA256": "776faa7a7c19b57a6a0375ecc180681532e97090669f7e73aa3bee7083884640"
+    },
+    {
+      "FileName": "ERC721Pausable.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC721Pausable.json",
+      "SizeBytes": 10062,
+      "SHA256": "9549ed667a48541a5ac99458b250e82e8616332dfc540d459241cfff2dd6b227"
+    },
+    {
+      "FileName": "ERC721Royalty.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC721Royalty.json",
+      "SizeBytes": 11123,
+      "SHA256": "f735592dbddadddb53a9c950061b2e0b4c1ecc7625b54a3f7a6188b798ec34c2"
+    },
+    {
+      "FileName": "ERC721URIStorage.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC721URIStorage.json",
+      "SizeBytes": 9821,
+      "SHA256": "86703c8a578980fc8180421fac03660be6dfd9ba484f05ae01e627782fce6ca8"
+    },
+    {
+      "FileName": "ERC721Utils.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC721Utils.json",
+      "SizeBytes": 691,
+      "SHA256": "694d89cead8dfa1e4331460aa2040eb85d281d613ccd8fa36e3693ad94985a81"
+    },
+    {
+      "FileName": "ERC721Votes.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC721Votes.json",
+      "SizeBytes": 17122,
+      "SHA256": "d4ff1d62c3ca2e812380db32e16c4b22e7afd8e97c3f645e766c9d24a72baf36"
+    },
+    {
+      "FileName": "ERC721Wrapper.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC721Wrapper.json",
+      "SizeBytes": 11310,
+      "SHA256": "679acb5afa17b656e921798c062c75a651a066f285ba85700508a89e0ccc5c5b"
+    },
+    {
+      "FileName": "ERC7579Utils.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC7579Utils.json",
+      "SizeBytes": 2902,
+      "SHA256": "a4f87047eae14542f0aa860e4653cb3cf6008be81d4d705615028acb717b689b"
+    },
+    {
+      "FileName": "ERC7739.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC7739.json",
+      "SizeBytes": 2121,
+      "SHA256": "c9dc32e01ccca0f43df46a86bc129a3563ebf4e101f9387ddeafe4ef1e43ca06"
+    },
+    {
+      "FileName": "ERC7739Utils.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC7739Utils.json",
+      "SizeBytes": 699,
+      "SHA256": "09ced6b2fbdb4636d9a6dad33215738b7cc71840b050432fa07168d3e9cd7b84"
+    },
+    {
+      "FileName": "ERC7786Recipient.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC7786Recipient.json",
+      "SizeBytes": 1197,
+      "SHA256": "b6a0f5e89924eadd54584ded34976c81f9f06f31033cbfeeda8d7baeac548052"
+    },
+    {
+      "FileName": "ERC7821.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC7821.json",
+      "SizeBytes": 2227,
+      "SHA256": "975f4208aea78fe3bfe6bf5dc43ab59c4f0da2018e49fb7d8ab0cad3e40bbb2e"
+    },
+    {
+      "FileName": "ERC7913P256Verifier.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC7913P256Verifier.json",
+      "SizeBytes": 13265,
+      "SHA256": "e0895f82f39241da96340c81306b39ffc7ff3fb18c9e87bdc8176e0aed10dec9"
+    },
+    {
+      "FileName": "ERC7913RSAVerifier.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC7913RSAVerifier.json",
+      "SizeBytes": 8159,
+      "SHA256": "c1d8d1782bd27c20b156f378f128c87ae3e7369dc3ab7f186413f3d341b46749"
+    },
+    {
+      "FileName": "ERC7913WebAuthnVerifier.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ERC7913WebAuthnVerifier.json",
+      "SizeBytes": 21529,
+      "SHA256": "03c557f507978b835ba70c32218fda204cacc0eb3202998f107fff475320731e"
+    },
+    {
+      "FileName": "Errors.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Errors.json",
+      "SizeBytes": 1373,
+      "SHA256": "9aaac99a3847fcc639018a1afa05a61cfab70c4a96ddf8711d38f2413eb20629"
+    },
+    {
+      "FileName": "Governor.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Governor.json",
+      "SizeBytes": 28781,
+      "SHA256": "7196447c67f737afe64d6e9cdcfd1754bb9c866d287f4a385e36210f53cb30b9"
+    },
+    {
+      "FileName": "GovernorCountingFractional.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/GovernorCountingFractional.json",
+      "SizeBytes": 30410,
+      "SHA256": "b625e96febc33e31cf7a84282eb77471f439feaf41f72b3c52b689df3bb2d234"
+    },
+    {
+      "FileName": "GovernorCountingOverridable.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/GovernorCountingOverridable.json",
+      "SizeBytes": 33673,
+      "SHA256": "0843119e9522635972e0199aabb0158d403c498ede8718448b6c579d9cf6a09d"
+    },
+    {
+      "FileName": "GovernorCountingSimple.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/GovernorCountingSimple.json",
+      "SizeBytes": 29449,
+      "SHA256": "62fee682197b78a1975f56dcf2943cdc81636fbf1f11868d9cf7955a00acce52"
+    },
+    {
+      "FileName": "GovernorNoncesKeyed.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/GovernorNoncesKeyed.json",
+      "SizeBytes": 29294,
+      "SHA256": "5213718aaa7a4717c4b9e6b2c8daa03094dc4571805a9b114a110b08dc881d7d"
+    },
+    {
+      "FileName": "GovernorPreventLateQuorum.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/GovernorPreventLateQuorum.json",
+      "SizeBytes": 30228,
+      "SHA256": "8d3bb6da35045b9266d7307cf88eb664554fe943aefcf988aa00a64f21139204"
+    },
+    {
+      "FileName": "GovernorProposalGuardian.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/GovernorProposalGuardian.json",
+      "SizeBytes": 29806,
+      "SHA256": "132a11afc10ab4eb7a0ef84a2ca32ee07af9224fc63c10c190616296695c2a74"
+    },
+    {
+      "FileName": "GovernorSequentialProposalId.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/GovernorSequentialProposalId.json",
+      "SizeBytes": 29207,
+      "SHA256": "7a42f6efeebdd13c5432637f2baea268470285bc530a74be9b116f29ad91abf7"
+    },
+    {
+      "FileName": "GovernorSettings.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/GovernorSettings.json",
+      "SizeBytes": 30930,
+      "SHA256": "a73fdf6dac312fb84d6c724582b443ce63ace58db27c3eaab4ea737b3a5a9d6d"
+    },
+    {
+      "FileName": "GovernorStorage.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/GovernorStorage.json",
+      "SizeBytes": 31477,
+      "SHA256": "d87720aa97fe64765e4c0352395244f6ec21759be7ab3dcdd9309871e2e5049a"
+    },
+    {
+      "FileName": "GovernorSuperQuorum.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/GovernorSuperQuorum.json",
+      "SizeBytes": 29821,
+      "SHA256": "883e4617e5a8e2aebd787c2d216f8cba4bb92238e295edfc443315e55c64c4d8"
+    },
+    {
+      "FileName": "GovernorTimelockAccess.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/GovernorTimelockAccess.json",
+      "SizeBytes": 33125,
+      "SHA256": "13c130d2c5fd0b6bde8bd2d23d823e2cc64dcf5a30fa61095c47dbddbe04a067"
+    },
+    {
+      "FileName": "GovernorTimelockCompound.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/GovernorTimelockCompound.json",
+      "SizeBytes": 30259,
+      "SHA256": "e756bf316659a78c685cfb7d46a878c60120354715271c0ba4fc0f4ee3861de4"
+    },
+    {
+      "FileName": "GovernorTimelockControl.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/GovernorTimelockControl.json",
+      "SizeBytes": 29782,
+      "SHA256": "aa68a9651f21aa6c479c931f2646b5710748fcfc3ad8176dc1ed02637be54ffa"
+    },
+    {
+      "FileName": "GovernorVotes.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/GovernorVotes.json",
+      "SizeBytes": 29061,
+      "SHA256": "fdf6d65abfbcac12292a8d37422b86c643b4773d7018998d40750b002f0c7c88"
+    },
+    {
+      "FileName": "GovernorVotesQuorumFraction.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/GovernorVotesQuorumFraction.json",
+      "SizeBytes": 31172,
+      "SHA256": "52471449f4bec1971f773f39ebb9f2c7c1b803bee185a0e1e2294f946fcbca2f"
+    },
+    {
+      "FileName": "GovernorVotesSuperQuorumFraction.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/GovernorVotesSuperQuorumFraction.json",
+      "SizeBytes": 34672,
+      "SHA256": "084bcfff55580876afa2e795fe05c2f791cb3fabaa60b9653320934bcfa78a57"
+    },
+    {
+      "FileName": "Hashes.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Hashes.json",
+      "SizeBytes": 681,
+      "SHA256": "7ef6f845c48dbb993d8ccc8dc88c43835f436f58b09b57525e0308fe489ad3ce"
+    },
+    {
+      "FileName": "Heap.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Heap.json",
+      "SizeBytes": 672,
+      "SHA256": "458d24f100ae42461c51857ee0d7e0a9f0c2b228250a44f33535df1045c58054"
+    },
+    {
+      "FileName": "IAccessControl.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IAccessControl.json",
+      "SizeBytes": 4328,
+      "SHA256": "ba9af0309aeb1dc64e65e0cbfc5de9e394f74c20ee0584adbedb68e0dc93e7c6"
+    },
+    {
+      "FileName": "IAccessControlDefaultAdminRules.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IAccessControlDefaultAdminRules.json",
+      "SizeBytes": 8673,
+      "SHA256": "3f1ffc61cc260ea8d49cbe3fa65ef22b95fb76eeef716108659261a02db17f6c"
+    },
+    {
+      "FileName": "IAccessControlEnumerable.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IAccessControlEnumerable.json",
+      "SizeBytes": 5227,
+      "SHA256": "23e77190771b8e92db96b07aaba96dba2c88509ac1295b7cb8cb21d645428d2f"
+    },
+    {
+      "FileName": "IAccessManaged.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IAccessManaged.json",
+      "SizeBytes": 2073,
+      "SHA256": "8bfb0b05264609c201d1747ce025a2a51999671c2473e2bde8abef4a447ade6e"
+    },
+    {
+      "FileName": "IAccessManager.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IAccessManager.json",
+      "SizeBytes": 22487,
+      "SHA256": "b61b83e4533156e1c7cf899bafebb779a3dd3e2a870e36148bae7bb2aacc5616"
+    },
+    {
+      "FileName": "IAccount.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IAccount.json",
+      "SizeBytes": 2172,
+      "SHA256": "59a6450b026386fccb3b34f074da060cba7316ccc5611148f767f92018f01a78"
+    },
+    {
+      "FileName": "IAccountExecute.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IAccountExecute.json",
+      "SizeBytes": 1923,
+      "SHA256": "b76fe10b746859c48435963ac9ed19d870ef7897a9b6fda4d293be8467058034"
+    },
+    {
+      "FileName": "IAggregator.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IAggregator.json",
+      "SizeBytes": 5284,
+      "SHA256": "15d49d0d2bbaf8a00e592448087ff5c98fe831efbda961cd912f43925682b7e1"
+    },
+    {
+      "FileName": "IAuthority.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IAuthority.json",
+      "SizeBytes": 847,
+      "SHA256": "e5644d2bed6623185174f05d31454d42cd96b6dbeb035c7afcf3f4532733cabe"
+    },
+    {
+      "FileName": "IBeacon.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IBeacon.json",
+      "SizeBytes": 497,
+      "SHA256": "3837146633d110cb9bcf2bbf87e90475ec581377bb6b642f5eb48e3eedecf90b"
+    },
+    {
+      "FileName": "ICompoundTimelock.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ICompoundTimelock.json",
+      "SizeBytes": 8951,
+      "SHA256": "f131b517d88034cfa66ac978454b3651ab10e5127159f3afc31b80c1ccf139fa"
+    },
+    {
+      "FileName": "IEntryPoint.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IEntryPoint.json",
+      "SizeBytes": 7282,
+      "SHA256": "852482086a8111f3527e57ef4c6a5874362527e732ad60b9de3c557ac9e058af"
+    },
+    {
+      "FileName": "IEntryPointExtra.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IEntryPointExtra.json",
+      "SizeBytes": 1921,
+      "SHA256": "82d5d772d6fcabf94dfbf1ee2cebe83d6f372eb543e81f131d7301e9831bfdc6"
+    },
+    {
+      "FileName": "IEntryPointNonces.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IEntryPointNonces.json",
+      "SizeBytes": 742,
+      "SHA256": "f0578856712b6220b139f40dc541d7e21e1562fda7080eb9f77a01efbc7f1be5"
+    },
+    {
+      "FileName": "IEntryPointStake.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IEntryPointStake.json",
+      "SizeBytes": 1996,
+      "SHA256": "f1b907466f166b3c9be1677171f9f1e25dfe3cb7c5c4c01e0683af4d6d1bdd89"
+    },
+    {
+      "FileName": "IERC1155.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC1155.json",
+      "SizeBytes": 6489,
+      "SHA256": "a8f7752e8e5006c6a950d4ef3955adb215a6ce2d98cbce597855dde92b93fc0a"
+    },
+    {
+      "FileName": "IERC1155Errors.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC1155Errors.json",
+      "SizeBytes": 2355,
+      "SHA256": "7bf8b9e5df0d8b088d662b5372e131f806c7f2548a642ea260545f71612e4431"
+    },
+    {
+      "FileName": "IERC1155MetadataURI.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC1155MetadataURI.json",
+      "SizeBytes": 6883,
+      "SHA256": "da2fb155f9d674da24eebb2da9a4c13fcea4e224005a3225d1b40bf8b627004d"
+    },
+    {
+      "FileName": "IERC1271.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC1271.json",
+      "SizeBytes": 738,
+      "SHA256": "5c7f04a8fbc8b485a40d700a1e7a213b42e9b14a48086bf45ddc771ade1a760d"
+    },
+    {
+      "FileName": "IERC1363Receiver.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC1363Receiver.json",
+      "SizeBytes": 976,
+      "SHA256": "917c7a0d9ace59a2c6282ce0b99f3912bfcea8581d99715db2a42f69ecb74724"
+    },
+    {
+      "FileName": "IERC1822Proxiable.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC1822Proxiable.json",
+      "SizeBytes": 511,
+      "SHA256": "e74d7eb816cb67a016910a4f0a565e57dddba17e0a3fbe29f9893b75904bcc7e"
+    },
+    {
+      "FileName": "IERC1967.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC1967.json",
+      "SizeBytes": 1171,
+      "SHA256": "77753a6668cf757ca5791ff01489141dfc6f6f621bd2421a67008273ee79c889"
+    },
+    {
+      "FileName": "IERC20.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC20.json",
+      "SizeBytes": 3981,
+      "SHA256": "3160b6e42b9bf65cab495e347aeb772b45e11b05d449ede78334fd619a1200ef"
+    },
+    {
+      "FileName": "IERC20Metadata.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC20Metadata.json",
+      "SizeBytes": 4750,
+      "SHA256": "60a6faf6799cc037ccc9014073e0244a66ab20ac5f4ae05288a3dea7c4fa8844"
+    },
+    {
+      "FileName": "IERC2981.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC2981.json",
+      "SizeBytes": 1239,
+      "SHA256": "8a10d64e48a4a27e9ff556ff50e8f4df4383983199ab4e2baefbf0e3cac7298d"
+    },
+    {
+      "FileName": "IERC3156FlashBorrower.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC3156FlashBorrower.json",
+      "SizeBytes": 1095,
+      "SHA256": "b7c305e3ffced0006a91f698d59860febe1c3828c9b3897279a4088f5f2f326d"
+    },
+    {
+      "FileName": "IERC4626.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC4626.json",
+      "SizeBytes": 12816,
+      "SHA256": "d6088537d73a933d2a0e0bb487c8c2d76e32bf89be76f64770f28f081028202a"
+    },
+    {
+      "FileName": "IERC5313.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC5313.json",
+      "SizeBytes": 488,
+      "SHA256": "875c332e3e821dca046dc3cbd7e8648d8450e201b10ba6b1a5ff54a1c6fd70f1"
+    },
+    {
+      "FileName": "IERC5805.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC5805.json",
+      "SizeBytes": 4784,
+      "SHA256": "17409cb3b192c02209869d6ac58d8a45874792b7bfb31024edaf83ab6c1e8c6a"
+    },
+    {
+      "FileName": "IERC6372.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC6372.json",
+      "SizeBytes": 738,
+      "SHA256": "e74ba43c5294943e3417ac2f44106fe5e66a55eb93056ea9a9f59fb0ccd2a37a"
+    },
+    {
+      "FileName": "IERC6909.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC6909.json",
+      "SizeBytes": 6602,
+      "SHA256": "f82b4e1427e61198ac68e2613bfe214a0e77f9daa8fbff06890d9339bf555d44"
+    },
+    {
+      "FileName": "IERC6909ContentURI.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC6909ContentURI.json",
+      "SizeBytes": 7231,
+      "SHA256": "a78c4961596fcf4d376b53f057f6adeb10705e0fc01641fbba7cc6de29c62b2a"
+    },
+    {
+      "FileName": "IERC6909Metadata.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC6909Metadata.json",
+      "SizeBytes": 7700,
+      "SHA256": "c552faf8e4789a035a484baee73f20be20e2cce97c6fbbfa1d515aaee2799a6e"
+    },
+    {
+      "FileName": "IERC721Metadata.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC721Metadata.json",
+      "SizeBytes": 7095,
+      "SHA256": "00ddf96db46dbe935412960f581546dfe09c7b2f3c40181c04b10e8f5b3d8696"
+    },
+    {
+      "FileName": "IERC7579Hook.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC7579Hook.json",
+      "SizeBytes": 2017,
+      "SHA256": "712da3501d08876b57af76244c758c0ee025296b2ecb72abbb5413cc9ebc9919"
+    },
+    {
+      "FileName": "IERC7579ModuleConfig.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC7579ModuleConfig.json",
+      "SizeBytes": 2701,
+      "SHA256": "27c277546f02f1d89b1c9f35db7988e6cc74986df49cb1ccdbdbaf5dd6815551"
+    },
+    {
+      "FileName": "IERC7751.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC7751.json",
+      "SizeBytes": 779,
+      "SHA256": "254e59919b10454e3a386f10a9b6fdd7d85b76950607a86dce9f7f04a8f0fccf"
+    },
+    {
+      "FileName": "IERC777.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC777.json",
+      "SizeBytes": 8498,
+      "SHA256": "797513e1185830ab8c1222161a645b2b45dcaeafefad4c4254548f6f475eb105"
+    },
+    {
+      "FileName": "IERC777Recipient.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC777Recipient.json",
+      "SizeBytes": 1091,
+      "SHA256": "b57f9540436d2642b8e518810b44d04635a53a8c12ca90572646290b2e9fda97"
+    },
+    {
+      "FileName": "IERC7821.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC7821.json",
+      "SizeBytes": 997,
+      "SHA256": "606f9ec7e7aafdc07bcf6a8a5dcd059f85aeec2f15b9de699d06e0c53c6c2457"
+    },
+    {
+      "FileName": "IGovernor.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IGovernor.json",
+      "SizeBytes": 22982,
+      "SHA256": "44a843752435f2c077a449525e5c605c3bffb4a4474451e69e52b85fca74107d"
+    },
+    {
+      "FileName": "IPaymaster.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IPaymaster.json",
+      "SizeBytes": 2920,
+      "SHA256": "14f9ec059e814e6abb714e91d19b04ec2bb58a08e511b7cef3a3db5f9d7fdc22"
+    },
+    {
+      "FileName": "LowLevelCall.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/LowLevelCall.json",
+      "SizeBytes": 680,
+      "SHA256": "0b70a00dcc6e9f9bd6b0d9e8acc065c147b8b80c51343487c91b101720b6dfb8"
+    },
+    {
+      "FileName": "Memory.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Memory.json",
+      "SizeBytes": 668,
+      "SHA256": "1f1c0251b26fb75b1ab18d6be2db15f991b3554d143c5e89793034c04496864a"
+    },
+    {
+      "FileName": "MerkleProof.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/MerkleProof.json",
+      "SizeBytes": 794,
+      "SHA256": "534cc651a984ee23887c9a2408bf9b7962c291cfc31b173d9427dc2bbe5a4688"
+    },
+    {
+      "FileName": "MessageHashUtils.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/MessageHashUtils.json",
+      "SizeBytes": 805,
+      "SHA256": "7a8d6da2a56679497d73a44bde533b484dd37f276696fa004a26b2a22440eec1"
+    },
+    {
+      "FileName": "Multicall.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Multicall.json",
+      "SizeBytes": 912,
+      "SHA256": "5b6764bde9a31c813107de466d9a89cfd8fbb5e5fbdccebcfffe18cb64ab06e9"
+    },
+    {
+      "FileName": "MultiSignerERC7913Weighted.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/MultiSignerERC7913Weighted.json",
+      "SizeBytes": 5362,
+      "SHA256": "0c211696cf58a1de1a155951721ba4b8995ca3a467658db0c73b9e77afa67606"
+    },
+    {
+      "FileName": "Nonces.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Nonces.json",
+      "SizeBytes": 932,
+      "SHA256": "3cfaeb15a0ad2d47cc53cc7db6523b3d2faa6dbbcbb5b1ea8f132b9b2d1ff6ff"
+    },
+    {
+      "FileName": "NoncesKeyed.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/NoncesKeyed.json",
+      "SizeBytes": 1422,
+      "SHA256": "cb5d2826be64734a34273e0981fceef5a679a23fe6d8109daacb4bd5c455e661"
+    },
+    {
+      "FileName": "Ownable2Step.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Ownable2Step.json",
+      "SizeBytes": 2594,
+      "SHA256": "c52bf1f230b6ebba8f07a4b0ba202e93d926566573bed1b68a78c47cedec40c0"
+    },
+    {
+      "FileName": "Packing.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Packing.json",
+      "SizeBytes": 761,
+      "SHA256": "662eb2773bff014f4af9030fedbf7bb3ef6437a3e2ca96a990fa073866b892ae"
+    },
+    {
+      "FileName": "Panic.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Panic.json",
+      "SizeBytes": 666,
+      "SHA256": "53df7aca60457ab8f98e06ab443ca9894edf899f34605b88da9e647f0d8ef2b0"
+    },
+    {
+      "FileName": "ProxyAdmin.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ProxyAdmin.json",
+      "SizeBytes": 7337,
+      "SHA256": "8ceaa77c2f6f408026601d5efe962326cf2a838c556ec0b2ecd100063fa65069"
+    },
+    {
+      "FileName": "ReentrancyGuard.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ReentrancyGuard.json",
+      "SizeBytes": 349,
+      "SHA256": "0c728511a18f92b62331de7a60cc90f884904e6523b6e3026664c89052ef7f20"
+    },
+    {
+      "FileName": "RelayedCall.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/RelayedCall.json",
+      "SizeBytes": 678,
+      "SHA256": "193dbd59e1e3fe5d2e9424f163042a857c5ff5b2d719dbae433300c1ecaccf17"
+    },
+    {
+      "FileName": "RSA.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/RSA.json",
+      "SizeBytes": 675,
+      "SHA256": "498acaad7037983368c383402c3e60b11383a0fe4d6809e56ae326d74266eee2"
+    },
+    {
+      "FileName": "ShortStrings.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ShortStrings.json",
+      "SizeBytes": 974,
+      "SHA256": "c557193613fc234fadf1845eaf85cd5730c68bc6d999037089d36e5f818c1578"
+    },
+    {
+      "FileName": "SignedMath.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/SignedMath.json",
+      "SizeBytes": 681,
+      "SHA256": "96407b497e326ed577888d07226e64134eae9ba391efe03fcd3de267f001dc5c"
+    },
+    {
+      "FileName": "SignerECDSA.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/SignerECDSA.json",
+      "SizeBytes": 511,
+      "SHA256": "23c84129d6f7a194224e43b2991cb543988198fd4a597484d02f893a01727b5a"
+    },
+    {
+      "FileName": "SignerEIP7702.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/SignerEIP7702.json",
+      "SizeBytes": 263,
+      "SHA256": "efda22ba338e94e742a687e71ec258b49df350b58594b67aa57e0f0f1cbd97f6"
+    },
+    {
+      "FileName": "SignerERC7913.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/SignerERC7913.json",
+      "SizeBytes": 511,
+      "SHA256": "3cad533920083e46f9c6a0db429d7a3e03cada60f51dd3616b22cdfc42c894bc"
+    },
+    {
+      "FileName": "SignerP256.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/SignerP256.json",
+      "SizeBytes": 946,
+      "SHA256": "2b6795da624c6aac2acb838865c2426e8a7bb24c1f29aaa2148de98d9c9c941d"
+    },
+    {
+      "FileName": "SignerWebAuthn.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/SignerWebAuthn.json",
+      "SizeBytes": 954,
+      "SHA256": "ab3ee5e3be549788c672fd0fc544ff12ddf82b1ba170f5e52ebe95bcdf6524b9"
+    },
+    {
+      "FileName": "StorageSlot.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/StorageSlot.json",
+      "SizeBytes": 678,
+      "SHA256": "cc5fb1cebbb27609a12ec7de0d2dd7b23ec2faa07c5f3629edabb97ff9f7312c"
+    },
+    {
+      "FileName": "Strings.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Strings.json",
+      "SizeBytes": 1197,
+      "SHA256": "96e1a4c3841efd3b47647df9e1f26612c33deb1adccc68d582d1821914e892b0"
+    },
+    {
+      "FileName": "Time.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Time.json",
+      "SizeBytes": 670,
+      "SHA256": "114494879a46fcc0a04eb4e4ceab7189ca9e68461f7bdbd32c77b73111b269ac"
+    },
+    {
+      "FileName": "VestingWallet.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/VestingWallet.json",
+      "SizeBytes": 16822,
+      "SHA256": "8b48011abc56937c0344f04e6ef3118a30ea70172f0eda3238b678cb07ff4384"
+    },
+    {
+      "FileName": "WebAuthn.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/WebAuthn.json",
+      "SizeBytes": 685,
+      "SHA256": "5b9a3c3f67d8346f9eebcf5ebe99081af3563ce7c0948c09376d93e1170e4f53"
+    },
+    {
+      "FileName": "IERC1155Receiver.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC1155Receiver.json",
+      "SizeBytes": 2311,
+      "SHA256": "0260a57192cfc2de582c41cffa93d9f2ba57f28d3e9f63547c30aefad711e989"
+    },
+    {
+      "FileName": "IERC1363.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC1363.json",
+      "SizeBytes": 7854,
+      "SHA256": "49b8d13d3116cd01bfe0d2760b9ac75533db18facfb7459e595c3e2bce3222f0"
+    },
+    {
+      "FileName": "IERC1363Spender.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC1363Spender.json",
+      "SizeBytes": 859,
+      "SHA256": "a67c7131435d62597bf9e4d8a7eb717143b44b3e2c692e3c05d6c528d8817cbe"
+    },
+    {
+      "FileName": "IERC165.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC165.json",
+      "SizeBytes": 624,
+      "SHA256": "d681bde75334f79000c29879f2f240c2ad67b0c2a412b48eb7991bf05bc2c1e5"
+    },
+    {
+      "FileName": "IERC1820Implementer.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC1820Implementer.json",
+      "SizeBytes": 778,
+      "SHA256": "feae9db6486dc982d9148d4f6b853a8a9c2ca34e78d1fee997a390a8fcb3319d"
+    },
+    {
+      "FileName": "IERC1820Registry.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC1820Registry.json",
+      "SizeBytes": 4798,
+      "SHA256": "730347449f2edbfe08e7790394f1560c3161afd0e9bc1525bbe0c52c2d54fd1d"
+    },
+    {
+      "FileName": "IERC20Errors.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC20Errors.json",
+      "SizeBytes": 2000,
+      "SHA256": "e9204ad08ab94b46d9229695e4630a99cb4a3dead25fe49c40a015ebeac29f4a"
+    },
+    {
+      "FileName": "IERC20Permit.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC20Permit.json",
+      "SizeBytes": 1816,
+      "SHA256": "d12b592136734b851f6861515b337af422a6c7716e241ff7a9ecf80c9cb9eec2"
+    },
+    {
+      "FileName": "IERC2309.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC2309.json",
+      "SizeBytes": 944,
+      "SHA256": "913f7cbb332174320b328a47f5a98e4446490a74ebe53d6870383a33489a4745"
+    },
+    {
+      "FileName": "IERC2612.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC2612.json",
+      "SizeBytes": 1796,
+      "SHA256": "d054aa592e80165fba7fbbb97bb68af06a6a6ea4c17a12578ea7e8b11fb07b78"
+    },
+    {
+      "FileName": "IERC3156FlashLender.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC3156FlashLender.json",
+      "SizeBytes": 1854,
+      "SHA256": "0a638c403a15cf068a602f8b0b6f7fcf2d7f0dcbc81b220e380a2c77816f95b0"
+    },
+    {
+      "FileName": "IERC4906.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC4906.json",
+      "SizeBytes": 6884,
+      "SHA256": "86791aa7e9f704333f892d4965fa0f224e926fd433187bfffa6f1359e815b0cd"
+    },
+    {
+      "FileName": "IERC5267.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC5267.json",
+      "SizeBytes": 1314,
+      "SHA256": "c5846465d3f562c9f92123fd7d2e402e0edb29532401d36d1f3a4c6651f167d2"
+    },
+    {
+      "FileName": "IERC6909TokenSupply.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC6909TokenSupply.json",
+      "SizeBytes": 6984,
+      "SHA256": "350b65547b851cbeb3600a6278447d887b824f5a6a9b6f52875303bc8f86c6ff"
+    },
+    {
+      "FileName": "IERC721.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC721.json",
+      "SizeBytes": 6203,
+      "SHA256": "f3e02505c400a04d58d019305e049c3e791928e5639f4af90f7ef6681ae0fae4"
+    },
+    {
+      "FileName": "IERC721Enumerable.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC721Enumerable.json",
+      "SizeBytes": 7359,
+      "SHA256": "cf4e8369b6457ac1e4edfdd653260e6583b672abd3d4dbfe4483770754c313cc"
+    },
+    {
+      "FileName": "IERC721Errors.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC721Errors.json",
+      "SizeBytes": 2313,
+      "SHA256": "9584a9506c4b447c345603802bcbef811d4b3e8ddbb424a153e28f20740835a4"
+    },
+    {
+      "FileName": "IERC721Receiver.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC721Receiver.json",
+      "SizeBytes": 976,
+      "SHA256": "fef608bad3add59361e074ce28582b50da55c230e34b83a4c42f25c87bb64fc2"
+    },
+    {
+      "FileName": "IERC7579AccountConfig.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC7579AccountConfig.json",
+      "SizeBytes": 1294,
+      "SHA256": "1eeb4e739bc50e040bfdb788e3d07a3d365dcc5cc38289ca5cc1d5504240c6bb"
+    },
+    {
+      "FileName": "IERC7579Execution.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC7579Execution.json",
+      "SizeBytes": 1148,
+      "SHA256": "124abc82d49c50486d64155b9f97a95bbd26fd0bdc3243211b51e061e37c1b12"
+    },
+    {
+      "FileName": "IERC7579Module.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC7579Module.json",
+      "SizeBytes": 1147,
+      "SHA256": "b4c1d452013b9345f00dbd54d3b973ab93346791d87820d43e8bb91f1e364cf6"
+    },
+    {
+      "FileName": "IERC7579Validator.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC7579Validator.json",
+      "SizeBytes": 3549,
+      "SHA256": "6aaedd455fb688e35b04e941d9d85fba2ddd979801cf3d49924caf4a15c9e560"
+    },
+    {
+      "FileName": "IERC7674.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC7674.json",
+      "SizeBytes": 4491,
+      "SHA256": "a6ae2baa05cbf474f50ae91fbc56b9a461e4d9b0a546a24ba28e406eab544ac6"
+    },
+    {
+      "FileName": "IERC777Sender.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC777Sender.json",
+      "SizeBytes": 1083,
+      "SHA256": "b320ead765e0ea8ba71e0874649c8fcece859908c398399e0c63787bb77dbe31"
+    },
+    {
+      "FileName": "IERC7786GatewaySource.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC7786GatewaySource.json",
+      "SizeBytes": 2420,
+      "SHA256": "d4a53832eafab50ef93f897bac1c354692c81ace58d2eb4de8037d0b682f77cc"
+    },
+    {
+      "FileName": "IERC7786Recipient.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC7786Recipient.json",
+      "SizeBytes": 857,
+      "SHA256": "609f347d7b758c14e4fa160919b2d6766a6bfd290ea394f8a8a18cb258749446"
+    },
+    {
+      "FileName": "IERC7802.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC7802.json",
+      "SizeBytes": 2469,
+      "SHA256": "a300f284d7811ced9a3e0892e9044123d70526974a1b2c8991e13848ab5bb15b"
+    },
+    {
+      "FileName": "IERC7913SignatureVerifier.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IERC7913SignatureVerifier.json",
+      "SizeBytes": 842,
+      "SHA256": "b9555fc1c15683dd985faf36ed772ac48ca3117cb1192a085a841136c364bef6"
+    },
+    {
+      "FileName": "Initializable.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Initializable.json",
+      "SizeBytes": 689,
+      "SHA256": "73da58024457e780ab0e1f48cf4644d2ad72850b01aa766d27b78cdfbaaa6f57"
+    },
+    {
+      "FileName": "InteroperableAddress.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/InteroperableAddress.json",
+      "SizeBytes": 1036,
+      "SHA256": "fb4d1cd9bf123f052300a3a477e476cf1254d73afaf6cfcb5f4aa2b952b57815"
+    },
+    {
+      "FileName": "ITransparentUpgradeableProxy.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ITransparentUpgradeableProxy.json",
+      "SizeBytes": 1605,
+      "SHA256": "56d9062768ec301f322481cd9ff08b4faf1291135e017460059c5514e0092060"
+    },
+    {
+      "FileName": "IVotes.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/IVotes.json",
+      "SizeBytes": 4287,
+      "SHA256": "3ecf286ead80b8d551927eeae9ffd36cc16b1adec9c74aff7911eb086c7bd360"
+    },
+    {
+      "FileName": "Math.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Math.json",
+      "SizeBytes": 669,
+      "SHA256": "127ed556a635c99404f4123409fcdf914dcaf79d8f547a7790a216e786fd7080"
+    },
+    {
+      "FileName": "MerkleTree.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/MerkleTree.json",
+      "SizeBytes": 1121,
+      "SHA256": "45d11ff2216be03b2d9a098954ee34c264aa73fa0d54ca418fb858e2d0dfcbf4"
+    },
+    {
+      "FileName": "MultiSignerERC7913.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/MultiSignerERC7913.json",
+      "SizeBytes": 3530,
+      "SHA256": "48865c25c065ce6b5e35d3a082f385be3ea3f0fe28ca577123fab61781917605"
+    },
+    {
+      "FileName": "Ownable.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Ownable.json",
+      "SizeBytes": 1757,
+      "SHA256": "642e098630822481fcf55ddf1199fd867374b22d0ab0cf5fed8cd50cf95090c0"
+    },
+    {
+      "FileName": "P256.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/P256.json",
+      "SizeBytes": 677,
+      "SHA256": "d213d81e30b74a87876089e4866630c0a400060ab07e7099af987d47b53494b0"
+    },
+    {
+      "FileName": "Pausable.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Pausable.json",
+      "SizeBytes": 1160,
+      "SHA256": "df9df043123805c93695a8f05efc4b15fc3349a9a7c74ee34dcf201f771332c0"
+    },
+    {
+      "FileName": "Proxy.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Proxy.json",
+      "SizeBytes": 302,
+      "SHA256": "91f5242c2a1708f1aacb3ab0967205a8f18f92e495dd514cb45ed7853fb19367"
+    },
+    {
+      "FileName": "ReentrancyGuardTransient.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/ReentrancyGuardTransient.json",
+      "SizeBytes": 367,
+      "SHA256": "a3a561f17bf7f68e9f551977b6cff18fc6aa113e3b82f24e2314cea8dc1dd89a"
+    },
+    {
+      "FileName": "RLP.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/RLP.json",
+      "SizeBytes": 755,
+      "SHA256": "9d23b65bb698dc92e9915491a74cecfe903af33c9a52e189e1b7d4d30f008dba"
+    },
+    {
+      "FileName": "SafeCast.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/SafeCast.json",
+      "SizeBytes": 1772,
+      "SHA256": "820e92ed55c142cfa44054a8eabfd83537163bcccab9d39566b9153c22d897ba"
+    },
+    {
+      "FileName": "SafeERC20.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/SafeERC20.json",
+      "SizeBytes": 1379,
+      "SHA256": "03cec6466b05cda5db22de8c6f67db1fdda3bd52077b4f12572d1bc502e0885a"
+    },
+    {
+      "FileName": "SignatureChecker.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/SignatureChecker.json",
+      "SizeBytes": 701,
+      "SHA256": "00871f38c63f24beec0144ab5b2ddab93062dc53416526d5cdefdd81e79cb157"
+    },
+    {
+      "FileName": "SignerRSA.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/SignerRSA.json",
+      "SizeBytes": 609,
+      "SHA256": "af0595040fa73c0e30bc9a72e80e8f70defbcd746ed8d0b9accfb3a07b9e9b54"
+    },
+    {
+      "FileName": "SlotDerivation.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/SlotDerivation.json",
+      "SizeBytes": 684,
+      "SHA256": "17774f54c8faa125132df58e8f318e33433417e5db31414151bc6830682e49d7"
+    },
+    {
+      "FileName": "TimelockController.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/TimelockController.json",
+      "SizeBytes": 49250,
+      "SHA256": "3f23e1ba8d3a156ca31833178f692e29446ef4e1b1dfcb0f426565d544bdad7b"
+    },
+    {
+      "FileName": "TransientSlot.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/TransientSlot.json",
+      "SizeBytes": 682,
+      "SHA256": "b676404488a010c9bedf794ab70f14ce92a9bc03b100c1fb7f56f330e9b8ca61"
+    },
+    {
+      "FileName": "TransparentUpgradeableProxy.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/TransparentUpgradeableProxy.json",
+      "SizeBytes": 11503,
+      "SHA256": "c6a07028e2179b51d1e9a92ae385168beb4be69d578d60c508c5d0c65da65060"
+    },
+    {
+      "FileName": "TrieProof.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/TrieProof.json",
+      "SizeBytes": 918,
+      "SHA256": "835ed7c22af32dd40045e966ef620bcb1a5cb071a5ff765c636322cfe25f59b5"
+    },
+    {
+      "FileName": "UpgradeableBeacon.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/UpgradeableBeacon.json",
+      "SizeBytes": 6558,
+      "SHA256": "303cfb33ed376c26fe1ef7ad52eeef8d2ff94cc53654412aa92e562c371bc1b3"
+    },
+    {
+      "FileName": "UUPSUpgradeable.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/UUPSUpgradeable.json",
+      "SizeBytes": 2358,
+      "SHA256": "e375c7cfddd9fa2477595a99819910a9be6968f50fa8ac351694d11cc4e499a0"
+    },
+    {
+      "FileName": "VestingWalletCliff.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/VestingWalletCliff.json",
+      "SizeBytes": 7326,
+      "SHA256": "26f546da1f38064c12f4f79b6839988458ed4c54e0f854bf95696830546addaf"
+    },
+    {
+      "FileName": "Votes.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/Votes.json",
+      "SizeBytes": 8231,
+      "SHA256": "45b451748b04026d346fd5743dd78f69b616b6cd37aa868f3bc95ba86baa2eb6"
+    },
+    {
+      "FileName": "VotesExtended.json",
+      "RelativePath": "./node_modules/@openzeppelin/contracts/build/contracts/VotesExtended.json",
+      "SizeBytes": 9242,
+      "SHA256": "69dee51b93cc1bbdccd9452bf237fed0730791f6207f6cc3fef1bb3b5bdfc98f"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/zod/package.json",
+      "SizeBytes": 3284,
+      "SHA256": "70eedbe34fd52385a4ae2f3e5759b19682189f0118ea73a6e7c32c677f61668e"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@adraffy/ens-normalize/package.json",
+      "SizeBytes": 1641,
+      "SHA256": "fbc5b24e52963420ec80bdfb24d21e783428afe612545ce4dd8e4a43a2f6dbd7"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@types/node/package.json",
+      "SizeBytes": 6643,
+      "SHA256": "d57a323bf4705370a5e2f0ce927e2f265017d2479fd31e9b32e11334c1550308"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@esbuild/android-arm64/package.json",
+      "SizeBytes": 386,
+      "SHA256": "80ea8ab740159741dc8bce86aa167e1dc9ddab25fb5c795082147a80cbc68d21"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@sentry/core/package.json",
+      "SizeBytes": 2192,
+      "SHA256": "c386b045ed2eaba546402ac484b569e851034bce13ecc2b1e65184c7a24c21c5"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/@sentry/core/build/esm/package.json",
+      "SizeBytes": 56,
+      "SHA256": "329778ff8aaff9bcfa0ad771ed666cb8b136a5ec162386cc11e43063425ae6cd"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/ethereum-cryptography/package.json",
+      "SizeBytes": 9612,
+      "SHA256": "fe268d1efab75a5d45644202a819ed0f4965dbde2282618e224afbdd49f8ef93"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/ethereum-cryptography/esm/package.json",
+      "SizeBytes": 22,
+      "SHA256": "d2aaf324399446516b42d82624be18adcd6465fddf100b7ba79f57323f63da52"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/env-paths/package.json",
+      "SizeBytes": 930,
+      "SHA256": "19f5eeda57740c46b6a0a08e87c35508d7d22e2101da13c03e719e9a3460fc08"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/fast-equals/package.json",
+      "SizeBytes": 3429,
+      "SHA256": "cf81ef2c99ac0fe44a6433f93780cf2ce3034f7af9250bbe67200ce36b6be614"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/rfdc/package.json",
+      "SizeBytes": 1656,
+      "SHA256": "587604c366b2f0f40e660ef8496d0480dd0cd839cfc3e64b32f644a7a2a549cf"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/json-stream-stringify/package.json",
+      "SizeBytes": 3781,
+      "SHA256": "48644b367f22f55bd4faf6a1a0aeeba12ac62c9727ebd38f2c55ff880dcecdb3"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/json-stream-stringify/lib/esm/package.json",
+      "SizeBytes": 23,
+      "SHA256": "3ca9d4afd21425087cf31893b8f9f63c81b0b8408db5e343ca76e5f8aa26ab9a"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/undici/package.json",
+      "SizeBytes": 6333,
+      "SHA256": "10e55f4adb6a43e72823ea235ff6a0c777db1ef68e3a1c810f0246e1b9332d8b"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/is-safe-filename/package.json",
+      "SizeBytes": 841,
+      "SHA256": "6595946581cd7bde7877149ea99c42c018d74e7c78f3f68f4d7b8efa168a19a5"
+    },
+    {
+      "FileName": "bower.json",
+      "RelativePath": "./node_modules/aes-js/bower.json",
+      "SizeBytes": 583,
+      "SHA256": "34b1d91ef5f0582eeb7229b7d36f84b35f23029b1a5b4f20cf0e3d6442c8b987"
+    },
+    {
+      "FileName": "package-commonjs.json",
+      "RelativePath": "./node_modules/aes-js/package-commonjs.json",
+      "SizeBytes": 25,
+      "SHA256": "8005a3491db7d92f36ac66369861589f9c47123d3a7c71e643fc2c06168cd45a"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/aes-js/package.json",
+      "SizeBytes": 1552,
+      "SHA256": "60fc352466697ba86743b36101b2157cf413ac0e7d317788548993600f10cd7d"
+    },
+    {
+      "FileName": "tsconfig.base.json",
+      "RelativePath": "./node_modules/aes-js/tsconfig.base.json",
+      "SizeBytes": 663,
+      "SHA256": "3175ebbefc65a673da5ba97eda2450b317dd98facb4775b2254c3b733c5a5643"
+    },
+    {
+      "FileName": "tsconfig.commonjs.json",
+      "RelativePath": "./node_modules/aes-js/tsconfig.commonjs.json",
+      "SizeBytes": 125,
+      "SHA256": "2b3dd071cde1bcb8fe864000c7969122ce3df18f0336cf420cd9ca50324989d0"
+    },
+    {
+      "FileName": "tsconfig.esm.json",
+      "RelativePath": "./node_modules/aes-js/tsconfig.esm.json",
+      "SizeBytes": 118,
+      "SHA256": "4dd4f09eb6ae95fe824e976df1f30430c952e1ed1afca481e10dde251e599f76"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/aes-js/lib.commonjs/package.json",
+      "SizeBytes": 25,
+      "SHA256": "8005a3491db7d92f36ac66369861589f9c47123d3a7c71e643fc2c06168cd45a"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/aes-js/lib.esm/package.json",
+      "SizeBytes": 23,
+      "SHA256": "3ca9d4afd21425087cf31893b8f9f63c81b0b8408db5e343ca76e5f8aa26ab9a"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/aes-js/misc/basedirs/lib.commonjs/package.json",
+      "SizeBytes": 25,
+      "SHA256": "8005a3491db7d92f36ac66369861589f9c47123d3a7c71e643fc2c06168cd45a"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/aes-js/misc/basedirs/lib.esm/package.json",
+      "SizeBytes": 23,
+      "SHA256": "3ca9d4afd21425087cf31893b8f9f63c81b0b8408db5e343ca76e5f8aa26ab9a"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/ws/package.json",
+      "SizeBytes": 1753,
+      "SHA256": "584ce6e7516587ba249dc910b0c04e2753f6b3f451fc3a5bc324f7735bdacc71"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/undici-types/package.json",
+      "SizeBytes": 1193,
+      "SHA256": "0635ace61c576d1297d05c344c4fab0a77e8c88ffa185c9f18b23d18f7387c40"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/tslib/package.json",
+      "SizeBytes": 1219,
+      "SHA256": "7ecf3460a204a34f0ef8ea32d0f9828385658d4e5d5e271f93f40e7b36a32972"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/tslib/modules/package.json",
+      "SizeBytes": 26,
+      "SHA256": "f2a77d1fa2e7ee710b2835b2933d75d9c7f5dad4f1bab69e1679876e32b5e9eb"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/adm-zip/package.json",
+      "SizeBytes": 1380,
+      "SHA256": "09a8559bb31d5063ec033af457a253fbfefc485965ca4e5110343bc5771dfe95"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/chokidar/package.json",
+      "SizeBytes": 1346,
+      "SHA256": "cb75ae8c3a8ac02e09efc5886a75a87256474ac8349ceea731ec389c03a70d96"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/enquirer/package.json",
+      "SizeBytes": 2232,
+      "SHA256": "aca196f1b79925f36537774980a255c25e2f0dd24273e3ddc37d44ce5860152b"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/p-map/package.json",
+      "SizeBytes": 993,
+      "SHA256": "8f49145586bc043c60aa74bc6f9039ff7cbced1701aee181a10ae48ce3222f7b"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/resolve.exports/package.json",
+      "SizeBytes": 1067,
+      "SHA256": "0c7d5fe8e3174d4abb8f9f68e550837daef90b129e96b3bb41d486ef3b456895"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/semver/package.json",
+      "SizeBytes": 1661,
+      "SHA256": "7c94cb7f2a53c27b20d76386ec144c062894dbcc909cfabd0f728c37874b1776"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/tsx/package.json",
+      "SizeBytes": 1663,
+      "SHA256": "ab5f14c4251638844ade3905d3cfc52fc1c833644694d655a05f6d0ca746b83c"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/readdirp/package.json",
+      "SizeBytes": 1398,
+      "SHA256": "e4243493fb09c5a7b68b2128892b6e2fa3bbc1422030a2a777975fba3a1784f6"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/ansi-colors/package.json",
+      "SizeBytes": 2391,
+      "SHA256": "c3bdd1dc6343540a1d8608280e4209fdd08b2a873fb4e4a1924f678707f4a0f6"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/strip-ansi/package.json",
+      "SizeBytes": 798,
+      "SHA256": "0130850b9da0584f54cc20d3dab6365c807e9436ac78e016d5009efa99bd0530"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/ansi-regex/package.json",
+      "SizeBytes": 841,
+      "SHA256": "8b2dc166f2b74d5098bad38bdd3dd2f4d4775c626199872f5e36dbb48c40931d"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/esbuild/package.json",
+      "SizeBytes": 3980,
+      "SHA256": "9d0bc453f4e791553c4cc2298ba023b409241fd9801e494741666eb0f6051490"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/hardhat/package.json",
+      "SizeBytes": 4853,
+      "SHA256": "78eefc1211463e0290fda96550f5b214a3758670262950f4fff0f57f983e1d82"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/hardhat/node_modules/ws/package.json",
+      "SizeBytes": 1829,
+      "SHA256": "a56a3fd55945a3ce177e3ca165dafae6f7eb03b7aefd58c092ac723d5741a6fb"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/hardhat/templates/01-node-test-runner-viem/package.json",
+      "SizeBytes": 1046,
+      "SHA256": "f2142c6abecfda1e8d84abf5d3c763ab4a6fbb3f9ff59208cc88d78c514fe3da"
+    },
+    {
+      "FileName": "tsconfig.json",
+      "RelativePath": "./node_modules/hardhat/templates/01-node-test-runner-viem/tsconfig.json",
+      "SizeBytes": 206,
+      "SHA256": "0266357e919f50a81e6765fb023c58f962850885f741896d6d207cad756aea62"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/hardhat/templates/02-mocha-ethers/package.json",
+      "SizeBytes": 1372,
+      "SHA256": "88cd597f6da7ae4d2e153e9c456480e615c8150b7695a6afbf1869035d98c85a"
+    },
+    {
+      "FileName": "tsconfig.json",
+      "RelativePath": "./node_modules/hardhat/templates/02-mocha-ethers/tsconfig.json",
+      "SizeBytes": 215,
+      "SHA256": "99c8b5f07448d81a615de4ef3b4d36825b33d85d3b984856e38fef95fcdd5566"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/hardhat/templates/03-minimal/package.json",
+      "SizeBytes": 261,
+      "SHA256": "523f0abd32febf4de0d6be92f5f85e1a22dd76bbd51f105ac460748c4cc496af"
+    },
+    {
+      "FileName": "tsconfig.json",
+      "RelativePath": "./node_modules/hardhat/templates/03-minimal/tsconfig.json",
+      "SizeBytes": 206,
+      "SHA256": "0266357e919f50a81e6765fb023c58f962850885f741896d6d207cad756aea62"
+    },
+    {
+      "FileName": "FUNDING.json",
+      "RelativePath": "./node_modules/ethers/FUNDING.json",
+      "SizeBytes": 213,
+      "SHA256": "6c1579976f7e1fb529c860852957bf4f803cade8425f7e58dfeea4f82186dea9"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/ethers/package.json",
+      "SizeBytes": 4945,
+      "SHA256": "d644d7df228197962e4ca19824b06e8d50dce0b5ee2aced63dcfc2a11ec7b90f"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/ethers/node_modules/@noble/hashes/package.json",
+      "SizeBytes": 4314,
+      "SHA256": "8d8203c66e91a9e6ee510facf378a2c7420b27139360132a257010c2e5f091bc"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/ethers/node_modules/@noble/hashes/esm/package.json",
+      "SizeBytes": 147,
+      "SHA256": "bd389eb8cfe61883bac2f31e1369498979fe1039c19d960088e863ef5d822b4d"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/ethers/node_modules/@noble/curves/package.json",
+      "SizeBytes": 4817,
+      "SHA256": "bf61194229da9a7fd331fcf44cc24f746b5cbaefe941a312215376584c269bd5"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/ethers/node_modules/@noble/curves/esm/package.json",
+      "SizeBytes": 47,
+      "SHA256": "6b91de8cd0baca43d2c3a0a29ccf86cb582eaa8a20bdf61e1ead35b0c447a351"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/ethers/lib.commonjs/package.json",
+      "SizeBytes": 440,
+      "SHA256": "9177de1f0725735d11b559b89a246932e5640531f046d63feaff45de1bf2fe08"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/ethers/lib.esm/package.json",
+      "SizeBytes": 438,
+      "SHA256": "71a3a95826a9a4955ac66b62e7880e817658723e678114457e2e5d1aab27a3a0"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/micro-eth-signer/package.json",
+      "SizeBytes": 2308,
+      "SHA256": "52a3929b1106bed56795625a1a23c965ab6bc35a7f176b97d4103c004380ad7c"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/micro-eth-signer/node_modules/@noble/curves/package.json",
+      "SizeBytes": 3243,
+      "SHA256": "b305a9a8e20df7767458bff98aafb7423cb39e00f543fffea5a9e0b88e0ada9e"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/micro-eth-signer/node_modules/@noble/hashes/package.json",
+      "SizeBytes": 2971,
+      "SHA256": "df2580ed1896b0deffc07437c6a8d83fcf233e4c4c1e77c12e491563222c4719"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/micro-eth-signer/node_modules/@noble/ciphers/package.json",
+      "SizeBytes": 2449,
+      "SHA256": "4038bb147bd3e6e862fcf93c2cb119007a6474038421f29a6a7d32967c6a1a1c"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/micro-packed/package.json",
+      "SizeBytes": 1902,
+      "SHA256": "a7a1fc1909089ecc23b52ee33d2ba25f466541ba3a6d085debac8b20129992f0"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/micro-packed/node_modules/@scure/base/package.json",
+      "SizeBytes": 1780,
+      "SHA256": "cfdeaaeafd8ebfb6b380e39348d755654363980b42903de26a5d70e5c5f68498"
+    },
+    {
+      "FileName": "package-support.json",
+      "RelativePath": "./node_modules/commander/package-support.json",
+      "SizeBytes": 231,
+      "SHA256": "b07a441d1dbc88588a2e7f219d43a5ea9b7c429a44f119caa49229da86bb0063"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/commander/package.json",
+      "SizeBytes": 1804,
+      "SHA256": "5f5944b2fa479bf68003ca239940f8ad9cae893ddfc3662272a1855dfb9ce4db"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/follow-redirects/package.json",
+      "SizeBytes": 1289,
+      "SHA256": "42d8d50f86a6a8ab62f2c9d9d69532fc51de63becfd1a96681812e479443960c"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/js-sha3/package.json",
+      "SizeBytes": 1109,
+      "SHA256": "ba89a2a2189db98b8b9a4134ec744737f2ed3e26ee59357279a170faf93709dd"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/tmp/package.json",
+      "SizeBytes": 1542,
+      "SHA256": "e16e9eb9218f8e3dd23db720ee51f6ec662ec8d6969c58b6fc34aeea857951cd"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/memorystream/package.json",
+      "SizeBytes": 1083,
+      "SHA256": "dfff650f4c6c600aaaeeab58f50429325a94ebcbe28a0689c3c4b545b270b76a"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/command-exists/package.json",
+      "SizeBytes": 772,
+      "SHA256": "c0acc936f656bc164946c40c8283b18d53f33cf316569adaf8b6eee195d512cf"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/solc/package.json",
+      "SizeBytes": 2811,
+      "SHA256": "b3a90035cab4e8aa43068f33f01497dccfb77b294e1ea30c5fb32a9631e33491"
+    },
+    {
+      "FileName": "package.json",
+      "RelativePath": "./node_modules/solc/node_modules/semver/package.json",
+      "SizeBytes": 978,
+      "SHA256": "5040deda6072a93c40e36c5188f24159498f6f84fe586bc47dea4a2de7a8fcdb"
     }
-  ],
-  "TotalNodes": 4
+  ]
 }
