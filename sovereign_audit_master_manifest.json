@@ -1,0 +1,70 @@
+{
+  "AuditTarget": "Canadian Financial, Regulatory & Disclosure Apparatus",
+  "AuditorEntity": "10839477 Canada Inc.",
+  "ExportTimestamp": "2026-09-27T01:25:13.080643+00:00",
+  "MasterLedgerSHA256": "851ffbba0b6e6d99708b4f4d1e7462d9293536429bc8773da18359baf2311b99",
+  "Nodes": [
+    {
+      "ContractReference": "ISO-20022-WIRE",
+      "CreatorUUID": "e4f1b2a7-6d3c-4902-8a5e-9f7b6c5d4e1a",
+      "MessageID": "PACS-002-REJECT-01",
+      "NodeID": 1,
+      "NodeSHA256": "placeholder_node_1",
+      "Payload": {
+        "GatekeepingMechanism": "Systemic rejection protocols and legacy SWIFT field constraints enforcing institutional exclusion.",
+        "Layer": "Financial Messaging",
+        "Standard": "ISO 20022 (pacs.002)"
+      },
+      "Status": "MAPPED",
+      "Timestamp": "2026-09-27T01:25:13.080602+00:00"
+    },
+    {
+      "ContractReference": "REG-GATE-01",
+      "CreatorUUID": "e4f1b2a7-6d3c-4902-8a5e-9f7b6c5d4e1a",
+      "MessageID": "CIRO-REG-002",
+      "NodeID": 2,
+      "NodeSHA256": "placeholder_node_2",
+      "Payload": {
+        "Architecture": "Consolidated self-regulatory monopoly governing dealers and mutual funds.",
+        "TargetSystem": "Canadian Investment Regulatory Organization (CIRO)"
+      },
+      "Status": "MAPPED",
+      "Timestamp": "2026-09-27T01:25:13.080626+00:00"
+    },
+    {
+      "ContractReference": "REG-GATE-02",
+      "CreatorUUID": "e4f1b2a7-6d3c-4902-8a5e-9f7b6c5d4e1a",
+      "MessageID": "BIGBANK-WEB-003",
+      "NodeID": 3,
+      "NodeSHA256": "placeholder_node_3",
+      "Payload": {
+        "OligopolyWeb": "Big Five Banks (BMO, RBC, CIBC, Scotiabank, National Bank)",
+        "Role": "Captive-dealer members defining regulatory enforcement parameters."
+      },
+      "Status": "MAPPED",
+      "Timestamp": "2026-09-27T01:25:13.080632+00:00"
+    },
+    {
+      "ContractReference": "REG-GATE-03",
+      "CreatorUUID": "e4f1b2a7-6d3c-4902-8a5e-9f7b6c5d4e1a",
+      "MessageID": "MODEL-SEDAR-003",
+      "NodeID": 4,
+      "NodeSHA256": "c5933d4ed5b588315b07953f4580f21d373df743a6277372ef6a00ae62ae2f2d",
+      "Payload": {
+        "Administrators": "Canadian Securities Administrators (CSA)",
+        "SovereignAuditNode": {
+          "EntityReference": "10839477 Canada Inc.",
+          "Status": "Mapped and bypassed via local SQLite ledger anchoring."
+        },
+        "StructuralBarriers": {
+          "AccessibilityIllusion": "Technically public documents structured to impede automated, programmatic parsing.",
+          "FilingFriction": "Mandatory system fees and stringent issuer formatting requirements."
+        },
+        "TargetSystem": "SEDAR+ (System for Electronic Document Analysis and Retrieval)"
+      },
+      "Status": "MAPPED",
+      "Timestamp": "2026-09-27T01:25:13.080637+00:00"
+    }
+  ],
+  "TotalNodes": 4
+}
