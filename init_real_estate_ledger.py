@@ -23,19 +23,21 @@ def setup_real_estate_ledger():
         )
     ''')
     
-    # Insert benchmark properties with institutional LTV modeling (~50% to 60% leverage)
+    # Insert diversified properties including expanded Eurozone institutional assets
     cursor.execute('''
         INSERT INTO real_estate_nodes 
         (property_ref, jurisdiction, asset_class, valuation_usd, annual_lease_yield_pct, mortgage_principal_usd, ltv_ratio_pct, managing_entity)
         VALUES 
         ('RE-TYO-01', 'Japan', 'Commercial-Office', 85000000.00, 4.5, 42500000.00, 50.0, 'Jujita-Stairs Holdings / Local Trust'),
         ('RE-SHA-02', 'China', 'Logistics', 140000000.00, 5.8, 77000000.00, 55.0, '10839477 Canada Inc. APAC Vehicle'),
-        ('RE-FRA-03', 'Eurozone', 'Data-Center', 210000000.00, 7.2, 126000000.00, 60.0, 'Sovereign Infrastructure EU S.à r.l.')
+        ('RE-FRA-03', 'Eurozone (Germany)', 'Data-Center', 210000000.00, 7.2, 126000000.00, 60.0, 'Sovereign Infrastructure EU S.à r.l.'),
+        ('RE-PAR-04', 'Eurozone (France)', 'Commercial-Office', 165000000.00, 5.2, 90750000.00, 55.0, 'Sovereign Infrastructure EU S.à r.l.'),
+        ('RE-AMS-05', 'Eurozone (Netherlands)', 'Logistics', 110000000.00, 6.5, 60500000.00, 55.0, 'Sovereign Infrastructure EU S.à r.l.')
     ''')
     
     conn.commit()
     conn.close()
-    print("[+] Institutional LTV and debt-financing parameters successfully vaulted into audit_ledger.db!")
+    print("[+] Expanded Eurozone real estate nodes successfully vaulted into audit_ledger.db!")
 
 if __name__ == "__main__":
     setup_real_estate_ledger()
