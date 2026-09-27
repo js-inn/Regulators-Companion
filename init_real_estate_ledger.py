@@ -6,7 +6,7 @@ def setup_real_estate_ledger():
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
     
-    # Recreate table with expanded global and regional nodes
+    # Recreate table with expanded Nordic and Swiss institutional nodes
     cursor.execute('DROP TABLE IF EXISTS real_estate_nodes')
     
     cursor.execute('''
@@ -23,7 +23,7 @@ def setup_real_estate_ledger():
         )
     ''')
     
-    # Insert global portfolio including Singapore, Hong Kong, Macau, and Malaysia
+    # Insert global portfolio including Switzerland, Denmark, Sweden, and Netherlands
     cursor.execute('''
         INSERT INTO real_estate_nodes 
         (property_ref, jurisdiction, asset_class, valuation_usd, annual_lease_yield_pct, mortgage_principal_usd, ltv_ratio_pct, managing_entity)
@@ -37,12 +37,15 @@ def setup_real_estate_ledger():
         ('RE-LON-07', 'United Kingdom (England)', 'Commercial-Office', 240000000.00, 5.0, 132000000.00, 55.0, 'Sovereign Infrastructure UK Ltd'),
         ('RE-FRA-08', 'Eurozone (Germany)', 'Data-Center', 210000000.00, 7.2, 126000000.00, 60.0, 'Sovereign Infrastructure EU S.à r.l.'),
         ('RE-PAR-09', 'Eurozone (France)', 'Commercial-Office', 165000000.00, 5.2, 90750000.00, 55.0, 'Sovereign Infrastructure EU S.à r.l.'),
-        ('RE-AMS-10', 'Eurozone (Netherlands)', 'Logistics', 110000000.00, 6.5, 60500000.00, 55.0, 'Sovereign Infrastructure EU S.à r.l.')
+        ('RE-AMS-10', 'Eurozone (Netherlands)', 'Logistics', 110000000.00, 6.5, 60500000.00, 55.0, 'Sovereign Infrastructure EU S.à r.l.'),
+        ('RE-ZUR-11', 'Switzerland (Zurich)', 'Commercial-Office', 220000000.00, 4.0, 110000000.00, 50.0, 'Sovereign Infrastructure Alpine AG'),
+        ('RE-CPH-12', 'Denmark (Copenhagen)', 'Data-Center', 130000000.00, 6.2, 71500000.00, 55.0, 'Sovereign Infrastructure Nordic ApS'),
+        ('RE-STO-13', 'Sweden (Stockholm)', 'Logistics', 145000000.00, 5.9, 79750000.00, 55.0, 'Sovereign Infrastructure Nordic AB')
     ''')
     
     conn.commit()
     conn.close()
-    print("[+] Singapore, Hong Kong, Macau, and Malaysia nodes successfully vaulted into audit_ledger.db!")
+    print("[+] Switzerland, Denmark, and Sweden nodes successfully vaulted into audit_ledger.db!")
 
 if __name__ == "__main__":
     setup_real_estate_ledger()
