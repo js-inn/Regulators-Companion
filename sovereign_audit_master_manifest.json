@@ -1,8 +1,8 @@
 {
   "Entity": "10839477 Canada Inc.",
   "Jurisdiction": "Canada",
-  "GeneratedAt": "2026-09-27T03:10:38.020932Z",
-  "TotalNodes": 697,
+  "GeneratedAt": "2026-09-27T03:17:39.274198Z",
+  "TotalNodes": 699,
   "Nodes": [
     {
       "FileName": "sibling_audit_report.json",
@@ -890,7 +890,7 @@
       "FileName": "audit_ledger.db",
       "RelativePath": "./audit_ledger.db",
       "SizeBytes": 86016,
-      "SHA256": "f0008509691d1b1191e0238e79d2507874c971e1e61bf9c7ff47a8ecbb2d74c3"
+      "SHA256": "9d32435a5956ed0bdc317e78f008c5159030b677d96b8c3f10f681bb34fd9de0"
     },
     {
       "FileName": "parse_iso20022.py",
@@ -1315,8 +1315,8 @@
     {
       "FileName": "sovereign_audit_master_manifest.json",
       "RelativePath": "./sovereign_audit_master_manifest.json",
-      "SizeBytes": 170654,
-      "SHA256": "5ed975791850eb17e8ccdd2e91d3a133db43ec586aba27914d6d247b71c2c4ed"
+      "SizeBytes": 170877,
+      "SHA256": "a15cd73ec05793de39b43241f7a630c6bda9a65eaf16d60c1eeebc1d1cd2d523"
     },
     {
       "FileName": "ingest_china.py",
@@ -1375,8 +1375,20 @@
     {
       "FileName": "init_real_estate_ledger.py",
       "RelativePath": "./init_real_estate_ledger.py",
-      "SizeBytes": 1476,
-      "SHA256": "60e5f20e83695c1c51c9cebb67eae81128b0a28c912acaf1ee7b703f391a40a7"
+      "SizeBytes": 1692,
+      "SHA256": "2ce1d9d36a3c7c74c22f2dff2b723ea2363c2db2b1d05df358131e073c39329b"
+    },
+    {
+      "FileName": "calculate_yields.py",
+      "RelativePath": "./calculate_yields.py",
+      "SizeBytes": 1418,
+      "SHA256": "48e65b19044961436703ac4c93f43a53a1d0455e18b0f96e89fe03ce9dde224e"
+    },
+    {
+      "FileName": "analyze_leverage.py",
+      "RelativePath": "./analyze_leverage.py",
+      "SizeBytes": 1881,
+      "SHA256": "40bc4f99ab16518d7c7aef9703d782b5a0a942400ce428a6edeaf8d836ca8337"
     },
     {
       "FileName": "annotationProcessors.json",
