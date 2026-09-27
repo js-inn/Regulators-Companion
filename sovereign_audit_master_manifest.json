@@ -1,8 +1,8 @@
 {
   "Entity": "10839477 Canada Inc.",
   "Jurisdiction": "Canada",
-  "GeneratedAt": "2026-09-27T02:31:11.232748Z",
-  "TotalNodes": 688,
+  "GeneratedAt": "2026-09-27T02:35:59.163522Z",
+  "TotalNodes": 689,
   "Nodes": [
     {
       "FileName": "sibling_audit_report.json",
@@ -890,7 +890,7 @@
       "FileName": "audit_ledger.db",
       "RelativePath": "./audit_ledger.db",
       "SizeBytes": 32768,
-      "SHA256": "84042043d808a7272405d65d19899d231e1e1ecd48850bacd8ebc4957cd26c70"
+      "SHA256": "f584ac878d62fa2494cd9b27a33150d5f50c4a5cbb419a0ec75c382897d9b5f6"
     },
     {
       "FileName": "parse_iso20022.py",
@@ -909,6 +909,12 @@
       "RelativePath": "./query_schema.py",
       "SizeBytes": 1042,
       "SHA256": "a62354183d5398f5a8455c1f65e78de0564aab025e55aa6e087d75d2c346b3ff"
+    },
+    {
+      "FileName": "ingest_zengin.py",
+      "RelativePath": "./ingest_zengin.py",
+      "SizeBytes": 1914,
+      "SHA256": "1efdc111bb118833215bc2401ae2fcc5dbd2e4a5d3dd791bc0f5f987e07abd54"
     },
     {
       "FileName": "search_ledger.py",
@@ -1297,8 +1303,8 @@
     {
       "FileName": "sovereign_audit_master_manifest.json",
       "RelativePath": "./sovereign_audit_master_manifest.json",
-      "SizeBytes": 168789,
-      "SHA256": "bd326c3470af75c97ec765755f3636c6247dab0ea9d1bb23b318928c900fb0cd"
+      "SizeBytes": 169000,
+      "SHA256": "c58ff051cdcbed43335bbe301de3da453c4b476308ed4e1580bfa0a0ab23a516"
     },
     {
       "FileName": "t661_part7_parsed.json",
