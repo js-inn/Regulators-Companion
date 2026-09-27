@@ -1,20 +1,21 @@
 {
-    "GeneratedAt": "2026-09-27T03:34:09.456098+00:00",
-    "Architecture": "Jujita-Stairs Sovereign Fortress",
+    "GeneratedAt": "2026-09-27T03:37:57.102026+00:00",
+    "Architecture": "Jujita-Stairs Sovereign Fortress (Terrestrial + Orbital)",
     "DatabaseLedger": "audit_ledger.db",
-    "DatabaseSHA256": "af61099b6253f001b023a66428c4f3fdd8528229c161870f053fab463f95f573",
+    "DatabaseSHA256": "9706b182703dfe6fed421561ee237ad731d96a6050e013ff347d5709bd4135bc",
     "PortfolioSummary": {
-        "TotalPortfolioValueUSD": 2815000000.0,
-        "TotalOutstandingDebtUSD": 1514000000.0,
-        "PortfolioLTVPct": 53.78,
-        "TotalNetEquityUSD": 1301000000.0,
-        "TotalGrossAnnualCashUSD": 163770000.0,
-        "ActiveNodesCount": 16
+        "TotalPortfolioValueUSD": 3865000000.0,
+        "TotalOutstandingDebtUSD": 1904000000.0,
+        "PortfolioLTVPct": 49.26,
+        "TotalNetEquityUSD": 1961000000.0,
+        "TotalGrossAnnualCashUSD": 310020000.0,
+        "ActiveNodesCount": 18
     },
     "Nodes": [
         {
             "property_ref": "RE-TYO-01",
             "jurisdiction": "Japan",
+            "asset_class": "Commercial-Office",
             "valuation_usd": 85000000.0,
             "debt_usd": 42500000.0,
             "net_equity_usd": 42500000.0,
@@ -23,6 +24,7 @@
         {
             "property_ref": "RE-SHA-02",
             "jurisdiction": "China (Shanghai)",
+            "asset_class": "Logistics",
             "valuation_usd": 140000000.0,
             "debt_usd": 77000000.0,
             "net_equity_usd": 63000000.0,
@@ -31,6 +33,7 @@
         {
             "property_ref": "RE-HKG-03",
             "jurisdiction": "Hong Kong SAR",
+            "asset_class": "Commercial-Office",
             "valuation_usd": 310000000.0,
             "debt_usd": 155000000.0,
             "net_equity_usd": 155000000.0,
@@ -39,6 +42,7 @@
         {
             "property_ref": "RE-SIN-04",
             "jurisdiction": "Singapore",
+            "asset_class": "Data-Center",
             "valuation_usd": 280000000.0,
             "debt_usd": 140000000.0,
             "net_equity_usd": 140000000.0,
@@ -47,6 +51,7 @@
         {
             "property_ref": "RE-MAC-05",
             "jurisdiction": "Macau SAR",
+            "asset_class": "Commercial-Office",
             "valuation_usd": 125000000.0,
             "debt_usd": 68750000.0,
             "net_equity_usd": 56250000.0,
@@ -55,6 +60,7 @@
         {
             "property_ref": "RE-MYS-06",
             "jurisdiction": "Malaysia (Kuala Lumpur)",
+            "asset_class": "Logistics",
             "valuation_usd": 95000000.0,
             "debt_usd": 52250000.0,
             "net_equity_usd": 42750000.0,
@@ -63,6 +69,7 @@
         {
             "property_ref": "RE-LON-07",
             "jurisdiction": "United Kingdom (England)",
+            "asset_class": "Commercial-Office",
             "valuation_usd": 240000000.0,
             "debt_usd": 132000000.0,
             "net_equity_usd": 108000000.0,
@@ -71,6 +78,7 @@
         {
             "property_ref": "RE-FRA-08",
             "jurisdiction": "Eurozone (Germany)",
+            "asset_class": "Data-Center",
             "valuation_usd": 210000000.0,
             "debt_usd": 126000000.0,
             "net_equity_usd": 84000000.0,
@@ -79,6 +87,7 @@
         {
             "property_ref": "RE-PAR-09",
             "jurisdiction": "Eurozone (France)",
+            "asset_class": "Commercial-Office",
             "valuation_usd": 165000000.0,
             "debt_usd": 90750000.0,
             "net_equity_usd": 74250000.0,
@@ -87,6 +96,7 @@
         {
             "property_ref": "RE-AMS-10",
             "jurisdiction": "Eurozone (Netherlands)",
+            "asset_class": "Logistics",
             "valuation_usd": 110000000.0,
             "debt_usd": 60500000.0,
             "net_equity_usd": 49500000.0,
@@ -95,6 +105,7 @@
         {
             "property_ref": "RE-ZUR-11",
             "jurisdiction": "Switzerland (Zurich)",
+            "asset_class": "Commercial-Office",
             "valuation_usd": 220000000.0,
             "debt_usd": 110000000.0,
             "net_equity_usd": 110000000.0,
@@ -103,6 +114,7 @@
         {
             "property_ref": "RE-CPH-12",
             "jurisdiction": "Denmark (Copenhagen)",
+            "asset_class": "Data-Center",
             "valuation_usd": 130000000.0,
             "debt_usd": 71500000.0,
             "net_equity_usd": 58500000.0,
@@ -111,6 +123,7 @@
         {
             "property_ref": "RE-STO-13",
             "jurisdiction": "Sweden (Stockholm)",
+            "asset_class": "Logistics",
             "valuation_usd": 145000000.0,
             "debt_usd": 79750000.0,
             "net_equity_usd": 65250000.0,
@@ -119,6 +132,7 @@
         {
             "property_ref": "RE-DXB-14",
             "jurisdiction": "UAE (Dubai)",
+            "asset_class": "Commercial-Office",
             "valuation_usd": 260000000.0,
             "debt_usd": 143000000.0,
             "net_equity_usd": 117000000.0,
@@ -127,6 +141,7 @@
         {
             "property_ref": "RE-AUH-15",
             "jurisdiction": "UAE (Abu Dhabi)",
+            "asset_class": "Data-Center",
             "valuation_usd": 190000000.0,
             "debt_usd": 104500000.0,
             "net_equity_usd": 85500000.0,
@@ -135,10 +150,29 @@
         {
             "property_ref": "RE-BAH-16",
             "jurisdiction": "Bahrain (Manama)",
+            "asset_class": "Logistics",
             "valuation_usd": 110000000.0,
             "debt_usd": 60500000.0,
             "net_equity_usd": 49500000.0,
             "gross_income_usd": 8250000.0
+        },
+        {
+            "property_ref": "SP-LEO-01",
+            "jurisdiction": "Low Earth Orbit (LEO Sector 1)",
+            "asset_class": "Space-Orbital",
+            "valuation_usd": 450000000.0,
+            "debt_usd": 180000000.0,
+            "net_equity_usd": 270000000.0,
+            "gross_income_usd": 56250000.0
+        },
+        {
+            "property_ref": "SP-LUN-02",
+            "jurisdiction": "Lunar South Pole Base Alpha",
+            "asset_class": "Space-Orbital",
+            "valuation_usd": 600000000.0,
+            "debt_usd": 210000000.0,
+            "net_equity_usd": 390000000.0,
+            "gross_income_usd": 90000000.0
         }
     ]
 }
