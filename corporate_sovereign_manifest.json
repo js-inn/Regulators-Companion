@@ -1,0 +1,27 @@
+{
+  "manifest_payload": {
+    "audit_nodes": [],
+    "entity_metadata": {
+      "business_number": "749810883RC0001",
+      "corporation_number": "1083947-7",
+      "export_timestamp_utc": "2026-09-29T00:12:15.098071+00:00",
+      "jurisdiction": "Federal (Canada) / Alberta Operations",
+      "legal_name": "10839477 Canada Inc."
+    },
+    "patent_nodes": [],
+    "treasury_records": [
+      {
+        "business_number": "749810883RC0001",
+        "corporate_entity": "10839477 Canada Inc.",
+        "expected_amount_cad": 5000000.0,
+        "id": 1,
+        "institution": "TD Bank Commercial / Treasury Services",
+        "sha256_receipt": "7b079782685698efc9b7a8326dcbafa68eac5ecb883e4e3e597bccf27bf5b8be",
+        "status": "RECONCILED_AND_ANCHORED",
+        "timestamp_utc": "2026-09-28T23:58:07.541160+00:00",
+        "transaction_ref": "TD-TRX-2026-0928-CORP"
+      }
+    ]
+  },
+  "master_sha256_seal": "afbcb410debe7deba3b41a08a780be4c55d9627362b7742699f71149dcf5992c"
+}
