@@ -1,17 +1,18 @@
 {
   "instruction_type": "SWIFT_MT103_INBOUND_PAYLOAD",
-  "timestamp": "2026-09-30T13:02:21.278364",
+  "timestamp": "2026-09-30T13:24:56.357247",
   "beneficiary": {
     "name": "Jujita Fermin Stairs",
     "institution": "The Toronto-Dominion Bank (TD Canada Trust)",
     "institution_number": "004",
-    "transit_number": "23867",
-    "account_number": "6794690",
+    "transit_number": "02389",
+    "account_number": "6794682",
+    "designation_number": "779",
     "swift_bic": "TDOMCATTTOR"
   },
   "routing_instructions": {
     "currency": "CAD",
-    "intermediary_handling": "Direct Clearing via TD Head Office Toronto",
-    "compliance_note": "Personal retail tranche routing under $3,000 threshold"
+    "destination_clarity": "Explicit corrected routing parameters - Zero ambiguity",
+    "compliance_note": "Personal retail tranche routing"
   }
 }
