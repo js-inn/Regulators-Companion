@@ -1,0 +1,12 @@
+{
+  "payment_rail": "Canadian_EFT",
+  "currency": "CAD",
+  "beneficiary": {
+    "name": "Jujita Fermin Stairs",
+    "institution_number": "004",
+    "transit_number": "02389",
+    "account_number": "6794682",
+    "designation_number": "779",
+    "bank_name": "TD Canada Trust"
+  }
+}
