@@ -1,39 +1,37 @@
 import json
-import glob
 import hashlib
 import datetime
 import os
 
 print("=== GENERATING IMMUTABLE AUDIT MANIFEST ===")
 
+files_to_anchor = [
+    "td_routing_profile.json",
+    "td_expanded_limits.json",
+    "td_tranche_01_log.json",
+    "td_tranche_02_log.json",
+    "td_disbursement_cpa005.txt"
+]
+
 manifest = {
     "manifest_version": "1.0.0",
     "generation_timestamp": datetime.datetime.now().isoformat(),
-    "jurisdiction": "Canada (AB)",
     "audit_components": []
 }
 
-# Files to include in the manifest audit bundle
-target_files = [
-    "td_routing_profile.json",
-    "td_expanded_limits.json"
-] + sorted(glob.glob("td_tranche_*_log.json"))
-
-for file_path in target_files:
+for file_path in files_to_anchor:
     if os.path.exists(file_path):
         with open(file_path, "rb") as f:
-            file_bytes = f.read()
-            file_hash = hashlib.sha256(file_bytes).hexdigest()
-        
-        with open(file_path, "r") as f:
-            content = json.load(f)
+            content = f.read()
+            file_hash = hashlib.sha256(content).hexdigest()
             
         manifest["audit_components"].append({
             "filename": file_path,
-            "sha256_checksum": file_hash,
-            "data": content
+            "sha256_checksum": file_hash
         })
         print(f" -> Anchored: {file_path} [{file_hash[:12]}...]")
+    else:
+        print(f" [WARNING] {file_path} not found on disk, skipping.")
 
 manifest_filename = "immutable_audit_manifest.json"
 with open(manifest_filename, "w") as f:

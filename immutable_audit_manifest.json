@@ -1,93 +1,26 @@
 {
   "manifest_version": "1.0.0",
-  "generation_timestamp": "2026-09-30T12:05:39.837111",
-  "jurisdiction": "Canada (AB)",
+  "generation_timestamp": "2026-09-30T12:28:07.782413",
   "audit_components": [
     {
       "filename": "td_routing_profile.json",
-      "sha256_checksum": "d3ac291a9113204cdadae4c709cd378b7bfc4ecab3fa93109e6795e57e74828d",
-      "data": {
-        "entity_profile": {
-          "legal_name": "Mrs. Jujita Fermin Stairs",
-          "jurisdiction": "Edmonton, Alberta, Canada",
-          "administrative_contact": "jujitastairs@gmail.com"
-        },
-        "destination_coordinates": {
-          "bank_name": "The Toronto-Dominion Bank (TD)",
-          "institution_number": "004",
-          "transit_number": "82389",
-          "account_number": "6215155",
-          "plan": "TD All-Inclusive Banking Plan",
-          "currency": "CAD"
-        },
-        "payments_canada_routing": {
-          "clearing_system": "Automated Clearing Settlement System (ACSS)",
-          "electronic_routing_string": "000482389",
-          "institution_number": "004",
-          "transit_number": "82389",
-          "account_number": "6215155",
-          "currency": "CAD"
-        }
-      }
+      "sha256_checksum": "d3ac291a9113204cdadae4c709cd378b7bfc4ecab3fa93109e6795e57e74828d"
     },
     {
       "filename": "td_expanded_limits.json",
-      "sha256_checksum": "d29fa678b7de02f2bfc03e4436844380d320c7b922a6ccc365dcf83c4696a93f",
-      "data": {
-        "profile_name": "TD All-Inclusive - Expanded Tier Target",
-        "updated_date": "2026-09-30",
-        "institution_coordinates": {
-          "bank": "TD Canada Trust",
-          "institution_number": "004",
-          "transit_number": "82389",
-          "account_number": "6215155",
-          "payments_canada_acss": "000482389"
-        },
-        "target_velocity_limits": {
-          "currency": "CAD",
-          "per_transaction_cap": 10000.0,
-          "daily_rolling_limit": 10000.0,
-          "weekly_rolling_limit": 35000.0,
-          "monthly_rolling_limit": 100000.0
-        },
-        "status": "Staged for telephone/branch authorization review"
-      }
+      "sha256_checksum": "d29fa678b7de02f2bfc03e4436844380d320c7b922a6ccc365dcf83c4696a93f"
     },
     {
       "filename": "td_tranche_01_log.json",
-      "sha256_checksum": "ef2179808336d1904aa028cce0f5748026beb9d06f09196249f2d07c172667f8",
-      "data": {
-        "batch_sequence": "01",
-        "transaction_date": "2026-09-30",
-        "amount": 3000.0,
-        "currency": "CAD",
-        "destination": {
-          "bank": "TD Canada Trust",
-          "institution_number": "004",
-          "transit_number": "82389",
-          "account_number": "6215155",
-          "plan": "TD All-Inclusive Banking Plan"
-        },
-        "status": "Staged for daily limit execution"
-      }
+      "sha256_checksum": "ef2179808336d1904aa028cce0f5748026beb9d06f09196249f2d07c172667f8"
     },
     {
       "filename": "td_tranche_02_log.json",
-      "sha256_checksum": "84daf4dd6653ac8405fd845583ebc7c6456a096bee8664ee166fbd8d285e3541",
-      "data": {
-        "batch_sequence": "02",
-        "transaction_date": "2026-09-30",
-        "amount": 3000.0,
-        "currency": "CAD",
-        "destination": {
-          "bank": "TD Canada Trust",
-          "institution_number": "004",
-          "transit_number": "82389",
-          "account_number": "6215155",
-          "plan": "TD All-Inclusive Banking Plan"
-        },
-        "status": "Staged for daily limit execution - Batch 02"
-      }
+      "sha256_checksum": "84daf4dd6653ac8405fd845583ebc7c6456a096bee8664ee166fbd8d285e3541"
+    },
+    {
+      "filename": "td_disbursement_cpa005.txt",
+      "sha256_checksum": "76369398785ef03f6a6d21761f9de8c5e1b12cf3bf3ff93712c5f9e17343919a"
     }
   ]
 }
