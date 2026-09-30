@@ -1,0 +1,23 @@
+{
+  "entity_profile": {
+    "legal_name": "Mrs. Jujita Fermin Stairs",
+    "jurisdiction": "Edmonton, Alberta, Canada",
+    "administrative_contact": "jujitastairs@gmail.com"
+  },
+  "destination_coordinates": {
+    "bank_name": "The Toronto-Dominion Bank (TD)",
+    "institution_number": "004",
+    "transit_number": "82389",
+    "account_number": "6215155",
+    "plan": "TD All-Inclusive Banking Plan",
+    "currency": "CAD"
+  },
+  "payments_canada_routing": {
+    "clearing_system": "Automated Clearing Settlement System (ACSS)",
+    "electronic_routing_string": "000482389",
+    "institution_number": "004",
+    "transit_number": "82389",
+    "account_number": "6215155",
+    "currency": "CAD"
+  }
+}

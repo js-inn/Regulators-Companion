@@ -1,0 +1,19 @@
+{
+  "profile_name": "TD All-Inclusive - Expanded Tier Target",
+  "updated_date": "2026-09-30",
+  "institution_coordinates": {
+    "bank": "TD Canada Trust",
+    "institution_number": "004",
+    "transit_number": "82389",
+    "account_number": "6215155",
+    "payments_canada_acss": "000482389"
+  },
+  "target_velocity_limits": {
+    "currency": "CAD",
+    "per_transaction_cap": 10000.0,
+    "daily_rolling_limit": 10000.0,
+    "weekly_rolling_limit": 35000.0,
+    "monthly_rolling_limit": 100000.0
+  },
+  "status": "Staged for telephone/branch authorization review"
+}
