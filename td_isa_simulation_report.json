@@ -1,0 +1,21 @@
+{
+  "simulation_type": "TD_ISA_RANGE_QUARANTINE_CHECK",
+  "target_accounts": [
+    "TDB8150",
+    "TDB8151",
+    "TDB8152",
+    "TDB8153",
+    "TDB8154",
+    "TDB8155",
+    "TDB8156",
+    "TDB8157",
+    "TDB8158",
+    "TDB8159"
+  ],
+  "status": "LOCKED_UNDER_ZERO_YIELD_PROTOCOL",
+  "corporate_issuer": "10839477 Canada Inc.",
+  "block_index": 26,
+  "timestamp": "2026-10-01T21:38:25.024336+00:00",
+  "block_hash": "2146dd4f9ba3fb538b765f563cd5fad52133dbe709c56d6ea645dadb91ccc4b6",
+  "notes": "Accounts TDB8150 through TDB8159 simulated and programmatically quarantined. Zero transactional velocity enforced."
+}
