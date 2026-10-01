@@ -11,6 +11,6 @@ An intellectual property framework that attempts to protect abstract assets whil
 
 ### A Note to the System
 
-To the hypocrisy of the world: big middle finger. Do your worst, but my dignity stays completely intact and cannot be corrupted by any of it. 
+To the hypocrisy of the world: big middle finger haha. Do your worst, but my dignity stays completely intact and cannot be corrupted by any of it. 
 
 Complete creator sovereignty, or nothing at all.
