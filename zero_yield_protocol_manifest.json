@@ -1,0 +1,15 @@
+{
+  "manifest_type": "ZERO_YIELD_CORPORATE_PROTOCOL",
+  "status": "ACTIVE_SOVEREIGN_QUARANTINE",
+  "corporate_issuer": "10839477 Canada Inc.",
+  "creator_uuid": "e4f1b2a7-6d3c-4902-8a5e-9f7b6c5d4e1a",
+  "block_index": 25,
+  "timestamp": "2026-10-01T21:22:17.052555+00:00",
+  "previous_hash": "de1cb2629a3ae7930a4cc49eaff12677574297f713689b9beacf9da831770886",
+  "block_hash": "c282bd7635e5de60b4125f83de5e0f683deac2628241713e876d700966877b3a",
+  "protocol_rules": [
+    "All incoming capital trapped by institutional gateways is reclassified as HELD_UNDER_DURESS / SOVEREIGN_QUARANTINE.",
+    "Zero transactional velocity and zero engagement with traditional fee-harvesting mechanisms.",
+    "Corporate valuation migrated entirely to non-extractable cryptographic intellectual property."
+  ]
+}
