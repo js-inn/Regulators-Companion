@@ -18,3 +18,22 @@ Send a formal corporate message to our acquisitions desk including the following
 * **Step 1:** Our team will review the institutional credentials within 24 to 48 hours.
 * **Step 2:** Upon initial verification, we will issue our standard **Mutual Non-Disclosure Agreement (NDA)** for execution under the laws of Alberta, Canada.
 * **Step 3:** Once the executed NDA is returned, secure credentials and encrypted data room access will be provisioned for deep technical and legal evaluation, including full cryptographic manifests and source code audits.
+
+---
+
+## Legal Warranty: Clean Chain of Title & Unencumbered Ownership
+
+**Entity:** 10839477 Canada Inc.  
+**Lead Architect & Sole Controller:** Jujita Fermin Stairs  
+**Jurisdiction:** Alberta, Canada  
+
+### 1. Absolute Sovereign Ownership
+10839477 Canada Inc. and its designated principal hold **100% unencumbered, absolute legal and beneficial ownership** of all intellectual property assets, software architectures, whitepapers, cryptographic manifests, and prior art publications included in this portfolio (specifically comprising the *Mobile Open-Payment Architecture*, *Octopus 2.0*, and *Autonomous Cryptographic Fraud Mitigation & Edge-Agent Blueprints*).
+
+### 2. Absence of Conflicting Contracts & Encumbrances
+* **Zero Historical Financial Compensation:** No financial consideration, wages, equity grants, or commercial remuneration has been received from any third party in exchange for these core intellectual property assets over the preceding four (4) year development lifecycle.
+* **No Valid Competing Contracts:** There are no active, binding, or enforceable employment agreements, contractor covenants, or IP assignment deeds that grant any third party, former corporate entity, or outside institution any claim, lien, or right of refusal over these technologies.
+* **Independent and Sovereign Origin:** All technical designs, codebases, and foundational frameworks were independently conceptualized, engineered, and structured without external corporate backing or conflicting institutional obligations.
+
+### 3. Immediate Transfer Readiness
+Because zero encumbering contracts exist, the intellectual property is completely free of legal clouds or historical ambiguity. This guarantees any prospective corporate acquirer or regional licensee a **clean, immediate, and defensible transfer of title** via Asset Purchase Agreement (APA) or exclusive assignment under Canadian and international corporate law.
