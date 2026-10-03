@@ -37,3 +37,8 @@ Send a formal corporate message to our acquisitions desk including the following
 
 ### 3. Immediate Transfer Readiness
 Because zero encumbering contracts exist, the intellectual property is completely free of legal clouds or historical ambiguity. This guarantees any prospective corporate acquirer or regional licensee a **clean, immediate, and defensible transfer of title** via Asset Purchase Agreement (APA) or exclusive assignment under Canadian and international corporate law.
+
+### 4. Absolute Immunity from Grants and Public Funding Liens
+* **Zero Government or Institutional Subsidies:** No government grants, public innovation funding, academic subsidies, or institutional development awards have ever been applied for, awarded, or received in connection with the creation, development, or maintenance of this intellectual property portfolio.
+* **Absence of State or Crown Claims:** Consequently, no governmental authority, crown corporation, or public funding body holds any statutory lien, royalty claim, mandatory commercialization obligation, or right of prior approval over the cross-border transfer, sale, or licensing of these assets.
+* **Unrestricted Global Transferability:** The absence of public sector capital ensures that 10839477 Canada Inc. maintains 100% private autonomy to negotiate, assign, or license these technologies internationally without regulatory interference from public funding covenants.
