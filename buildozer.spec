@@ -2,6 +2,7 @@
 title = Octopus Node
 package.name = octopusnode
 package.domain = org.octopus
+source.file = validate_octopus.py
 source.include_exts = py,png,jpg,kv,atlas
 requirements = python3,kivy,pyjnius
 android.permissions = INTERNET, NFC
