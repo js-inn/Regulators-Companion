@@ -1,19 +1,21 @@
 [app]
-title = Octopus Node
-package.name = octopusnode
+title = Octopus 2.0
+package.name = octopus
 package.domain = org.octopus
 source.dir = .
-source.file = validate_octopus.py
-source.include_exts = py,png,jpg,kv,atlas
+source.exts = py,png,jpg,kv,atlas
 version = 1.0
 requirements = python3,kivy,pyjnius
-android.permissions = INTERNET, NFC
-android.features = android.hardware.nfc
-android.manifest.intent_filters = <intent-filter><action android:name="android.nfc.action.TAG_DISCOVERED"/><category android:name="android.intent.category.DEFAULT"/></intent-filter>
 orientation = portrait
-# Specify stable Android target versions to avoid build-tools 37 issues
-android.api = 33
+
+[buildozer]
+log_level = 2
+warn_on_root = 1
+
+[app:android]
+android.api = 34
 android.minapi = 21
-android.sdk = 33
 android.ndk = 25b
 android.accept_sdk_license = True
+android.permissions = INTERNET,NFC
+android.features = android.hardware.nfc
