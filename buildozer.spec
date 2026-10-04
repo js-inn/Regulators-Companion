@@ -2,8 +2,10 @@
 title = Octopus Node
 package.name = octopusnode
 package.domain = org.octopus
+source.dir = .
 source.file = validate_octopus.py
 source.include_exts = py,png,jpg,kv,atlas
+version = 1.0
 requirements = python3,kivy,pyjnius
 android.permissions = INTERNET, NFC
 android.features = android.hardware.nfc
