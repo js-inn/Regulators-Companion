@@ -7,8 +7,6 @@ source.exts = py,png,jpg,kv,atlas
 version = 1.0
 requirements = python3,kivy,pyjnius
 orientation = portrait
-
-# Android configuration
 android.api = 34
 android.build_tools_version = 34.0.0
 android.minapi = 21
