@@ -11,3 +11,9 @@ android.permissions = INTERNET, NFC
 android.features = android.hardware.nfc
 android.manifest.intent_filters = <intent-filter><action android:name="android.nfc.action.TAG_DISCOVERED"/><category android:name="android.intent.category.DEFAULT"/></intent-filter>
 orientation = portrait
+# Specify stable Android target versions to avoid build-tools 37 issues
+android.api = 33
+android.minapi = 21
+android.sdk = 33
+android.ndk = 25b
+android.accept_sdk_license = True
