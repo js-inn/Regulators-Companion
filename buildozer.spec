@@ -18,3 +18,5 @@ android.features = android.hardware.nfc
 [buildozer]
 log_level = 2
 warn_on_root = 1
+
+p4a.bootstrap = sdl2
