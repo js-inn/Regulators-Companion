@@ -1,0 +1,32 @@
+import json
+import os
+
+export_data = {
+    "entity_profile": {
+        "legal_name": "10839477 Canada Inc.",
+        "operating_style": "Sole Proprietorship",
+        "beneficiary": "Jujita Fermin Stairs",
+        "jurisdiction": "Edmonton, Alberta, Canada",
+        "administrative_contact": "spoiledurfoot@gmail.com"
+    },
+    "destination_coordinates": {
+        "bank_name": "Bank of Montreal (BMO)",
+        "institution_number": "001",
+        "transit_number": "00149",
+        "branch_address": "10185 - 101 Street NW, Edmonton, AB T5J 0H4",
+        "account_number": "1928-814",
+        "currency": "CAD"
+    },
+    "clearing_networks": {
+        "domestic_batch": "ACSS / CPA-005",
+        "wholesale_wire": "Lynx / Large Value Transfer System (LVTS)",
+        "xml_standard": "ISO 20022 (pain.001 / camt.053)"
+    }
+}
+
+file_path = "bmo_routing_profile.json"
+
+with open(file_path, "w") as f:
+    json.dump(export_data, f, indent=2)
+
+print(f"Successfully exported routing profile to {os.path.abspath(file_path)}")
