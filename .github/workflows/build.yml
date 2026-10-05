@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-      
+
       - name: Set Up Python
         uses: actions/setup-python@v5
         with:
@@ -29,4 +29,33 @@ jobs:
           sudo apt-get install -y \
             python3-pip git zip unzip autoconf automake libtool libltdl-dev pkg-config \
             zlib1g-dev libncurses5-dev libncursesw5-dev libffi-dev libssl-dev
+
+      - name: Install Buildozer and Cython
+        run: |
+          pip install --upgrade pip
+          pip install --upgrade cython==0.29.36 buildozer
+
+      - name: Clean Build Caches
+        run: |
+          rm -rf .buildozer bin
+
+      - name: Build APK with Buildozer
+        run: |
+          unset ANDROID_NDK_HOME
+          unset ANDROID_HOME
+          buildozer -v android debug
+
+      - name: Dump Buildozer Logs on Failure
+        if: failure()
+        run: |
+          if [ -d ".buildozer/logs" ]; then
+            cat .buildozer/logs/*.txt
+          fi
+          find . -name "buildozer.log" -exec cat {} +
+
+      - name: Upload APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: octopus-node-apk
+          path: bin/*.apk
 
