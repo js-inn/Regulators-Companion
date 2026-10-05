@@ -1,0 +1,1631 @@
+{
+    "author": "Jujita Fermin Stairs",
+    "records": [
+        {
+            "file": "wire_ledger.json",
+            "sha256": "7039bd05004c58b988bc71cc8223fa6d1d8d540c45cdb553987d59385a4ab26f",
+            "staged_at": "2026-09-30T23:26:50.315287Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "zenodo_deposit_manifest.json",
+            "sha256": "dc970e91bdb61d956be87656dac4f33679da347169849e6c53b08f575daa4799",
+            "staged_at": "2026-09-30T23:26:50.315287Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "CIPO_SUBMISSION_MEMO.json",
+            "sha256": "f46c584d28500ba46b2a22c40ef619ecf2dedd493c57ddbaeaa4ba1244811e49",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "LAC_ATTRIBUTION_REQUEST.json",
+            "sha256": "d4d4d1881b5dabb44af9ab0bebf82c9d7a956132893a533a6d6479662736932f",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "MANIFEST.json",
+            "sha256": "8cf7917b38d7c798f902d7a15a21d06185ca55114a65d4e87bbc507b791b5a10",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "active_virtual_cards.json",
+            "sha256": "bb85df160f4cd19c08102243758d1359852b9cc7eb2db02f68b1f32581f67612",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "audit_export_20260915_193424.json",
+            "sha256": "c06cc287be85b0942b3130047fb84acd84dfcfbe9ae729152cf1aee3140f448b",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "audit_export_20260915_202237.json",
+            "sha256": "7b29bfa80ac1df4740f170f48e28cb6519d7d827ef55c71f858f696fef845961",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "audit_export_20260915_212150.json",
+            "sha256": "a20889d2a5b87fa9219ec41a9bd3578e28e71ccdb29a5ae4c8a10bb363cd0143",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "audit_export_20260915_213148.json",
+            "sha256": "1c97e391171ac35c1fd868fd85cdf7828271e964e32e9d3dcf64ea166c9ace3b",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "audit_manifest_latest.json",
+            "sha256": "fbd6cd4881f7fd6646698960091b4be1b2246b5aa7d424c652db9a6b10409e1c",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "bloodline_scan_report.json",
+            "sha256": "604f940a08ebf6712cbe08813e382eb5dc3750060f11fdbb6e231b0e9445f0b0",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "bmo_routing_profile.json",
+            "sha256": "26aa60975fb412617314ea2920f139ce9076d41254fed66a0df3a0f7cbc0cade",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "bridge_activity.json",
+            "sha256": "6b2a1bf5d8f419d48b58edbb0cfd336fd082c0e828fbb908106e9317aef9c183",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "camt053_statements.json",
+            "sha256": "0a8656ae6ec2f7adf476a71a271a04abb4e5d3e9a76e464e3addddbbe0b3dab2",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "compliance_audit_report.json",
+            "sha256": "5618f0c7e54d6b467cb80b68c406a936385582851df69c901c531d23b366b158",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "concealment_audit_report.json",
+            "sha256": "7c2bb28f0e5d09ffd6107c422ba9e5035f121b9c79b3e1504a56d42fc81f75b3",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "corporate_audit_manifest_sealed_1790369990.json",
+            "sha256": "fc2a5472a3b78a3a2e1bc5a31ed5ce9367bfb18a4fa3a27712027c95526657d0",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "corporate_identity_attestation_1790370508.json",
+            "sha256": "bcb069b9d8c7d93d817600e620080cd638e23cca44eb41382f6a86a5dff147b4",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "corporate_sovereign_manifest.json",
+            "sha256": "4ddd3cb64301ace9215876b4e0b76eb1c4480bf89f31c51d6c7b22ea894153fc",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "escalation_notice_proof.json",
+            "sha256": "f7dd6e7608b9e001010a86f9b2dab62f5b50311b206326d5f264d14aab9e5de4",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "google-services (1).json",
+            "sha256": "1944afc8525e6e420af7fdf4c5c9ab199ef21d72e5ab4f47ea3b95fa2afb6d66",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "gvt_verified_audit_bundle.json",
+            "sha256": "346a08a563a922c13526c9e288400d021bac920f9e0c3e275a1c7ab9dcbda9d5",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "immutable_audit_manifest.json",
+            "sha256": "24097054032a21f5e96e0ba2ba96a3365d3d64014c19337d227975b35620d278",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "institutional_grievance_evidence_1790371429.json",
+            "sha256": "10add926d383447b796f7b1fbb71723e5bdd4a50b6c55d4e9825321f11468256",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "ip_disclosure_manifest.json",
+            "sha256": "65e4c7679b8163f84d74df05f9e0e6287c1e5acaea8246796b30070c50cc6ad4",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "master_audit_manifest.json",
+            "sha256": "6fca30dd11a99a024d711aa28d48d9eef79fc3df2d2153c15845293dd262068f",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "octopus_ledger.json",
+            "sha256": "a3cff314a6994edd58c84b3a037764fde9c1fea591d839f9c56d247d905a4115",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "package-lock.json",
+            "sha256": "0236905bfe9d2e72759db3aa4660e7b7bc69903763b9a7e072ded2d9715854fc",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "package.json",
+            "sha256": "c4ad09f3ec0ef3f4d714af6cc6724015aa71277075809ccd2b89f9e90dfedc0c",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "postal_payout_manifest.json",
+            "sha256": "9adef8ea9911e117c12337aff02f155329e61e1e440e94505feffe04ef87f788",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "public_audit_regulatory_record_1790371709.json",
+            "sha256": "df738d2156f0782e17aa69d5cc0b60934790b4a2dea11b9a948abc0ed33d1693",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "public_institutional_accountability_record_1790371821.json",
+            "sha256": "7f29c3c859ebe278abd4f9b41b2844b6ed50049b209ddd0429b9ba39552b1b2a",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "public_institutional_accountability_record_1790372106.json",
+            "sha256": "de1e99deac780005113d7a5d16c014a7bf0cc9544f20f888eb63bd3c02ff68e3",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "public_institutional_accountability_record_1790372189.json",
+            "sha256": "46ae69ea4cee3882223c279e8e0a6c6974504a8adae3467b0a13455b31484beb",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "public_institutional_accountability_record_1790372404.json",
+            "sha256": "83195735349e9e81da2415acec2437860b31d1bcf94d0209a9ece12319b4d7c6",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "public_institutional_accountability_record_1790372590.json",
+            "sha256": "4f7df881174a589790c6de5293d0d4bb19e4e056c57ac9132088291b93591109",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "published_audit_manifest.json",
+            "sha256": "fbfeddf3aa58d2eb49b77e66c3147ff0bb0e90fb7279193805f07216aeefca66",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "questrade_income_claim_manifest.json",
+            "sha256": "ad942dff52e3c43dbf6e2edce022395f25aa963e39da9b8cdb13e0372e286ce7",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "sibling_audit_report.json",
+            "sha256": "5f8f818fe633e42e071b0b85b72733a6c2bda0b40b5f4a42bb1d81ec004ab851",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "sibling_financial_bridge.json",
+            "sha256": "a7a2b90d7705283d0c1dec49a5cdf874d215eb15570d8de1d01dd755de4ea230",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "sovereign_audit_master_manifest.json",
+            "sha256": "cd6316c551d0a7c68f57390bd7b23a60ee55f81037d587022636297181de8a76",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "t5013_schedule12_parsed.json",
+            "sha256": "5b874f04cf696e429ce593171e355459661b996396e4d9081e242fe21c5921f7",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "t661_part7_parsed.json",
+            "sha256": "ab8e898a423b63df67eeb9dfce17c515bd2b5c976b346741266be4df4eb10dd2",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "td_eft_instruction.json",
+            "sha256": "7e2c9b07acf8d81206004be6fbeec20fda1b6f0b5eb79c8bec9b0032f4cbbf11",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "td_expanded_limits.json",
+            "sha256": "d29fa678b7de02f2bfc03e4436844380d320c7b922a6ccc365dcf83c4696a93f",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "td_routing_profile.json",
+            "sha256": "d3ac291a9113204cdadae4c709cd378b7bfc4ecab3fa93109e6795e57e74828d",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "td_swift_wire_instruction.json",
+            "sha256": "ec8813db5c1eded2805803440d45139e46f557c3385e800f3f36185c7c6e8e96",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "td_tranche_01_log.json",
+            "sha256": "ef2179808336d1904aa028cce0f5748026beb9d06f09196249f2d07c172667f8",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "td_tranche_02_log.json",
+            "sha256": "84daf4dd6653ac8405fd845583ebc7c6456a096bee8664ee166fbd8d285e3541",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "tdb_income_claim_manifest.json",
+            "sha256": "a139709636bc084b6f89d55ce26138c13c159f79407cce1ad335df18b0b8ef40",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "tdbank_lineage_bridge.json",
+            "sha256": "10660f69ac5ede78733b083aeddc70b1c454151d36f91a224d8374d445949ae0",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "tranche_01_log.json",
+            "sha256": "2b6a76f857c3ce1976a1314fd1ad1f819022587d1b5c125c8d56ef2ff9f08e06",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "wipo_lineage_report.json",
+            "sha256": "09e2df9b837a7f56472737a1d925965a7b347654213d7565dbd90ae107e856c6",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "wire_ledger.json",
+            "sha256": "7039bd05004c58b988bc71cc8223fa6d1d8d540c45cdb553987d59385a4ab26f",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "wire_status.json",
+            "sha256": "9da33c0622a15abaaee49f6ec99ec8a06557a03faeb4139aa59240d7174f895c",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "zenodo_deposit_manifest.json",
+            "sha256": "dc970e91bdb61d956be87656dac4f33679da347169849e6c53b08f575daa4799",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "cra_submission.xml",
+            "sha256": "de19e22604b2ec37405c77ec79bc5e8d64b28a8c714a509c25a5e769fa90add4",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "validated_pacs008_wire.xml",
+            "sha256": "34e3b031ad3215de5204a11becd7c27d52654ff90c5f147cf6dbecef41e54dd2",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "abu_audit_pipeline.py",
+            "sha256": "a577f02f88ba6a6cff1beda4938b4ee322cdcaebb3294d4e27f8fea618a6f075",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "academic_tracking.py",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "aggregate_ledger.py",
+            "sha256": "08ff91651a848d951a4def0130337488b4e8b2819fd9eb50f9c892ad963778a2",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "ai_ecosystem_hierarchy.py",
+            "sha256": "91e7a2acbfc736cb8818b2045b5a7598019f83b44934fe38a106c96c9b64bf37",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "analyze_dscr.py",
+            "sha256": "af03d705ec124b3502b1ca8e15cc9636cfc1a00d226ce4076d934d140feca410",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "analyze_leverage.py",
+            "sha256": "40bc4f99ab16518d7c7aef9703d782b5a0a942400ce428a6edeaf8d836ca8337",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "arctic_powertrain_sim.py",
+            "sha256": "efa9efcfaca8e4616ef230f866bd8c510a67a7e81723fa5e235bcaa0861387b5",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "audit.py",
+            "sha256": "e24f62d3c6bd263a0e2b60f4eda23d43cf78ab062599e51d337e4e0fc477325b",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "audit_inspector.py",
+            "sha256": "df12d26cddc4fe50d8dbabc10738ef4b0caedb7c0f5c9359277eb2c1ee38298c",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "audit_logger.py",
+            "sha256": "819693596347537532ba2c8bb90a4d8301ef4dbfcac83055e1578441faed75a2",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "audit_report.py",
+            "sha256": "5dbb77d8a434e388b2aa85f39585559294da0ab2977aa6532cfcaf195cde15e3",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "australia_sibling_scanner.py",
+            "sha256": "f8a57e60fb986bcaf51102bd1f33c2620c37e99ea8db7a2c849fb111419648e3",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "batch_ingest.py",
+            "sha256": "1209468653f57ce2db4b28946d9906b0aab3ff58697843de8f7bfb488a1554c6",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "bind_hierarchy_nodes.py",
+            "sha256": "db4ae35147afbd10f7507496a7465811c63d7c17b541ca62f64a098f28a96089",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "bn_audit_pipeline.py",
+            "sha256": "48d3963d29e027b6a061bbf8f204774d4f758d550ad20b769d396ec2cc0a01fb",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "brazil_sibling_scanner.py",
+            "sha256": "73d13e04a74a7bee17d2d04b2a44a9a1d435c70a5acb8b4d08160a093fd515bb",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "btc_audit.py",
+            "sha256": "024f386ea40fcd7388330490dea57fb6e7e84fd450f652025f5e1d99d2c77d1c",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "calculate_volume.py",
+            "sha256": "2cbc027bfa5b486cda9089b0f71f13a2b13a5cf7e757c324c1422f5f55f84682",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "calculate_yields.py",
+            "sha256": "48e65b19044961436703ac4c93f43a53a1d0455e18b0f96e89fe03ce9dde224e",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "canada_cipo_sibling_scanner.py",
+            "sha256": "850ebcb618d2e1edcadd41c7f8a932a6cc81525b8cb800e49c5bf35b4fa3ea16",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "car_audit_pipeline.py",
+            "sha256": "6a8a076c900a9a319c39118a650706da8eebe75c59c94aa62f32ece1ac6b2501",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "check_corp.py",
+            "sha256": "bbaf55bd1e4f01b7d23c4f279a75d683f19b38f0c4bc3cbe4cc25db2d02ab414",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "china_sibling_scanner.py",
+            "sha256": "1e46f8500fa755f0315fb4206c0f96d195563221a63e2ed24a4c805286913ca7",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "commit_trace_block.py",
+            "sha256": "c07e7a455a6e272c739e23e8ece8cd1fcdf855292ba5dba4453f077b85e856e8",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "connect_payments_canada.py",
+            "sha256": "8d4b9d6578a06064e984d1038e7f104a188b75c8ed5f3bc995914eccfb2b8515",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "corporate_hierarchy.py",
+            "sha256": "f0bb593d408809a4fbcf5af7281e25e3675a2c12f009d403e78245b1dca6184a",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "create_money_order_block.py",
+            "sha256": "5390f5c50d250cbcedca7149ee5ed11a20a57a1fc76191b7635b11606fdd58bc",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "create_virtual_card.py",
+            "sha256": "aa5482d5019a7d2de252a0662f257e162b7b4dfac54d76c5bac65b08998f1fb2",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "cross_domain_query.py",
+            "sha256": "48a83231d6fe2c2c4e1100bbe371c4dfce269e803a282f7a008582387f5f3233",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "cross_reference_registry.py",
+            "sha256": "418b8eae88913187ded971bfd9f4dc2d071ad32ff71295c91157d16c681e7bde",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "cross_reference_sedar.py",
+            "sha256": "0c1e6c3a1ca1bb9bf1b40cef203d52018efc230935cf77e197403dacf59488a2",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "dashboard_server.py",
+            "sha256": "fdf316681609468f35d505860f0febfea5f254af9fefcd8d42271f2226e57dd8",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "denmark_audit_pipeline.py",
+            "sha256": "591f5818a353128f71483117fa233497a28cea65f2bdd5d03a20127e5e834799",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "deutsche_bank_audit.py",
+            "sha256": "89ab1092252d93b6e34ea35c73718897aa63b5e73aea42845ed8494b5c8f1ae3",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "dispatch_eft.py",
+            "sha256": "723ae2cc7eb786b91d17eadd88501b3713183de66438f8b538032cb857e3a55a",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "dispatch_eft_live.py",
+            "sha256": "1f5c0ae5daccf77e5bfafc05cd7e9559dfa023b44e52b7858cbce979fbc21290",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "dispatch_live_gateway.py",
+            "sha256": "a115ecaad5a9bff7bb4d3e1c9241d5d25ee8fd9a8ce7a1e4ce985c186a36f913",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "dispatch_wire.py",
+            "sha256": "99b419f6abf060ec72fa09ef0f0b66baf3327b62b675e1c6c09c1cb14862f6d9",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "document_boundary_layer.py",
+            "sha256": "af6e85c97bd000e81a9bf81e4ce0ffa908d7ffa08ee00866f726a8bc349cbd30",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "drive_sync.py",
+            "sha256": "e56f0af68603cbaca7bd9af64e29b559b3393fe258bad5e3664ce190bc92f027",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "dubai_audit_pipeline.py",
+            "sha256": "1c27244ff0274581067102fbc543c554083ed3d1acb4dae21dec1157ce17597e",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "edge_agent_node.py",
+            "sha256": "3b51fb52117c08eafdc071854a78a469b0d3a35673dfea21481ea0f563ee111d",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "eu_audit_pipeline.py",
+            "sha256": "17b0e345ba531502aad5418ccb9b3b7867e1d8bf1b2ace34fb7d12eb6d772d23",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "eu_sibling_scanner.py",
+            "sha256": "1d0eb80e0e2bcfa8856f7a926f87b2fa7300c55c86d31e3cad517e6f5fb5d18c",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "execute_live_transfer.py",
+            "sha256": "72b4abbcf620cc2b8e196508ebccb242fd3d1386cbd1fc1cdc9e00c447504b27",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "export_audit_bundle.py",
+            "sha256": "e9c34be6879e46d09f87eb48630a2162d9095d723fff25804f2e7c52351c2fd9",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "export_audit_manifest.py",
+            "sha256": "ebbc084cb7004141a3adebe257a0400019f4c56b0ea1b688505863f4144357d0",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "export_audit_package.py",
+            "sha256": "eea93edae60f62c7ca6172d7be43cbf39722416f159400a3f14da6b8064fded8",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "export_csv.py",
+            "sha256": "1c3fe97d80ef89a3d18270e0123873c316add9fc4518c65b8276fee487503272",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "export_immutable_manifest.py",
+            "sha256": "d329a0ac5a2b456adab0639dd9433fb66b7222022fe48e134171b5cf71ba7531",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "export_ip_manifest.py",
+            "sha256": "c1d9cc48d98c91a3f338d0bcaed539e040063418e49eaca651f1830a8ab3129e",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "export_payout_manifest.py",
+            "sha256": "151450e8f912109196c4251449335577c1a4bdb08f791f4dade40e8f26bd00e3",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "export_profile.py",
+            "sha256": "779d48600ad29bb2dff33d71fac9d823940243cb065c8d7a432afbc7d27ca51b",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "filter_ledger.py",
+            "sha256": "7bd9cf9a7a4e14d1ba10bbe0f2ee6b7d3cdd125691b5c765f50a3b79485ca8a2",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "financial_bridge.py",
+            "sha256": "ce706f7e592ec25a7f48c0a0e43d563ccc1e54d708fbe2c084d3e81a998f2aca",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "financial_pipeline.py",
+            "sha256": "459d1c00f28b4d4499d8ee2b4438cf4a7dddf767c69a8285c3f0499c9e1691c3",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "finland_audit_pipeline.py",
+            "sha256": "7128ce222b5efb8c35c6d7f1e7cbb9ceebba3c827b57fa960dce0c21cc6fbf76",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "fix_limits.py",
+            "sha256": "8134b12151138586a46926211f69eaca4163af17c1b0187e0202115d1ccddaa4",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "france_inpi_sibling_scanner.py",
+            "sha256": "8e88389202d3b52e46ec3c1a9750446c8179fd424d222ca236cffd4fca4349ee",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "fraud_mitigation.py",
+            "sha256": "6b48b5780dc8736d8512fa054c8a941e11a54c61522d9285f9bcdd7a43648e2b",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "frontier_registry.py",
+            "sha256": "6a431358b3105be38e71f4332c3a225408c6ba0eb6fa3a4da779d7a347f7efb7",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "fund_and_cashout.py",
+            "sha256": "cf9753ece026fa238bbdce20a045efc6c9a26ebd2bdae1f0c6154af0ef38353b",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "generate_and_deploy.py",
+            "sha256": "f096fa51a90212c7b512b7f293060566fd30a91d45ca15486706754fe3b7f64d",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "generate_and_push.py",
+            "sha256": "606466f8dc7f789c6b535d84812cefb107eaa0a3e777335b4af1ea38f6b94480",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "generate_atb_reports.py",
+            "sha256": "648df314a8285aff563ff8d520017da30d441ff8ae6bb338afc28a6c4a1256f6",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "generate_audit_dossier.py",
+            "sha256": "48160d9364006307324cca1b6ee42e8a9eff8da59a1e41241f096f51b62b0d7e",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "generate_audit_hash.py",
+            "sha256": "389650603ca15affe1db979b69e46fe2a31cbcf0c51804a09dc1540093ee68a9",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "generate_audit_report.py",
+            "sha256": "a3cdd59d749275efb33ddc16d8e3fcb395e4c1f99e6b390ca274f90f1181244e",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "generate_compliance_report.py",
+            "sha256": "d61980fbfcc20dd29e06d8f0b7b667e409e935ca65021723198282cfc19689c8",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "generate_cpa005_batch.py",
+            "sha256": "29ff1c4b42609f0d164fa34c4a7e5e0bb165d749093ce816a37c74d6c604f7a4",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "generate_expanded_limits.py",
+            "sha256": "ad7c871c53beb4bbe327977a6ea35e350ec0ae49da89458466e6268d38178127",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "generate_grievance_evidence.py",
+            "sha256": "3830cb6d51be052df40ea73077e001d7e16ea0b24c084c54c4a054528c9f0557",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "generate_legal_package.py",
+            "sha256": "b97cc6bd8568a4d3b3967cc2cfdf0d76e243da4b4f06b25d11b81359e2640c73",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "generate_manifest.py",
+            "sha256": "5b305a1711a96fc85c354cb1a83399a0561bfa137d0190547ed2b0c1614bb1f5",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "generate_pdf_certificate.py",
+            "sha256": "a521229779feb7b4d99be32648f29b7167b4ba0659bbb75e00d6de78c5ebe66f",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "generate_public_accountability_record.py",
+            "sha256": "e7476e821fb551fd3541ed88f29c80514e9e5b2acffab43d675a46b5e72043bd",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "generate_public_audit_record.py",
+            "sha256": "46b3540a622ab2fc156ca487a9a27b52480ac5ebe6d6bedd13d890ec8122608f",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "generate_swift_instruction.py",
+            "sha256": "6786e260d239ca332f96ecd9f293b1f207124b5f6a00d01e20040db53a65d926",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "germany_sibling_scanner.py",
+            "sha256": "e055872a46a6d7e7f242c88db038c0baf372f4cf7973e15d7c1ed49b486dc0ef",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "git_sync_escalation.py",
+            "sha256": "b21f8e834eac534c02b7210c9ffd14191653ab61ed2d62109efdcee9e4dc8a38",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "git_sync_manifest.py",
+            "sha256": "7063c29ed2aca842f0e204318232700a84e4080c1f0e22b8a92366e784a47450",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "gov_institutions_hierarchy.py",
+            "sha256": "561eb76cd7e29efa83adf56b804db165a62447e8d008e7f87f3471021378dedb",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "hash_escalation.py",
+            "sha256": "bb8c3b85c6d3bf2ff14e142de0943eded807f54734fd216635b07310f7f41257",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "hk_audit_pipeline.py",
+            "sha256": "9a551bd15450c84a99bc8f6d1e093c3bad3a161240b8228623c2eec2da66f5f4",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "hmac_signer.py",
+            "sha256": "2579b9b4bc4a76e6b2d4723a523263a9a01bd99bf3a1827bb6cb4b75c5a83bf0",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "hs_audit_pipeline.py",
+            "sha256": "c5fa70b244cb308a579d2396063678defcf3947308b57e8653f2004b4a0cad22",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "il_audit_pipeline.py",
+            "sha256": "536660f86c4011da25cf3a3b576fd3f24439d4e0274dfe38c7a0dee7bf768bba",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "ilp_stream_simulator.py",
+            "sha256": "70e6486bd35a3eb498860c421a61b0d191351660c82fab44837624a12b60adbe",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "import_transactions.py",
+            "sha256": "85d11674ca282ff4b2296864e1a435e111f2d1488c0d058c96d6ad2e7691a59b",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "ingest_china.py",
+            "sha256": "7635f5bb6a9d40b5e73fdba52919224a583bba5536df773ac856746325a58848",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "ingest_euro.py",
+            "sha256": "bd96c6678a3d871bed32a48c9328a6fb9c567712bfc016138dfa03d0be27ad46",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "ingest_questrade_claims.py",
+            "sha256": "56d856eab55fbf2680279d9f639b8be349f8455ab8e98be66544dbff32693e17",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "ingest_tdb_claims.py",
+            "sha256": "a9fa08abb459803df5f6f727d97844f2e15925748198ffceaceac84cea9ee68d",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "ingest_tdbank_payment.py",
+            "sha256": "92e8745cd6ba019dd1cafab141bc1474c9a0eb048927891c33e590d37f2c930c",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "ingest_to_sqlite.py",
+            "sha256": "e4be785d1bda2a3f7cf63a29a253465e5e6bd964d773bd53fa1c83c7e2de3fac",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "ingest_uspto.py",
+            "sha256": "f82d855e3b5296d2b4719fd42d1e9d237a6511db6cdd1a39d14c58fdf7485ca8",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "ingest_zengin.py",
+            "sha256": "1efdc111bb118833215bc2401ae2fcc5dbd2e4a5d3dd791bc0f5f987e07abd54",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "init_china_ledger.py",
+            "sha256": "f65f06d026a4f47a9f4f505ecb8f252a6c9ce1ecfbf2f3a4b0d7edd6a0b5006d",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "init_euro_ledger.py",
+            "sha256": "4c632e7716418eb21a3c0729d7ca81e24a9efead788cebea65226479e1dcbe01",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "init_japan_ledger.py",
+            "sha256": "dd4baf367714aa25c4d37cb681aa3ffe5211bfc0ee231d6a53eef2ca05ebaee6",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "init_real_estate_ledger.py",
+            "sha256": "541d428922187dfdef6d886a9e3798014c615b8a4240ddc00b717b43d0b32b6a",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "init_uspto_ledger.py",
+            "sha256": "661a5619b30e702e68542f936c7340158eeafee382cc0793ed054a9b55199e90",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "inspect_memo.py",
+            "sha256": "a39940e43cc4ac92eb658741604c70fb0445f1f922925cc4655e18aa1179785a",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "japan_sibling_scanner.py",
+            "sha256": "693cb5a17617f9383257c47496959679d8187b7995c997498d1deff29084c095",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "korea_sibling_scanner.py",
+            "sha256": "ebb596ecde466c3d7bfe81d64cc9c44cb97f41849e600576cdd682a11a192a30",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "leader_follower_network.py",
+            "sha256": "eb5e60450f490e3ef1b09e5d14ca64f343bf247b02e8b2db514c6b0ea791fee2",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "ledger_audit.py",
+            "sha256": "e7ec90d44b53a22fe295b94a4fb87587377d712e20780f9500c4753c85fdf8cb",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "ledger_sync.py",
+            "sha256": "eb0d2df42b29ae0800e10c6f1c1c4238c095a85d5306552379e880517d25dbad",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "link_sibling_finance.py",
+            "sha256": "cad6f65ec3c35c5f4264e0fac0deeace6ce9f504c32eb0d0f27c8c2003c67452",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "log_dispatch_audit.py",
+            "sha256": "5265443ac1d65e3fb750f771f7454dd9946fa7e841d7b906c835ee58c55f9f60",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "log_payload_hash.py",
+            "sha256": "68b66b9637fa77bde873b65e09168c700251ba22c120c9d9d74de29dd483ecfc",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "log_td_tranche_01.py",
+            "sha256": "bd819db7387ccee8b2d883e309f7d01b7356a75a08e667e3065b84a06cf401fb",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "log_td_tranche_02.py",
+            "sha256": "44da219cee63d4cc47944010950b4015f4ae752acf288bbf0ac4c3a3680d5379",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "log_tranche_01.py",
+            "sha256": "010d7e5226c28fee4b0672bf45a2b9ce1bd0c35a0bafe6c449db27554f15604c",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "log_transaction.py",
+            "sha256": "b94494416f2ad4fe391725300d9ff2ba51635a09ae8501b89ecfb615f6e82f90",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "log_wire_status.py",
+            "sha256": "88848de4a05a53d2fabcc9735675f46f1aded1535f8678dc59072527dbef3c8e",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "madrid_trademark_scanner.py",
+            "sha256": "a5a9aff0d05c2dc19537013d0b5c3584e140b7b1d53435f4d15ec5ac92020e0f",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "main_wire_manager_v4.py",
+            "sha256": "5994ba6a3052a849062e51849836a9fed4cb32dc93a19db358763f1682d600db",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "master_audit_aggregation.py",
+            "sha256": "73219a79a1c1a0f7fe615af8d701b969447fa269291a4dc739bebff63d4deb22",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "master_audit_report.py",
+            "sha256": "104f86d52fd35167abf80d2cbc4ba8dcf4a1b92156bae6d9c813d03b51a72115",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "mexico_sibling_scanner.py",
+            "sha256": "502e4f534c154435524f89e0f72a1128a66303ddee9e59df9068bba6edbdce84",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "migrate_to_sqlite.py",
+            "sha256": "136c6659106f81fbea8ba10112e53094a038b9d22a4923a27027e1a07f84ed5e",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "my_audit_pipeline.py",
+            "sha256": "d887e5b4ff24d466c234b2f82773b7486f49ce8c1b72e58e3928e2033a1a787a",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "p2p_transfer.py",
+            "sha256": "9ae8f1349d1b180c82b5660eb30b880b5fd9980267707ce75143bcc07b4ad939",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "parse_camt053.py",
+            "sha256": "e7f1c6f87d56d93daa878f81c3998942916cbcd0aeb3c8e4add77dfaa8a28a84",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "parse_investments.py",
+            "sha256": "ed251700c10a12718fd5cae73901fc10382ef4ede6f4f234840b033d62f9f317",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "parse_iso20022.py",
+            "sha256": "4429ffe4ca2f85682c81868c6a5385fe477475ad2b13abe911736612e2979243",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "parse_ledger.py",
+            "sha256": "a2720c2d839983a8a2ca1e586c9f4092217cf0a24697d20b1da0986387c57c97",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "parse_nr4.py",
+            "sha256": "da3e2c66e79f540d0d6be750b4ed5cceccbdb4702375b7a4a39d6287450d1d33",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "parse_payout_ledger.py",
+            "sha256": "d1d4aa36264684f7e5a55136b555fcd184483feba0c540d304b22cb8549a67f1",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "parse_schedule12.py",
+            "sha256": "891306d5203c5de5096145890e999cf6e7ff44a584d84d36fb9733dd640317fe",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "parse_schema.py",
+            "sha256": "cef1eda25136b4b4c7678440abee9c1783546cc6ac4de3bc4311a68d82d6c29b",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "parse_t3_schema.py",
+            "sha256": "3f430012ada9e54c233de4b170a536734f4ebd706e14b5d446e838393b277ff2",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "parse_t661.py",
+            "sha256": "9dbae6dd0e483d9e5ecf0c21faf2c63ecf619efddac23ddd4800af288c6ad0d5",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "parse_td_disclosure.py",
+            "sha256": "4d6ff3a2d8b30dd5e83a5de9a11d43f63fcc1debc7eb700298bf612bc7a4ae39",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "populate_audit.py",
+            "sha256": "216c8aae3d3663fe0cfbbe2975c60162e97e83b969d53594e5d006712d6167c4",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "postal_cashout.py",
+            "sha256": "0667ea20b0ae544d7be4271fa6afc26a84823dfbb66b7e1d2d168729b5098073",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "postal_redemption.py",
+            "sha256": "d85a21385d692b677de739aa5483d732143dacb38e5111e348c9c99d6f7561f2",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "process_wire_update.py",
+            "sha256": "5d761d8f202ee39b3617a4cb8e30619306321b7926e34d3192c39862a43ca1e5",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "query_audit.py",
+            "sha256": "0c75398104dccbb9b08712d8cb151d5168e362612a4b9786e0fdd3ce76f83f33",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "query_bmo.py",
+            "sha256": "308723a8ab9967556ddbcfbfd02eced740b7dd66d89c90a35d344c85770e7233",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "query_schema.py",
+            "sha256": "a62354183d5398f5a8455c1f65e78de0564aab025e55aa6e087d75d2c346b3ff",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "query_td_bank.py",
+            "sha256": "9375d147d3d6b7c6c5682c241508302467e37c51b16f7d638e83973238095ec4",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "read_report.py",
+            "sha256": "d9f4998aea29cf10c3c9300522a9e82e8923c9ec6f3d77726752c947e7aeb8b4",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "reconcile_block_18.py",
+            "sha256": "90f08c19730aef48968d9a0c03c90e0d0831f5bccfcc4bb95610252f47eb6af6",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "reconcile_ghost_vcard.py",
+            "sha256": "81a912f7e86af3e97c8c900dd8701fbb926a0e34af5ada4d8f7db59985f3c7a2",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "reconcile_ledger.py",
+            "sha256": "9dcbbf84454ea1ed9e1cd36eff50a26b99f124fdf34ce35f027c33a8b2a1ab47",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "registry_incident_log.py",
+            "sha256": "5b9c3b41cea5cd367177f5ea571f0792fd4c0c0c16c39588f3f45fb92b66fbaa",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "russia_sibling_scanner.py",
+            "sha256": "d03b17396bb1aee716e20f8715046169a848b791e0a7ff456e628a47e9d35558",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "russian_intelligence_hierarchy.py",
+            "sha256": "f80e454540aa7f6dc7808d1e4bf748b9bd6f4694d58131d1ee731e5eaf944b97",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "search_ledger.py",
+            "sha256": "c40e8dd2aa953ebffdc5dd62cf9f360571daaba8fd9e1b142d7d925b2cdf516e",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "settlement_simulator.py",
+            "sha256": "756c31a528ea39871660e529f62a8030cf70fae3ecda2b46bfc88dd6cad9bcad",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "sg_audit_pipeline.py",
+            "sha256": "4e1be43497539c8b83b268845d9f754d5ae3c2a8ff0821c61e048cb1fdf7025b",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "shoppers_settlement.py",
+            "sha256": "650bab25d861fd724758172c98515a8e8a2a57f62c2209755bc397da5b40b0f2",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "sibling_agent.py",
+            "sha256": "88d7d06833717c024837696ddd9fc67dcaa2c4eb96f8473de5bb1047c1de4f00",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "simulate_octopus_chain.py",
+            "sha256": "a56d06c260b768610883b99161e99da553e54269a3c1739936977f77e44f428f",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "simulate_sqlite_chain.py",
+            "sha256": "91d33c4bb7114e348be82bec7a1651dad587f6948020607081f2ce335ff6b195",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "simulate_transaction.py",
+            "sha256": "afdc0b361bdf5b39408cfdb0815aacfcff86779ddb6c112524c67421048aceaa",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "simulate_wire.py",
+            "sha256": "572b37edaefa49b97a91d53c2b3e3cbd6de4130a4f98430fb6db9bac48b54dd3",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "sovereign_fortress_master.py",
+            "sha256": "c62990bc0ffcc8184c2ac94a56f9d4fd9852e8395d781321df05a0e5dc35d467",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "starlink_hierarchy.py",
+            "sha256": "611ea36e01e879b6c9300f01780e39ae39c602c114fe4c94c9f6d10648171162",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "submit_contract.py",
+            "sha256": "35c07800287ad09ec2c84f2ea74d53038460ef7e61c740267f2e435eb9509f51",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "summarize_volume.py",
+            "sha256": "bb215bb009994c1b94364542648026f38aa4fda52b2fbf94c08064c91803fe6c",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "switzerland_sibling_scanner.py",
+            "sha256": "72fb0d69725c1b5b7804a4e4d7013dd982459c70e397cd3b20e6b83e3db56f34",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "td_audit_pipeline.py",
+            "sha256": "87d1e899ffc4b08b28bd5333d2db424a300b250a36415432409fd80eac62134a",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "trace_swift_transfer.py",
+            "sha256": "fce3511a75f7a2b72d1f9eae5e9876135528a691a61657ba946abcf52dd9f3d4",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "track_bridge.py",
+            "sha256": "96ab4d7f6b44ba40ff88e844b73e0117c63544973e89b6fdcf2a3fcaa08f7708",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "treasury_deposit.py",
+            "sha256": "60dfe50513baf705679d66a5d8eef0c786b7246d38fa62dacf2efad6a6075f58",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "uk_sibling_scanner.py",
+            "sha256": "aa164df08b34a020a076c079c4968bbd04a436e00058462a06c855b9d928abd9",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "update_corporate_hierarchy.py",
+            "sha256": "5b8efd79d9163db071a3e8b744abc7d8743acd2d6320204316d2c71a80be5732",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "update_dashboard_data.py",
+            "sha256": "330770c73fd085698e0c5e252f374ae90a0adf0ad27f2b173cf75a75f6ab0445",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "update_dossier.py",
+            "sha256": "bd59b713d428f9c07c5f610ed10eb8cf32b2ee1b1b5756a3f0997934caf35349",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "update_identity_manifest.py",
+            "sha256": "b0a659ade4ba87a8ccbe4a2b3dc375f5c4bf6c7dc978514c2d44a76b6c4f8bab",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "update_package_amounts.py",
+            "sha256": "bcae32ef97d1f87cbb3873f375982a6fdcdb22ce0abc60ff33f7af4231cc0e9a",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "update_public_ledger_atb.py",
+            "sha256": "fbc8f7935aaca67395c3cad9e6145cc43fb92bdf79f309a3dad455f1f04d046e",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "update_public_ledger_pentad.py",
+            "sha256": "0809a5e76ba687af32c7c9282ca8d97558cf78f59404bc6bc66ba3bcc0741e65",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "update_public_ledger_scotia.py",
+            "sha256": "c48365b3b3d2d2fa0434997fe15775c1e2ac8ce382c2921f3a462788e96a3542",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "update_public_ledger_triad.py",
+            "sha256": "d6b542adac9a4d63e677398b08e7f3d56ee5ae4049a7c992c84240ee94b137f1",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "update_swift_destination.py",
+            "sha256": "e1d033017e42d063437aed4ab8e7af2463a5b271d9d496690188f0e6fd2f6c4b",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "update_taxonomy.py",
+            "sha256": "16bc5462f969bf8c7653f2f27e70e38effe77761a5d76acfd7aa7200a6741726",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "update_td_profile.py",
+            "sha256": "e7e73225f04c793da2c4231b2d1226008207472b5a14c4830d066874267378dc",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "update_treasury.py",
+            "sha256": "f586c760ad720258138edfa7c0477f30e89c4304df141be6220ba40b25f12f2b",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "update_verification_questrade.py",
+            "sha256": "f5ce396f433da1e608fa95e1cdb8b2b7d4588ae8aca6cf4400b0e9e55d2a9895",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "update_verification_suite.py",
+            "sha256": "5e5587c9803f32ef204be92a562fbc8516daf6c4966deb2172340d4ad0dfd874",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "update_wipo_report.py",
+            "sha256": "60cec9defe31c9d43080ee17d5a02fccfd37424166939c72821b57561699a9ef",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "us_tier1_audit_pipeline.py",
+            "sha256": "db052873364e48879906b4d1d2472bfca6c7d5980c054d6bf3638af5ffd230e4",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "uspto_sibling_scanner.py",
+            "sha256": "4957d4740ed422ec99dd67f80c99f5be0ff59f4a5f145a5b99848c9f13219fd9",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "validate_agr1.py",
+            "sha256": "0b6182a9bc2ff371dcfd98948f24199d9ba0a5b97d4f4c4b36e5b9dc762acab0",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "validate_common_layout.py",
+            "sha256": "e7c56f378a656f1fa3b590f0b1d26456a15bf301d4b1becc2b22cab6dd59dca9",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "validate_octopus.py",
+            "sha256": "bf085c46c4dadbb8d7d03a6b730bad5a8242e20ef03916d5356e3367e4b0513c",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "validate_schedule12.py",
+            "sha256": "0360d7af2f7f4486c63908c38e8bf8ce0dcc862a3319523ec71801866ed5d6f1",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "validate_schema.py",
+            "sha256": "1ee1349012230b22519803da9c2ccffbe2408fc63bbcd48dc14e82428f8bc396",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "validate_t4a_oas.py",
+            "sha256": "6e4c41b27f3f2485016e3e70051a6076eba8251c3798581509209a87d482084a",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "validate_t5013_sched12.py",
+            "sha256": "49644b0e43d6417934c8e64f5cd8450f99762af9333e5731431a362e2b076996",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "validate_t661.py",
+            "sha256": "b92f38a75fe8d751509eec262deb9b154172a7270b99e6833f966a645036ec47",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "validate_t661_part7.py",
+            "sha256": "d2da4b724140e890ad285e5563e0692237e797c01278e07f553f6c2dd34ebd3a",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "validate_xml_payload.py",
+            "sha256": "98c3be5557979839f869ab98606636142a106bd2725656dd27aca8b1dd14690a",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "vcard_exporter.py",
+            "sha256": "30150e7627bf338bd8b3d937f1094dcb7285dfca7d01866bcf45062a65cae4de",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "verify_audit_suite.py",
+            "sha256": "7102635276b1f545e078f8b5e4a860302a0e96b2953badec57fe2219e370b9e8",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "verify_cra_discrepancy.py",
+            "sha256": "e49bd0d4be2e0df14ee1b1ffb74c5965f8fa7c5e3aa525c7dc0164c43991c914",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "verify_immutable_manifest.py",
+            "sha256": "7f47812e67707979e62237faf91718c62bfdcda60d3f59b37f2b0c4ae635fb95",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "verify_integrity.py",
+            "sha256": "6a64bc12b43f89d2b07f6905cb42526c257447d5157b3242acf6bbe20d4e03cc",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "verify_manifest.py",
+            "sha256": "575efc283bb073367a49fcff1c40442b39bf939ce01b76e8b0697de0bd9ff70c",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "view_amounts.py",
+            "sha256": "7128e2703bfec5a108e12fa9515b0eccc8de63496acd7d3646cfff9457105b55",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "view_wires.py",
+            "sha256": "505c40ff7a7743f512fd0b85fe635f0fe858827afed6506e092183cd326ac982",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "virtual_git.py",
+            "sha256": "592dfa8542faa0f93436e9efeb670e815b83857b88f48216ede18dcd0a2698f3",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "virtual_postal_voucher.py",
+            "sha256": "c9d736b1ba4df1d7073a855570048c3960b72324fe752942ce8d02602a3a76ae",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "wipo_sibling_extension.py",
+            "sha256": "54555e0ddf0d8627bcd7f2004d3e067abaed3a9f56c3de7a786ff38f7c8ebafc",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "xml_deserializer.py",
+            "sha256": "1ccfc632cc8569dff66ca8e196660cf9e8ca9e87ce07596626d8620c5738cfe9",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "xml_parser.py",
+            "sha256": "d6519e0f6ec260f259d92110799129f5ab5c98d111d09b0342c9a74bdb55f4b9",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "xml_serializer.py",
+            "sha256": "9024aeafde60eac91c39e32105d583cf460bc48522f8836047448b8bf6dda35c",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        },
+        {
+            "file": "zenodo_export_manifest.py",
+            "sha256": "b21a3c988cce614a6923fd96fb74460aa88e102178b7ddaafbfdf18da93effaf",
+            "staged_at": "2026-09-30T23:27:00.592258Z",
+            "status": "LOCKED - SETTLEMENT PENDING"
+        }
+    ]
+}

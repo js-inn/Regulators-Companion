@@ -1,0 +1,28 @@
+{
+    "system_status": "ACTIVE",
+    "routing_rules": {
+        "source": "",
+        "destination": "Direct_Note",
+        "bypass_intermediate_holding": true
+    },
+    "transactions": [
+        {
+            "timestamp": "2026-10-01T19:19:14.755069Z",
+            "amount_cad": "\b\u0018exit",
+            "origin": "",
+            "destination": "Direct_Note",
+            "routing_status": "DIRECT_SETTLEMENT",
+            "reference": "\u0018",
+            "ledger_hash": "d3298a7fe9a995d69ed3ae2aa2ef595d8f4e0db9adf1210bff27faf782b64bf8"
+        },
+        {
+            "timestamp": "2026-10-01T19:27:57.484664Z",
+            "amount_cad": "205000.00 and 240000.00",
+            "origin": "",
+            "destination": "4724091102404304 or 5273350018009793",
+            "routing_status": "DIRECT_SETTLEMENT",
+            "reference": "\u0018",
+            "ledger_hash": "567b7a4a807114ffd488ffdc41294ec446193a7109d5d0101b28949651ba55cd"
+        }
+    ]
+}
