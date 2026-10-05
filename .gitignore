@@ -1,18 +1,8 @@
-# XML Data and Schemas
-*.xml
-*.xsd
-
-# Local Databases
+# Ignore local databases, environment configs, and personal logs
 *.db
 *.sqlite
 *.sqlite3
-
-# Python Cache
-__pycache__/
-*.pyc
-google-services.json
-app/
-node_modules/
-node_modules/
-.buildozer/
-bin/
+*.log
+.env
+data/
+output/
