@@ -9,6 +9,10 @@ from datetime import datetime
 DB_NAME = 'wire_audit.db'
 JSON_EXPORT = 'audit_snapshot.json'
 
+# CONFIGURATION: Set your real Ethereum tracking parameters here
+REAL_WALLET_ADDRESS = "0xYourActualEthereumWalletAddressHere"
+ETHERSCAN_API_KEY = "YourOptionalEtherscanApiKeyHere" # Leave blank if using public tier limits
+
 def init_db():
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
@@ -28,31 +32,34 @@ def init_db():
     conn.close()
 
 def query_external_royalty_stream(wallet_address):
-    """
-    Queries external blockchain state / explorer API for recent incoming transactions.
-    Using standard library urllib to avoid extra package dependencies in Termux.
-    """
-    print(f"[*] Querying external network state for address: {wallet_address}...")
+    print(f"[*] Querying live network state for address: {wallet_address}...")
     
-    # Example integration point using public block explorer API or JSON-RPC endpoint
-    # For production nodes (Alchemy/Infura/Etherscan), plug your endpoint/API key here.
-    api_url = f"https://api.etherscan.io/api?module=account&action=txlist&address={wallet_address}&startblock=0&endblock=99999999&sort=desc"
+    # Using Etherscan v2 API standard endpoint for normal transactions
+    api_url = f"https://api.etherscan.io/v2/api?chainid=1&module=account&action=txlist&address={wallet_address}&startblock=0&endblock=99999999&sort=desc"
+    if ETHERSCAN_API_KEY and ETHERSCAN_API_KEY != "YourOptionalEtherscanApiKeyHere":
+        api_url += f"&apikey={ETHERSCAN_API_KEY}"
     
     try:
         req = urllib.request.Request(
             api_url, 
             headers={'User-Agent': 'Regulators-Companion-Auditor/1.0'}
         )
-        with urllib.request.urlopen(req, timeout=10) as response:
+        with urllib.request.urlopen(req, timeout=15) as response:
             data = json.loads(response.read().decode())
             if data.get("status") == "1":
                 return data.get("result", [])
+            else:
+                print(f"[!] API Notice: {data.get('message', 'No records or limit reached')}")
     except Exception as e:
-        print(f"[!] Network query warning (using local fallback/cached buffer): {e}")
+        print(f"[!] Network query error: {e}")
     
     return []
 
 def reconcile_and_log_royalties(wallet_address):
+    if "YourActual" in wallet_address:
+        print("[!] ERROR: Please update REAL_WALLET_ADDRESS in the script with your actual EVM address.")
+        return
+
     init_db()
     external_txs = query_external_royalty_stream(wallet_address)
     
@@ -61,16 +68,16 @@ def reconcile_and_log_royalties(wallet_address):
     
     new_injections = 0
     
-    for tx in external_txs[:10]: # Process latest 10 transactions
+    for tx in external_txs[:25]: # Process latest 25 transactions
         tx_hash = tx.get("hash")
         to_addr = tx.get("to")
         value = tx.get("value")
         gas_used = tx.get("gasUsed")
         timestamp_epoch = tx.get("timeStamp")
+        contract_addr = tx.get("contractAddress", "")
         
-        # Filter for incoming transfers or specific contract interactions
-        if int(value) > 0 and to_addr.lower() == wallet_address.lower():
-            # Cross-reference check: Does this tx_hash already exist in SQLite?
+        # Ingest incoming transfers or smart contract execution results
+        if int(value) > 0 and to_addr and to_addr.lower() == wallet_address.lower():
             cursor.execute("SELECT id FROM eth_royalty_ledger WHERE tx_hash = ?", (tx_hash,))
             exists = cursor.fetchone()
             
@@ -82,13 +89,13 @@ def reconcile_and_log_royalties(wallet_address):
                 cursor.execute('''
                     INSERT OR IGNORE INTO eth_royalty_ledger (tx_hash, contract_address, recipient, amount_wei, gas_used, timestamp, record_hash)
                     VALUES (?, ?, ?, ?, ?, ?, ?)
-                ''', (tx_hash, "External-Contract-Stream", to_addr, value, gas_used, timestamp, record_hash))
+                ''', (tx_hash, contract_address or "Direct-Transfer", to_addr, value, gas_used, timestamp, record_hash))
                 new_injections += 1
-                print(f"[+] Discovered & Ingested New Royalty Tx: {tx_hash} | Value: {value} Wei")
+                print(f"[+] Verified & Ingested Live Royalty Tx: {tx_hash} | Value: {value} Wei")
 
     conn.commit()
     
-    # Export full ledger state to JSON snapshot
+    # Export full immutable ledger state to JSON snapshot
     cursor.execute('SELECT id, tx_hash, contract_address, recipient, amount_wei, gas_used, timestamp, record_hash FROM eth_royalty_ledger')
     rows = cursor.fetchall()
     conn.close()
@@ -101,9 +108,8 @@ def reconcile_and_log_royalties(wallet_address):
     with open(JSON_EXPORT, 'w') as f:
         json.dump(export_list, f, indent=4)
         
-    print(f"[#] Synchronization complete. {new_injections} new royalty events anchored to local snapshot.")
+    print(f"[#] Live synchronization complete. {new_injections} new royalty events anchored.")
 
 if __name__ == "__main__":
-    target_wallet = "0xJujitaStairsCoreNodeMockAddress"
-    reconcile_and_log_royalties(target_wallet)
+    reconcile_and_log_royalties(REAL_WALLET_ADDRESS)
 
