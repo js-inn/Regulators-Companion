@@ -1,25 +1,22 @@
 import subprocess
-
-def process_real_tap(card_uid):
-    print(f"\n[PHYSICAL TAP DETECTED] Card UID: {card_uid}")
-    # Temporarily update or pass the card uid to ilp_stream if needed, then run it
-    subprocess.run(['python3', 'ilp_stream.py'])
+import sys
 
 if __name__ == "__main__":
     print("==================================================")
-    print("   OCTOPUS 2.0 - PHYSICAL NFC & CASH TERMINAL     ")
+    print("   OCTOPUS 2.0 - MULTI-CARD CASH TERMINAL        ")
     print("==================================================")
     
     while True:
-        card_uid = input("\n[READY] Enter or scan your card number (or press Enter for default): ").strip()
+        card_uid = input("\n[READY] Enter card name/UID (e.g., 'BMO_CARD' or '4611260248299474'): ").strip()
         
         if not card_uid:
-            card_uid = "4611260248299474" # Fallback default
-            print(f"[NOTE] Using default active card: {card_uid}")
+            card_uid = "4611260248299474"
+            print(f"[NOTE] Using default fallback card: {card_uid}")
             
-        process_real_tap(card_uid)
+        print(f"\n[PHYSICAL TAP DETECTED] Card: {card_uid}")
+        subprocess.run(['python3', 'ilp_stream.py', card_uid])
         
-        cont = input("\nProcess another card tap? (y/n): ").strip().lower()
+        cont = input("\nProcess another tap? (y/n): ").strip().lower()
         if cont != 'y':
-            print("[TERMINAL] Exiting NFC listener session. Ledger state saved.")
+            print("[TERMINAL] Exiting session. Ledger state saved.")
             break
