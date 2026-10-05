@@ -1,0 +1,67 @@
+{
+  "audit_manifest": "REGULATORS_COMPANION_MASTER_V1",
+  "global_verdict": "SYSTEMIC_EXHAUSTION_DETECTED",
+  "total_institutions_audited": 6,
+  "aggregate_trapped_capital": 3145000.0,
+  "protocol": "ILP/STREAM",
+  "destination_node": "g.ilp.stream/user/restitution-anchor",
+  "institutions": [
+    {
+      "institution_group": "Royal Bank of Canada (RBC)",
+      "stalled_disputes_flagged": 3,
+      "total_disputes_analyzed": 4,
+      "systemic_stall_percentage": 75.0,
+      "trapped_capital_identified": 845000.0,
+      "execution_timestamp": 1790738000.774
+    },
+    {
+      "institution_group": "Bank of Nova Scotia (Scotiabank & iTrade)",
+      "stalled_disputes_flagged": 4,
+      "total_disputes_analyzed": 5,
+      "systemic_stall_percentage": 80.0,
+      "trapped_capital_identified": 812000.0,
+      "department_breakdown": {
+        "Scotiabank Retail": 207000.0,
+        "Scotiabank iTrade": 605000.0
+      },
+      "execution_timestamp": 1790740200.100
+    },
+    {
+      "institution_group": "Canadian Imperial Bank of Commerce (CIBC)",
+      "stalled_disputes_flagged": 3,
+      "total_disputes_analyzed": 4,
+      "systemic_stall_percentage": 75.0,
+      "trapped_capital_identified": 523000.0,
+      "execution_timestamp": 1790736200.312
+    },
+    {
+      "institution_group": "Questrade Financial Group",
+      "stalled_disputes_flagged": 3,
+      "total_disputes_analyzed": 4,
+      "systemic_stall_percentage": 75.0,
+      "trapped_capital_identified": 434000.0,
+      "department_breakdown": {
+        "Questrade Margin": 89000.0,
+        "Questrade TFSA/RRSP": 115000.0,
+        "Questrade Options/Futures": 230000.0
+      },
+      "execution_timestamp": 1790741700.129
+    },
+    {
+      "institution_group": "ATB Financial",
+      "stalled_disputes_flagged": 3,
+      "total_disputes_analyzed": 4,
+      "systemic_stall_percentage": 75.0,
+      "trapped_capital_identified": 290000.0,
+      "execution_timestamp": 1790734800.891
+    },
+    {
+      "institution_group": "Bank of Montreal (BMO)",
+      "stalled_disputes_flagged": 3,
+      "total_disputes_analyzed": 4,
+      "systemic_stall_percentage": 75.0,
+      "trapped_capital_identified": 241000.0,
+      "execution_timestamp": 1790733500.452
+    }
+  ]
+}
