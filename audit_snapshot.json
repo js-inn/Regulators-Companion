@@ -1,12 +1,1 @@
-[
-    {
-        "id": 1,
-        "bmo_reference": "BMO-WIRE-99382",
-        "octopus_node": "Octopus-2.0-Core-Settlement",
-        "amount_cents": 150000,
-        "currency": "CAD",
-        "status": "Reconciled",
-        "timestamp": "2026-10-05T15:37:46.342540",
-        "record_hash": "61372c30de928586bb043b85b9096d04b1a32cfe3b539b148212e66434a8489f"
-    }
-]
+[]
