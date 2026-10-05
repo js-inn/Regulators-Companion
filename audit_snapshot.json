@@ -1,57 +1,11 @@
 [
     {
         "id": 1,
-        "institution": "TD Bank / TD Direct Investing",
-        "event_type": "Treasury Deposit Withheld & Asset Isolation",
-        "amount": "150000.00",
+        "source_ref": "Direct-Manual-Bypass",
+        "destination_node": "Octopus-2.0-Core-Settlement",
+        "amount": 100000,
         "currency": "CAD",
-        "status": "Withheld / Non-Transferable",
-        "timestamp": "2026-10-05T14:42:38.563693",
-        "details": "Treasury deposit visible in WebBroker portal but artificially isolated and blocked from external corporate movement.",
-        "record_hash": "e2ec85bcb7c3457d203bd108a83062e998258edf8e74384c56a3b08a6dcbcf2e"
-    },
-    {
-        "id": 2,
-        "institution": "TD Bank / TD Direct Investing",
-        "event_type": "Treasury Deposit Withheld & Asset Isolation",
-        "amount": "5000000.00",
-        "currency": "CAD",
-        "status": "Withheld / Non-Transferable",
-        "timestamp": "2026-10-05T14:43:40.942776",
-        "details": "Treasury deposit visible in WebBroker portal but artificially isolated and blocked from external corporate movement.",
-        "record_hash": "268a83b99f5ee42b5bbe34d62b59b97528472ee5629841958ed810c927dd6d31"
-    },
-    {
-        "id": 3,
-        "institution": "TD Bank / TD Direct Investing",
-        "event_type": "Withheld Capital & Coerced Service Fee Demand",
-        "amount": "5000000.00",
-        "currency": "CAD",
-        "status": "Withheld / Fee Coercion Active",
-        "timestamp": "2026-10-05T14:46:26.340472",
-        "details": "5,000,000 CAD treasury deposit isolated and restricted from movement, while portal prompts demand payment of outstanding service charges.",
-        "record_hash": "c4b8bf7fe119de95b9247d9cc3c9c7ad1638ae644584dbe6f1b55f019e8d8039"
-    },
-    {
-        "id": 4,
-        "institution": "TD Bank / TD Direct Investing",
-        "event_type": "Withheld Capital & Coerced Service Fee Demand",
-        "amount": "5000000.00",
-        "currency": "CAD",
-        "status": "Withheld / Fee Coercion Active",
-        "timestamp": "2026-10-05T14:50:13.073934",
-        "details": "5,000,000 CAD treasury deposit isolated and restricted, with concurrent portal fee collection demands.",
-        "record_hash": "79213ca9959cc20f1f3756a3ea4dcacb5ca8db09f1d53fb42cf0725ccf3339c3"
-    },
-    {
-        "id": 5,
-        "institution": "TD Bank",
-        "event_type": "Treasury Deposit Dispute",
-        "amount": "5000000",
-        "currency": "CAD",
-        "status": "Withheld / Active Friction",
-        "timestamp": "2026-10-05T15:17:34.228134",
-        "details": "Statutory response timeline tracking under Bank Act.",
-        "record_hash": "06e384684d6827c218473044cd93e164b2a3b4beb9eabedc47848b51c0c0e12f"
+        "timestamp": "2026-10-05T15:31:21.337409",
+        "record_hash": "3b89bd7855b57f442e95143dc29be28f1c2969d44439272fcd81040784b9cb5f"
     }
 ]
