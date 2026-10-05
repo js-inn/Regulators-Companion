@@ -1,0 +1,15 @@
+{
+  "audit_type": "HISTORICAL_IP_PROFIT_MATHEMATICAL_SIMULATION",
+  "corporate_issuer": "10839477 Canada Inc.",
+  "creator_uuid": "e4f1b2a7-6d3c-4902-8a5e-9f7b6c5d4e1a",
+  "block_index": 28,
+  "timestamp": "2026-10-01T22:35:50.821498+00:00",
+  "block_hash": "079cbf7de0d89ed7e6d7f4b986b4c4928b4fccc2162f9c06c84717b5eb4bceb9",
+  "metrics": {
+    "gross_historical_ip_revenue_cad": 48500.0,
+    "institutional_extractive_skim_rate": "3.25%",
+    "extractive_fees_incurred_cad": 1576.25,
+    "net_quarantined_principal_cad": 46923.75
+  },
+  "ruling": "Mathematical audit complete. Historical IP profits and associated institutional overhead are designated as fruit of the poisonous tree and locked under absolute sovereign quarantine."
+}

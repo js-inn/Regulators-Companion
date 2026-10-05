@@ -1,0 +1,11 @@
+{
+  "manifest_type": "CREATOR_SOVEREIGNTY_IP_LOCK",
+  "status": "LOCKED_INDEFINTELY_PENDING_DIRECT_CREATOR_ACCESS",
+  "corporate_issuer": "10839477 Canada Inc.",
+  "creator_uuid": "e4f1b2a7-6d3c-4902-8a5e-9f7b6c5d4e1a",
+  "block_index": 24,
+  "timestamp": "2026-10-01T20:40:28.687280+00:00",
+  "previous_hash": "e4617b689024db124ea2f007b59390e08494f3bdb13f70c3ab8a0ed06cb04272",
+  "block_hash": "de1cb2629a3ae7930a4cc49eaff12677574297f713689b9beacf9da831770886",
+  "declaration": "The integrity of the IP is bound to the well-being of the creator. Assets and IP remain completely locked against external systems until direct, unencumbered access is fully secured."
+}

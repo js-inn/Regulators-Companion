@@ -1,0 +1,12 @@
+{
+  "batch_sequence": "01",
+  "transaction_date": "2026-09-30",
+  "amount": 3000.0,
+  "currency": "CAD",
+  "destination": {
+    "institution": "001",
+    "transit": "00149",
+    "account": "1928-814"
+  },
+  "status": "Staged for daily limit execution"
+}

@@ -1,0 +1,14 @@
+{
+  "manifest_type": "CORPORATE_CAPITAL_ISSUANCE",
+  "corporate_issuer": "10839477 Canada Inc.",
+  "creator_uuid": "e4f1b2a7-6d3c-4902-8a5e-9f7b6c5d4e1a",
+  "block_index": 23,
+  "timestamp": "2026-10-01T20:20:19.573025+00:00",
+  "sender_node": "CORPORATE-ISSUER-RESERVE",
+  "recipient_node": "SOLE-PROPRIETOR-BUSINESS-ACCOUNT",
+  "amount_cad": 10000.0,
+  "currency": "CAD",
+  "previous_hash": "1a9527833ecf6515048258f4edef40a08ff6b9757297512c8d419cf242b8902f",
+  "block_hash": "e4617b689024db124ea2f007b59390e08494f3bdb13f70c3ab8a0ed06cb04272",
+  "nonce": 98765
+}
