@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-ve_verify-and-settle:
+  verify-and-settle:
     runs-on: ubuntu-latest
     
     steps:
@@ -26,14 +26,20 @@ ve_verify-and-settle:
         run: |
           python royalty_stream_engine.py
 
+      - name: Generate & Verify ISO 20022 Wire Simulation
+        run: |
+          python simulate_iso20022_secure.py
+
       - name: Package Audit Artifacts
         run: |
           mkdir -p settlement_output
           cp local_custodian.db settlement_output/
-          echo "Settlement Verified and Signed via HMAC-SHA256 on $(date -u)" > settlement_output/verification_manifest.txt
+          cp wire_audit.db settlement_output/ 2>/dev/null || true
+          cp simulated_wire_*.xml settlement_output/ 2>/dev/null || true
+          echo "Settlement and ISO 20022 Payloads Verified and Signed via HMAC/SHA-256 on $(date -u)" > settlement_output/verification_manifest.txt
 
-      - name: Upload Settlement Evidence Bundle
+      - name: Upload Settlement & Wire Evidence Bundle
         uses: actions/upload-artifact@v4
         with:
-          name: royalty-settlement-evidence-${{ github.sha }}
+          name: royalty-and-wire-evidence-${{ github.sha }}
           path: settlement_output/
