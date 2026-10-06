@@ -1,0 +1,36 @@
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.10">
+    <FIToFIPmtCstmrCdtTrf>
+        <GrpHdr>
+            <MsgId>SIM-20261005142601</MsgId>
+            <CreDtTm>2026-10-05T14:26:01.049077</CreDtTm>
+            <NbOfTxs>1</NbOfTxs>
+        </GrpHdr>
+        <CdtTrfTxInf>
+            <PmtId>
+                <EndToEndId>E2E-SIM-20261005142601</EndToEndId>
+            </PmtId>
+            <IntrBkSttlmAmt Ccy="CAD">2500.00</IntrBkSttlmAmt>
+            <Dbtr>
+                <Nm>10839477 Canada Inc.</Nm>
+            </Dbtr>
+            <DbtrAcct>
+                <Id>
+                    <Othr>001-00149-1928-814</Othr>
+                </Id>
+            </DbtrAcct>
+            <Cdtr>
+                <Nm>Verified Partner Entity</Nm>
+            </Cdtr>
+            <CdtrAcct>
+                <Id>
+                    <IBAN>CA12BMO001001491928814</IBAN>
+                </Id>
+            </CdtrAcct>
+            <CdtrAgt>
+                <FinInstnId>
+                    <BICFI>BOFMCAMTXXX</BICFI>
+                </FinInstnId>
+            </CdtrAgt>
+        </CdtTrfTxInf>
+    </FIToFIPmtCstmrCdtTrf>
+</Document>

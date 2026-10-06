@@ -1,13 +1,12 @@
-import sqlite3
 import csv
-import os
+import sqlite3
 
-DB_NAME = "wire_audit.db"
-
-def init_db():
-    conn = sqlite3.connect(DB_NAME)
+def ingest_etherscan_export(csv_filename="etherscan_export.csv"):
+    conn = sqlite3.connect("wire_audit.db")
     cursor = conn.cursor()
-    cursor.execute('''
+    
+    # Create a dedicated table matching your Etherscan export columns
+    cursor.execute("""
         CREATE TABLE IF NOT EXISTS etherscan_transfers (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             tx_hash TEXT UNIQUE,
@@ -23,24 +22,18 @@ def init_db():
             value_usd TEXT,
             txn_fee TEXT
         )
-    ''')
-    conn.commit()
-    conn.close()
-
-def ingest_etherscan_csv(csv_filename="etherscan_export.csv"):
-    init_db()
-    conn = sqlite3.connect(DB_NAME)
-    cursor = conn.cursor()
+    """)
+    
     imported = 0
     try:
         with open(csv_filename, mode="r", encoding="utf-8") as f:
             reader = csv.DictReader(f)
             for row in reader:
-                cursor.execute('''
+                cursor.execute("""
                     INSERT OR IGNORE INTO etherscan_transfers 
                     (tx_hash, status, method, block_no, datetime_utc, from_addr, from_nametag, to_addr, to_nametag, amount, value_usd, txn_fee)
                     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                ''', (
+                """, (
                     row.get("Transaction Hash"),
                     row.get("Status"),
                     row.get("Method"),
@@ -56,14 +49,14 @@ def ingest_etherscan_csv(csv_filename="etherscan_export.csv"):
                 ))
                 imported += 1
         conn.commit()
-        print(f"[+] Successfully parsed and stored {imported} records from Etherscan export!")
+        print(f"[+] Successfully parsed and stored {imported} records into wire_audit.db!")
     except FileNotFoundError:
-        print(f"[!] Warning: {csv_filename} not found. Skipping Etherscan CSV import.")
+        print(f"[!] File {csv_filename} not found.")
     except Exception as e:
-        print(f"[!] Error parsing Etherscan CSV: {e}")
+        print(f"[!] Error parsing CSV: {e}")
     finally:
         conn.close()
 
 if __name__ == "__main__":
-    print("[*] Running audit reconciliation pipeline...")
-    ingest_etherscan_csv()
+    ingest_etherscan_export()
+
