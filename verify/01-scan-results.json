@@ -1,0 +1,36 @@
+[
+  {
+    "file": "edge_agent_node.py",
+    "line": 15,
+    "category": "Agent Autonomy (OWASP Agentic ASI02 Tool Misuse)",
+    "description": "Agent tool infrastructure: Database query execution \u2014 no human gate detected",
+    "indicators": [
+      "Database query execution"
+    ],
+    "suppressed": false,
+    "provenance": "production",
+    "lifecycle_phases": [
+      "operate"
+    ],
+    "open_question": false,
+    "detector_class": "agent_autonomy",
+    "detector_priority": 60
+  },
+  {
+    "file": "edge_agent_node.py",
+    "line": 39,
+    "category": "Agent Autonomy (OWASP Agentic ASI02 Tool Misuse)",
+    "description": "Agent tool infrastructure: Database query execution \u2014 no human gate detected",
+    "indicators": [
+      "Database query execution"
+    ],
+    "suppressed": false,
+    "provenance": "production",
+    "lifecycle_phases": [
+      "operate"
+    ],
+    "open_question": false,
+    "detector_class": "agent_autonomy",
+    "detector_priority": 60
+  }
+]

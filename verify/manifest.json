@@ -1,0 +1,59 @@
+{
+  "format": "regula.evidence.v1",
+  "format_version": "1.0",
+  "schema_uri": "https://getregula.com/spec/regula.manifest.v1.schema.json",
+  "hash_algorithm": "sha256",
+  "schema_version": "1.0",
+  "regula_version": "2.0.0",
+  "generated_at": "2026-10-06T16:52:20.520903+00:00",
+  "project": "jujita-stairs-ip-declaration",
+  "project_directory": "jujita-stairs-ip-declaration",
+  "project_path": "jujita-stairs-ip-declaration",
+  "files": [
+    {
+      "filename": "01-scan-results.json",
+      "sha256": "eb93fc547f25c40b07a447aaba3c4831b441832dd2e1a31313cbe8df8052ddad",
+      "size_bytes": 988
+    },
+    {
+      "filename": "02-gap-assessment.json",
+      "sha256": "c02310ca4de825e7cf81e9ea794c58244950023b6cdf68720a4c36f45a81f218",
+      "size_bytes": 2502
+    },
+    {
+      "filename": "03-annex-iv-draft.md",
+      "sha256": "1d92bc8af958536e7cfc4106722feff092de5ebb0104c95f59a3b18a1f6fd9fd",
+      "size_bytes": 14556
+    },
+    {
+      "filename": "04-dependency-report.json",
+      "sha256": "af07545f1b8d592202a391666bf5b38af1ce7dde433c6808472ef2d120430aeb",
+      "size_bytes": 3145
+    },
+    {
+      "filename": "05-audit-trail.json",
+      "sha256": "1914d96111eeb6d2426e4e9eab5623dc1fa99cf2102acca36da4f7e450972300",
+      "size_bytes": 526
+    },
+    {
+      "filename": "06-resolvable-facts.md",
+      "sha256": "c3b586950209c8382b1446182133071c8b52b69695e6e80e3a8eff9145585cc3",
+      "size_bytes": 545
+    },
+    {
+      "filename": "07-risk-decisions.json",
+      "sha256": "12485cb937f7c9029107a87d16fb4889fa0a4336e46fb906f7b04487f2f9e402",
+      "size_bytes": 234
+    },
+    {
+      "filename": "00-summary.md",
+      "sha256": "41ba6801a5aff83fd0ae15010bb99f100ab36beddef73cc5f8884f1127c8887f",
+      "size_bytes": 2779
+    },
+    {
+      "filename": "README.md",
+      "sha256": "bcb2dee17ff21b9cecba40b5497ec68999553e3f3bb0a03144f4053b6e28cd81",
+      "size_bytes": 1499
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "project",
+  "project": "jujita-stairs-ip-declaration",
+  "project_slug": "jujita-stairs-ip-declaration-32bb9e45",
+  "chain_valid": true,
+  "chain_message": null,
+  "event_count": 0,
+  "limit_reached": false,
+  "scope_note": "Audit events are scoped to this project's own hash chain. Events from other projects or from the machine-wide store are never included in deliverables. Events recorded by Regula versions without project-scoped logging remain in the machine-wide store and are excluded.",
+  "events": []
+}

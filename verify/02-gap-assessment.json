@@ -1,0 +1,82 @@
+{
+  "decision": {
+    "result_type": "insufficient_information",
+    "schema_version": "1.0",
+    "model_version": "2026-08-26.1",
+    "jurisdiction": "eu",
+    "evidence_completeness": {
+      "considered_fact_count": 2,
+      "resolved_fact_count": 0,
+      "explicit_unknown_fact_count": 0,
+      "contradictory_fact_count": 0,
+      "absent_fact_count": 2
+    },
+    "rule_resolution": "unresolved",
+    "matched_evidence": [],
+    "decision_trace": [
+      {
+        "predicate_id": "eu_scope",
+        "provision": "Regulation (EU) 2024/1689, Article 2",
+        "state": "unresolved",
+        "trace": {
+          "operator": "all",
+          "state": "unresolved",
+          "children": [
+            {
+              "fact": "jurisdiction_in_scope",
+              "expected": "yes",
+              "actual": null,
+              "fact_status": "absent",
+              "state": "unresolved"
+            },
+            {
+              "fact": "is_ai_system",
+              "expected": "yes",
+              "actual": null,
+              "fact_status": "absent",
+              "state": "unresolved"
+            }
+          ]
+        }
+      }
+    ],
+    "probability_calibration": {
+      "available": false,
+      "condition": "Representative labelled outcomes are required before a correctness probability can be calibrated."
+    },
+    "unresolved_predicates": [
+      {
+        "fact_id": "is_ai_system",
+        "reason": "absent",
+        "question": "Does the subject meet the governing law's definition of an AI system or regulated automated technology?",
+        "would_resolve": [
+          {
+            "predicate_id": "eu_scope",
+            "provision": "Regulation (EU) 2024/1689, Article 2"
+          }
+        ],
+        "resolution_count": 1,
+        "observed_values": []
+      },
+      {
+        "fact_id": "jurisdiction_in_scope",
+        "reason": "absent",
+        "question": "Does this jurisdiction's territorial and operator scope apply?",
+        "would_resolve": [
+          {
+            "predicate_id": "eu_scope",
+            "provision": "Regulation (EU) 2024/1689, Article 2"
+          }
+        ],
+        "resolution_count": 1,
+        "observed_values": []
+      }
+    ]
+  },
+  "evidence": {
+    "project_path": "/data/data/com.termux/files/home/jujita-stairs-ip-declaration",
+    "article_observations": {},
+    "not_assessed_article_count": 8,
+    "note": "Article evidence is attached only where the decision kernel resolved the corresponding obligation."
+  }
+}

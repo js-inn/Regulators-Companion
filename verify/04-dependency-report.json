@@ -1,0 +1,154 @@
+{
+  "project": "/data/data/com.termux/files/home/jujita-stairs-ip-declaration",
+  "scan_date": "2026-10-06T16:52:56Z",
+  "all_dependencies": [
+    {
+      "name": "annotated-types",
+      "version": "0.8.0",
+      "pinning": "exact",
+      "is_ai": false,
+      "line": 1
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.1",
+      "pinning": "exact",
+      "is_ai": false,
+      "line": 2
+    },
+    {
+      "name": "dnspython",
+      "version": "2.8.0",
+      "pinning": "exact",
+      "is_ai": false,
+      "line": 3
+    },
+    {
+      "name": "email-validator",
+      "version": "2.3.0",
+      "pinning": "exact",
+      "is_ai": false,
+      "line": 4
+    },
+    {
+      "name": "idna",
+      "version": "3.19",
+      "pinning": "exact",
+      "is_ai": false,
+      "line": 5
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0",
+      "pinning": "exact",
+      "is_ai": false,
+      "line": 8
+    },
+    {
+      "name": "pydantic",
+      "version": "2.13.5",
+      "pinning": "exact",
+      "is_ai": false,
+      "line": 9
+    },
+    {
+      "name": "pydantic_core",
+      "version": "2.46.5",
+      "pinning": "exact",
+      "is_ai": false,
+      "line": 10
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "pinning": "exact",
+      "is_ai": false,
+      "line": 11
+    },
+    {
+      "name": "reportlab",
+      "version": "5.0.1",
+      "pinning": "exact",
+      "is_ai": false,
+      "line": 12
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "pinning": "exact",
+      "is_ai": false,
+      "line": 13
+    },
+    {
+      "name": "typing-inspection",
+      "version": "0.4.4",
+      "pinning": "exact",
+      "is_ai": false,
+      "line": 14
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "pinning": "exact",
+      "is_ai": false,
+      "line": 15
+    },
+    {
+      "name": "@nomicfoundation/solidity-analyzer",
+      "version": "0.1.2",
+      "pinning": "range",
+      "is_ai": false,
+      "line": 0
+    },
+    {
+      "name": "@openzeppelin/contracts",
+      "version": "5.6.1",
+      "pinning": "range",
+      "is_ai": false,
+      "line": 0
+    },
+    {
+      "name": "@themartiancompany/solidity-analyzer-android-arm64",
+      "version": "0.1.2",
+      "pinning": "range",
+      "is_ai": false,
+      "line": 0
+    },
+    {
+      "name": "solc",
+      "version": "0.8.37",
+      "pinning": "range",
+      "is_ai": false,
+      "line": 0
+    },
+    {
+      "name": "@nomicfoundation/hardhat-ethers",
+      "version": "4.1.0",
+      "pinning": "range",
+      "is_ai": false,
+      "line": 0
+    },
+    {
+      "name": "ethers",
+      "version": "6.17.0",
+      "pinning": "range",
+      "is_ai": false,
+      "line": 0
+    },
+    {
+      "name": "hardhat",
+      "version": "3.17.0",
+      "pinning": "range",
+      "is_ai": false,
+      "line": 0
+    }
+  ],
+  "ai_dependencies": [],
+  "lockfiles": [
+    "/data/data/com.termux/files/home/jujita-stairs-ip-declaration/package-lock.json"
+  ],
+  "pinning_score": 82,
+  "compromised": [],
+  "compromised_count": 0,
+  "summary": "GOOD: Dependencies are well-pinned."
+}
