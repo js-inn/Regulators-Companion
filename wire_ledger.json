@@ -1,53 +1,28 @@
 {
-  "ledger_id": "wire-0e8d76fd-109b-459d-b583-8e654f5241de",
-  "entity": "10839477 Canada Inc.",
-  "last_updated": "2026-09-22T13:46:55.397616",
-  "standard_alignment": "ISO 20022 (pacs.008 mapped)",
-  "transactions": [
+  "wallet_name": "SOVEREIGN-QUARANTINE-VAULT",
+  "balance": 350.0,
+  "ledger": [
     {
-      "tx_id": "wire-pacs008-bb2f3c11-6e54-4358-8253-ad61a688591c",
-      "message_type": "pacs.008.001.10 (FI to FI Customer Credit Transfer)",
-      "debtor": "10839477 Canada Inc.",
-      "amount_cad": 15000.0,
-      "timestamp": "2026-09-22T13:53:05.186121",
-      "compliance_ref": "WIPO-PCT-CA2026-8841"
+      "block_index": 1,
+      "timestamp": "2026-10-03T05:44:28.541773+00:00",
+      "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "block_hash": "79cdd7bb1a5925f6d9d80b88e7b66cd07a9a6f8a51ad005eb58056e4698a97f6",
+      "type": "CREDIT",
+      "source": "IP-STREAM-PROTOCOL",
+      "recipient": "SOVEREIGN-QUARANTINE-VAULT",
+      "amount": 500.0,
+      "new_balance": 500.0
     },
     {
-      "gateway_id": "tdbank-gateway-9e76146c-b775-4df1-b6f9-d633731d7623",
-      "institution_number": "004",
-      "transit_number": "82389",
-      "account_suffix": "5155",
-      "entity": "10839477 Canada Inc.",
-      "status": "Anchored & Audited",
-      "routing_type": "Domestic Institutional Wire / Clearing House",
-      "linked_lineage": "WIPO-PCT-CA2026-8841",
-      "timestamp": "2026-09-22T13:56:59.604444",
-      "note": "Lineage settlement recovery and institutional bridge mapping."
-    },
-    {
-      "action": "Institutional Income Claim Registration",
-      "claim_id": "claim-3e0aa73b-0069-43fe-9c19-b841469cfab9",
-      "target_codes": [
-        "TDB8150",
-        "TDB8151",
-        "TDB8152",
-        "TDB8153",
-        "TDB8154",
-        "TDB8155",
-        "TDB8156",
-        "TDB8157",
-        "TDB8158",
-        "TDB8159"
-      ],
-      "linked_lineage": "WIPO-PCT-CA2026-8841",
-      "timestamp": "2026-09-22T14:07:09.804799"
-    },
-    {
-      "action": "Questrade Brokerage Income Claim Registration",
-      "claim_id": "questrade-claim-c43f1cfd-33a5-4f63-952f-6c76f8386207",
-      "target_institution": "Questrade, Inc.",
-      "linked_lineage": "WIPO-PCT-CA2026-8841",
-      "timestamp": "2026-09-22T14:24:02.589012"
+      "block_index": 2,
+      "timestamp": "2026-10-03T05:44:28.548279+00:00",
+      "previous_hash": "79cdd7bb1a5925f6d9d80b88e7b66cd07a9a6f8a51ad005eb58056e4698a97f6",
+      "block_hash": "2605fc1695e036ec7032aa4313f08f3d7a6446762d208c6c916601b50044e463",
+      "type": "DEBIT",
+      "sender": "SOVEREIGN-QUARANTINE-VAULT",
+      "recipient": "SOVEREIGN-RESERVE-NODE",
+      "amount": 150.0,
+      "new_balance": 350.0
     }
   ]
 }
