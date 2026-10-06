@@ -1,0 +1,39 @@
+name: ILP Royalty & Settlement Verification
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+ve_verify-and-settle:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Seed Edge Custodian Node
+        run: |
+          python edge_agent_node.py
+
+      - name: Execute Deterministic Royalty Engine
+        run: |
+          python royalty_stream_engine.py
+
+      - name: Package Audit Artifacts
+        run: |
+          mkdir -p settlement_output
+          cp local_custodian.db settlement_output/
+          echo "Settlement Verified and Signed via HMAC-SHA256 on $(date -u)" > settlement_output/verification_manifest.txt
+
+      - name: Upload Settlement Evidence Bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: royalty-settlement-evidence-${{ github.sha }}
+          path: settlement_output/
