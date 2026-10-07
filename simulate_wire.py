@@ -24,31 +24,25 @@ def create_wire_record(reference_id, amount, currency, sender_corp, recipient, m
             "anchor_uuid": "3d9f8a21-c5e7-4b6a-9128-f0d3e2a1b9c7"
         }
     }
-    return record
-
-def save_to_ledger(record):
-    ledger = []
+    
+    # Load ledger safely, ensuring it's a list to prevent AttributeError
     if os.path.exists(LEDGER_FILE):
         try:
-            with open(LEDGER_FILE, "r", encoding="utf-8") as f:
+            with open(LEDGER_FILE, "r") as f:
                 ledger = json.load(f)
+                if not isinstance(ledger, list):
+                    ledger = []
         except json.JSONDecodeError:
             ledger = []
-            
+    else:
+        ledger = []
+        
     ledger.append(record)
     
-    with open(LEDGER_FILE, "w", encoding="utf-8") as f:
-        json.dump(ledger, f, indent=4)
+    with open(LEDGER_FILE, "w") as f:
+        json.dump(ledger, f, indent=2)
+        
     print(f"[SUCCESS] Wire payload logged to {LEDGER_FILE}")
 
 if __name__ == "__main__":
-    print("Initializing local financial messaging simulator...")
-    sample_record = create_wire_record(
-        reference_id="WIRE-REF-2026-001",
-        amount=1000.00,
-        currency="CAD",
-        sender_corp="10839477 Canada Inc.",
-        recipient="External Corporate Beneficiary",
-        message_type="pacs.002.001.12"
-    )
-    save_to_ledger(sample_record)
+    create_wire_record("REF-2026-1006", 150000.00, "CAD", "10839477 Canada Inc.", "Receiver Bank Corp", "pacs.008")
